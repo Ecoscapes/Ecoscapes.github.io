@@ -49,16 +49,27 @@
 
 .logo{
   max-width: 400px;
+  margin-right: 100px;
+}
+
+.bar {
+  /* position: fixed; */
+  display: flex;
+  align-items: center;
+  left: 50%;
+  max-width: 1000px;
+  top: 0;
+  margin: 0 auto 0 auto;
 }
 
 .navbar {
   position: fixed;
-  background-color: white;
+  background-color: blanchedalmond;
   padding: 0px 20px 0px 20px;
   display: flex;
   align-items: center;
   left: 50%;
-  min-width: 1000px;
+  width: 100%;
   transform: translateX(-50%);
   top: 0;
   margin: 0 auto 0 auto;
@@ -71,6 +82,7 @@
 
 .navbar .links {
   margin-left: auto;
+  padding-top: 30px;
 }
 
 .navbar a {

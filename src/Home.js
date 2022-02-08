@@ -1,5 +1,5 @@
 import './index.css';
-import background from './Images/background.jpeg';
+
 
 const Home = () => {
 

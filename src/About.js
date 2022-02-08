@@ -1,6 +1,4 @@
 import './index.css';
-import dan from './Images/dan.jpg';
-import joe from './Images/Joe.jpg';
 
 const lorem = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt "
 + "ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation "
@@ -33,23 +31,26 @@ const dolor = "At vero eos et accusamus et iusto odio dignissimos ducimus qui bl
 const About = () => {
     return ( 
         <div className="about">
-            <div className="joe">
-                <div>
-                    <div className='text'>
-                        {dolor}
+            <div className='founders'>
+                <h1>Meet the Founders</h1>
+            </div>
+            <div className='body'>
+                <div className="joe">
+                    <div>
+                        <div className='text'>
+                            {dolor}
+                        </div>
+                    </div>
+                    <div className="joeimg">
                     </div>
                 </div>
-                <div className="logodiv">
-                    <img src={joe} className="logo" alt="logo" />
-                </div>
-            </div>
-            <div className="dan">
-                <div className="logodiv">
-                    <img src={dan} className="logo" alt="logo" />
-                </div>
-                <div>
-                    <div className='text'>
-                        {ipsum}
+                <div className="dan">
+                    <div className="danimg">
+                    </div>
+                    <div>
+                        <div className='text'>
+                            {ipsum}
+                        </div>
                     </div>
                 </div>
             </div>
@@ -57,8 +58,10 @@ const About = () => {
                 <div className="header">
                     <h1>Ecoscapes Mission</h1>
                 </div>
-                <div className='text'>
-                    {ipsum}
+                <div className='body'>
+                    <div className='text'>
+                        {ipsum}
+                    </div>
                 </div>
             </div>
         </div>

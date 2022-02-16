@@ -3,12 +3,10 @@ import './index.css';
 const Service = () => {
 return ( 
     <div className="Service">
-        <div className='body'>
-            <h2>Servicepage</h2>
-            <h2>Servicepage</h2>
-            <h2>Servicepage</h2>
-            <h2>Servicepage</h2>
-            <h2>Servicepage</h2>
+        <div className='backdrop'>
+            <h1>Hardscape Design and Installation</h1>
+            <h1>Landscape Design and Installation</h1>
+            <h1>Arboricultural</h1>
         </div>
     </div>
  );

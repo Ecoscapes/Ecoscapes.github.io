@@ -28,42 +28,52 @@ const dolor = "At vero eos et accusamus et iusto odio dignissimos ducimus qui bl
 + "delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus "
 + "asperiores repellat."
 
+const mission = "While we specialize in native/edible landscaping design and installation, we also offer many traditional landscaping services such as pruning, mulching, and weeding. Hardscaping services include installation and maintenance of patios, walkways, garden walls, fire pits, and more."
+                + "As licensed arborists and Maryland tree experts,the professionals at Ecoscapes, llc are equipped to perform arboricultural assessments,forestry consultations, and minor pruning/ tree removals."
+                + "Our goal is to design, install and maintain landscapes to increase quality of life for all."
+                + "We love to incorporate native, pollinator-friendly plants in our designs as well as other ethnobotanically significant plants that offer us food, medicine, and more. The transformation of under-utilized outdoor spaces into functional and aesthetic areas is accomplished via the use of careful site observation, geographically native plants, and permaculture design principles."
+               
+
 const About = () => {
     return ( 
         <div className="about">
             <div className='founders'>
-                <h1>Meet the Founders</h1>
+                <h1 className='font'>Meet the Founders</h1>
             </div>
-            <div className='body'>
-                <div className="joe">
-                    <div>
-                        <div className='text'>
-                            {dolor}
-                        </div>
-                    </div>
-                    <div className="joeimg">
-                    </div>
-                </div>
-                <div className="dan">
-                    <div className="danimg">
-                    </div>
-                    <div>
-                        <div className='text'>
-                            {ipsum}
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div className="header">
-                    <h1>Ecoscapes Mission</h1>
-                </div>
+            <div className='backdrop'>
                 <div className='body'>
-                    <div className='text'>
-                        {ipsum}
+                    <div className="joe">
+                        <div>
+                            <div className='text'>
+                                {dolor}
+                            </div>
+                        </div>
+                        <div className="joeimg">
+                        </div>
+                    </div>
+                    <div className="dan">
+                        <div className="danimg">
+                        </div>
+                        <div>
+                            <div className='text'>
+                                {ipsum}
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+                <div>
+                    <div className="header">
+                        <h1 className='font'>Ecoscapes Mission</h1>
+                    </div>
+                    <div className='backdrop'>
+                        <div className='body'>
+                            <div className='text'>
+                                {mission}
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </div>
      );
 }

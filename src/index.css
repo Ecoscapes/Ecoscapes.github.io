@@ -13,6 +13,57 @@
   margin-top: 50px;
 }
 
+.arboriculturalbackground{
+  display: grid;
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('./Images/ServiceImage.png');
+  background-size: cover;
+  background-position: center; 
+  height: 200px;
+  width: 250px;
+  border-radius: 30px;
+}
+
+.arboriculturaltext{
+
+}
+
+.hardscapebackground{
+  display: grid;
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('./Images/ServiceImage.png');
+  background-size: cover;
+  background-position: center; 
+  height: 200px;
+  width: 250px;
+  border-radius: 30px;
+}
+
+.hardscapetext{
+
+}
+
+.landscapebackground{
+  display: grid;
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('./Images/ServiceImage.png');
+  background-size: cover;
+  background-position: center; 
+  height: 200px;
+  width: 250px;
+  border-radius: 30px;
+}
+
+.landscapetext{
+
+}
+
+.backdrop {
+  display: grid;
+  background: whitesmoke;
+  background-size: cover;
+  border-top: 1px solid #000000;
+  text-align: center;
+  justify-content: center;
+}
+
 .bar {
   /* position: fixed; */
   display: flex;
@@ -27,18 +78,34 @@
 .body {
   margin: 0;
   padding: 40px;
-  font-size: larger;
+  max-width: 1000px;
+  font-size: 1.5em;
   font-weight: 600;
-  background-color: whitesmoke;
-  border-top: 1px solid #000000;
-  /* border-top: 1px solid  rgb(93, 10, 14); */
+  text-align: center;
+  color: rgb(215, 215, 215);
+}
+
+.bulletpoints{
+  margin-top: .2em;
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+.centertext{
+  align-self: top;
+  color: whitesmoke;
+  background-color:  rgba(0, 0, 0, 0.6);
+  padding: .2em 0em .4em 0em;
+  height : 1.2em;
+  border-radius: 40px;
+  margin: .5em .3em 0em .3em;
 }
 
 .content {
-  max-width: 1000px;
-  margin: 40px auto;
-  padding: 20px;
-  background: transparent;
+  width: 100%;
+  /* margin: 40px auto; */
+  /* padding: 20px; */
+  background: white;
 }
 
 .dan{
@@ -51,30 +118,69 @@
   background-position: center;
 }
 
+.emailcontainer{
+  display: flex;
+  margin: 11em 0em 4em .5em;
+}
+
+.emailtextcontainer{
+  align-self: center;
+}
+
+.emailtext{
+  color: white;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.email{
+  display: grid;
+  background: transparent;
+  height: 40px;
+  margin: 0em .5em 0em 0.2em;
+}
+
+.fb{
+  background: transparent;
+  height: 40px;
+  margin: 11em .5em 4em .5em;
+}
+
+.font {
+  color: white;
+}
+
 .founders {
-  margin: 0px 0px 0px 0px;
+  margin: 7em 0px 3em 0px;
   padding: 50px 0px 50px 0px;
+  color: whitesmoke;
   text-align: center;
-  background-color: rgb(223, 230, 203);
+  background-color: transparent;
 }
-
-.h1{
-  margin: 0;
-  padding: 0;
-}
-
 
 .header{
-  margin-top: 100px;
   padding: 50px 0px 50px 0px;
   text-align: center;
-  background-color: rgb(223, 230, 203);
+}
+
+.housing {
+  display: grid;
+  justify-content: center;
+}
+
+.home {
+  margin-top: 100px;
+}
+
+.insta{
+  background-color: transparent;
+  height: 40px;
+  margin: 11em .5em 4em .5em;
 }
 
 .joe{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /* padding-bottom: 100px; */
 }
 
 .joeimg {
@@ -83,9 +189,23 @@
   background-position: center;
 }
 
+.landing {
+  display: grid;
+  margin-top: 11em;
+  margin-bottom: 4em;
+  justify-content: center;
+  background-color: transparent;
+}
+
 .logo{
   max-width: 400px;
   margin-right: 100px;
+}
+
+.logoimg {
+  background-image: url('./Images/invert.png');
+  background-size: cover;
+  background-position: center;
 }
 
 
@@ -127,7 +247,7 @@
 }
 
 .page{
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./Images/background.jpeg');
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('./Images/background.jpeg');
   position: fixed;
   top: 0px;
   left: 0px;
@@ -141,6 +261,60 @@
 .pages {
   position: relative;
   z-index: 2;
+}
+
+.phone{
+  background: transparent;
+  height: 40px;
+  margin: 11em 2.5em 0em .5em;
+} 
+
+.phonecontainer {
+  display: grid;
+  grid-template-columns: .1fr 1fr;
+  margin: 0em .5em 0em 0em;
+}
+
+.phonetext{
+  display: grid;
+  color: white;
+  font-weight: 600;
+  font-size: 40px;
+  margin-top: 3.65em;
+}
+
+.phonetextcontainer{
+  display: grid;
+  align-items: top;
+  align-content: top;
+  align-self: top;
+  margin: 20px;
+}
+
+.services{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 3em;
+  padding-bottom: 3em;
+
+}
+
+.servicescontainer{
+  margin-bottom: 10em;
+}
+
+.socialcontent {
+  display: grid;
+  grid-template-columns: .1fr .1fr 1fr;
+}
+
+.socialmedia{
+  display: grid;
+  justify-content: center;
+}
+
+.instabook{
+  display: flex;
 }
 
 .text{

@@ -1,6 +1,6 @@
 import './index.css';
 import { Link } from 'react-router-dom';
-import logo from './Images/LogoLLCnoWhite.png';
+import logo from './Images/ThickLogo.png';
 
 const Navbar = () => {
 
@@ -16,6 +16,7 @@ const Navbar = () => {
                         <Link to="/services">Services</Link>
                         <Link to="/gallery">Gallery</Link>
                         <Link to="/about">About Us</Link>
+                        {/* <Link to="/about">Contact Us</Link> */}
                     </div>
                 </div>
             </nav>

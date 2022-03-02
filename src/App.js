@@ -1,4 +1,5 @@
 import Navbar from './Navbar';
+import Footer from './Footer';
 import './index.css';
 import Home from './Home';
 import About from './About';
@@ -22,6 +23,7 @@ function App() {
               <Route exact path="/services" element={<Service />} />
               <Route exact path="/about" element={<About />} />
             </Routes>
+            <Footer />
           </div>
         </div>
       </div>

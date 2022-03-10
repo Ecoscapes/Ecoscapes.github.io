@@ -21,7 +21,7 @@
 
 .arboriculturalbackground{
   display: grid;
-  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('./Images/ServiceImage.png');
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('./Images/home/Arboriculture.jpg');
   background-size: cover;
   background-position: center; 
   height: 300px;
@@ -61,6 +61,8 @@
 }
 
 .bodytwo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   margin: 0;
   padding: 25px;
   max-width: 1000px;
@@ -68,7 +70,9 @@
   font-weight: 600;
   text-align: center;
   color: rgb(215, 215, 215);
+  justify-content: center;
 }
+
 
 .bulletpoints{
   margin-top: .2em;
@@ -84,6 +88,7 @@
   height : 1.2em;
   border-radius: 40px;
   margin: .5em .3em 0em .3em;
+  font-size: .9em;
 }
 
 .clickable{
@@ -131,16 +136,18 @@
 
 .footer{
   display: grid;
+  position: relative;
   justify-content: center;
   align-content: center;
   background-color: rgb(223, 230, 203);
   height: 200px; 
+  z-index: 4;
 }
 
 .footerbar{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  width: 1000px
+  width: 1000px;
 }
 
 .fb{
@@ -191,6 +198,11 @@
   margin: 11em .5em 4em .5em;
 }
 
+.instabook{
+  display: flex;
+}
+
+
 .joe{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -233,7 +245,7 @@
 
 .nativelanddesignbackground{
   display: grid;
-  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('./Images/ServiceImage.png');
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('./Images/home/NativePlantDesign.jpg');
   background-size: cover;
   background-position: center; 
   height: 300px;
@@ -325,7 +337,7 @@
 
 .permaculturebackground{
   display: grid;
-  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('./Images/ServiceImage.png');
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('./Images/home/Permaculture.jpg');
   background-size: cover;
   background-position: center; 
   height: 300px;
@@ -338,10 +350,42 @@
   justify-content: end;
 }
 
+
+.servicebackground{
+  background-image:  linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./Images/services/servicePageBackground.jpg');
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+
 .service{
+  position: relative;
+  z-index: 2;
   display: grid;
-  row-gap: 8em;
-  margin-top: 10em;
+  row-gap: 1.4em;
+  /* row-gap: 2.9em; */
+  margin-top: 8em;
+  margin-bottom: 9em;
+}
+
+.serviceheader{
+  color: whitesmoke;
+  font-size: 2.5em;
+}
+.serviceheadercontainer{
+  display: grid;
+  justify-content: center;
+  margin-top: 3em;
+}
+
+.servicepageimagescontainer{
+  display: grid;
+  justify-content: center;
 }
 
 .services{
@@ -393,6 +437,17 @@
   /* margin-bottom: 10em; */
 }
 
+.servicetext{
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  width: 400px;
+  font-size: .81em;
+  font-weight: 600;
+  background: whitesmoke;
+  padding: 50px;
+}
+
 .socialcontent {
   display: grid;
   grid-template-columns: .1fr .1fr 1fr;
@@ -403,8 +458,84 @@
   justify-content: center;
 }
 
-.instabook{
-  display: flex;
+.SWMbackground{
+  display: grid;
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('./Images/ServiceImage.png');
+  background-size: cover;
+  background-position: center; 
+  height: 300px;
+  width: 350px;
+  border-radius: 30px;
+}
+
+.SWMServicebackground{
+  display: grid;
+  background: url('./Images/services/StormWaterManagementService.jpg');
+  background-size: cover;
+  background-position: center; 
+  height: 350px;
+  width: 400px;
+  border-radius: 30px;
+}
+
+.permacultureservicebackground{
+  display: grid;
+  background: url('./Images/services/Permaculture.jpg');
+  background-size: cover;
+  background-position: center; 
+  height: 350px;
+  width: 400px;
+  border-radius: 30px;
+}
+
+.NLDServicebackground{
+  display: grid;
+  background: url('./Images/services/NativeLandDesign.jpg');
+  background-size: cover;
+  background-position: center; 
+  height: 350px;
+  width: 400px;
+  border-radius: 30px;
+}
+
+.arborcultureservicebackground{
+  display: grid;
+  background: url('./Images/services/Arborculture.jpg');
+  background-size: cover;
+  background-position: center; 
+  height: 350px;
+  width: 400px;
+  border-radius: 30px;
+}
+
+.outdoorkitchenservicebackground{
+  display: grid;
+  background: url('./Images/services/OutdoorKitchen.jpg');
+  background-size: cover;
+  background-position: center; 
+  height: 350px;
+  width: 400px;
+  border-radius: 30px;
+}
+
+.hardscapingservicebackground{
+  display: grid;
+  background: url('./Images/services/Hardscaping.jpg');
+  background-size: cover;
+  background-position: center; 
+  height: 350px;
+  width: 400px;
+  border-radius: 30px;
+}
+
+.generallandscapingservicebackground{
+  display: grid;
+  background: url('./Images/services/GeneralLandscaping.jpg');
+  background-size: cover;
+  background-position: center; 
+  height: 350px;
+  width: 400px;
+  border-radius: 30px;
 }
 
 .text{

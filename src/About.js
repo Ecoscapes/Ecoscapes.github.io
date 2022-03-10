@@ -22,16 +22,17 @@ const dolor = "Joseph Linsalata created Ecoscapes, llc to bridge the gap between
                 + "design principles with native plant knowledge to develop beautiful landscapes tailored "
                 + "to meet the needs of the landowner and local wildlife alike."
 
-const mission = "While we specialize in native/edible landscaping design and installation, we also offer many traditional "
-                + "landscaping services such as pruning, mulching, and weeding. Hardscaping services include installation "
-                + "and maintenance of patios, walkways, garden walls, fire pits, and more."
-                + "As licensed arborists and Maryland tree experts,the professionals at Ecoscapes, llc are equipped to perform "
-                + "arboricultural assessments,forestry consultations, and minor pruning/ tree removals."
-                + "Our goal is to design, install and maintain landscapes to increase quality of life for all."
-                + "We love to incorporate native, pollinator-friendly plants in our designs as well as other ethnobotanically "
-                + "significant plants that offer us food, medicine, and more. The transformation of under-utilized outdoor spaces "
-                + "into functional and aesthetic areas is accomplished via the use of careful site observation, geographically "
-                + "native plants, and permaculture design principles."
+const mission = "At Ecoscapes, llc we design, install and maintain landscapes to increase the quality of "
+                + "life for all. We recognize the environmental reprocussions of irresponsible landscaping "
+                +" decisions. Landscape installations need to support the health of the Chesapeake Bay as "
+                + "well as declining wildlife populations. Accountability is paramount at Ecoscapes,llc and, "
+                + "so we plant in accordance with ecological restoration, acting regeneratively, not just "
+                + "sustainably. The team utilizes permaculture design principles to create landscapes that are "
+                + "beautiful, functional, and eco-friendly. We love to incorporate native, pollinator-friendly "
+                + "plants in our designs as well as other ethnobotanically significant plants that offer us food, "
+                + "medicine, and more! We want your property to work efficiently and so we aim to harmonize nature's "
+                + "demands with your own by observing site-specific conditions and utilizing these resources to make "
+                + "your yard work for you, not against you. "
                
 
 const About = () => {
@@ -41,7 +42,7 @@ const About = () => {
                 <h1 className='font'>Meet the Founders</h1>
             </div>
             <div className='backdrop'>
-                <div className='bodytwo'>
+                <div className='bodythree'>
                     <div className="joe">
                         <div>
                             <div className='text'>

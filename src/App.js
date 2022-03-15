@@ -5,6 +5,7 @@ import Home from './Home';
 import About from './About';
 import Gallery from './Gallery'
 import Service from './Service'
+import Contact from './Contact';
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
 
@@ -22,6 +23,7 @@ function App() {
               <Route exact path="/gallery" element={<Gallery />} />
               <Route exact path="/services" element={<Service />} />
               <Route exact path="/about" element={<About />} />
+              <Route exact path="/contact" element={<Contact />} />
             </Routes>
             <Footer />
           </div>

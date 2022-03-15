@@ -1,6 +1,6 @@
 import './index.css';
 import { Link } from 'react-router-dom';
-import logo from './Images/LogoLLCnoWhite.png';
+import isa from './Images/ISA.png';
 
 const Footer = () => {
 
@@ -8,28 +8,25 @@ const Footer = () => {
         <div>
             <nav className="footer">
                 <div className='footerbar'>
+                    <div className='isaimage'>
+                        <img src={isa} className="isa" alt="insta logo" />
+                    </div>
                     <div>
-                        <div>
+                        <div className='footertext'>
                             ISA # MA-6060-A / MD LTE# 2208
                         </div>
-                        <div>
+                        <div className='footertext'>
                             Contractors MHIC # 142765
                         </div>
                     </div>    
                     <div>
-                        <div>
+                        <div className='footertext'>
                             Contact Us
                         </div>
-                        <div>
+                        <div className='footertext'>
                             Come Work For Us
                         </div>
                     </div>
-                    {/* <div className="links">
-                        <Link to="/">Home</Link>
-                        <Link to="/services">Services</Link>
-                        <Link to="/gallery">Gallery</Link>
-                        <Link to="/about">About Us</Link>
-                    </div> */}
                 </div>
             </nav>
         </div>

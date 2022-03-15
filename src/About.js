@@ -68,7 +68,7 @@ const About = () => {
                         <h1 className='font'>Ecoscapes Mission</h1>
                     </div>
                     <div className='backdrop'>
-                        <div className='bodytwo'>
+                        <div className='bodythree'>
                             <div className='text'>
                                 {mission}
                             </div>

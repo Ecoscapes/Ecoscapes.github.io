@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:400italic,400,300,700');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Signika&display=swap');
 
 /* base styles */
 * {
   /* box-sizing: border-box;  */
   margin: 0;
   padding: 0;
-  font-family: "Quicksand";
+  /* font-family: "Quicksand"; */
+  /* font-family: "Open Sans"; */
+  font-family: "Signika";
   color: #333;
 }
 
@@ -174,7 +179,7 @@
 .form{
   display: grid;
   row-gap: 1em;
-  width: 300px;
+  width: 500px;
 }
 
 .footer{
@@ -182,7 +187,7 @@
   position: relative;
   justify-content: center;
   align-content: center;
-  background-color: rgb(223, 230, 203);
+  background-color: rgb(123, 190, 123);
   height: 200px; 
   z-index: 4;
 }
@@ -201,6 +206,11 @@
   color: whitesmoke;
 }
 
+.titlestatementfont {
+  color: whitesmoke;
+  font-size: 1.5em;
+}
+
 .fontconnect {
   color: whitesmoke;
   font-size: 3em;
@@ -214,9 +224,15 @@
   background-color: transparent;
 }
 
+.founderscontainer{
+  display: grid;
+  margin-bottom: 8em;
+}
+
+
 .hardscapebackground{
   display: grid;
-  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('./Images/ServiceImage.png');
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./Images/home/Hardscaping.jpg');
   background-size: cover;
   background-position: center; 
   height: 300px;
@@ -241,6 +257,19 @@
 .inputsubmit{
   /* width: 100px; */
 }
+
+.inputfields {
+  padding: .2em;
+  font-size: .8em;
+} 
+
+.inputfieldscontainer {
+  display: grid;
+  row-gap: 1.25em;
+  width: 300px;
+  justify-self: center;
+  margin-bottom: 2em;
+} 
 
 .submitbutton{
   width: 100px;
@@ -319,6 +348,18 @@
   background-position: center;
 }
 
+.missioncontainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.missionimagecontainer
+{
+  background-image: url('./Images/about/Mission.jpg');
+  background-size: cover;
+  background-position: top;
+}
+
 .nativelanddesignbackground{
   display: grid;
   background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('./Images/home/NativePlantDesign.jpg');
@@ -331,7 +372,8 @@
 
 .navbar {
   position: fixed;
-  background-color: rgb(223, 230, 203);
+  background-color: rgb(123, 190, 123);
+  /* background-color: rgb(223, 230, 203); */
   padding: 0px 20px 0px 20px;
   display: flex;
   align-items: center;
@@ -364,6 +406,16 @@
 
 .navbar a:hover {
   color: #036d11;
+}
+
+.NLDServicebackground{
+  display: grid;
+  background: url('./Images/services/butterflyNLD.jpg');
+  background-size: cover;
+  background-position: center; 
+  height: 350px;
+  width: 400px;
+  border-radius: 30px;
 }
 
 .page{
@@ -501,7 +553,8 @@
   border-radius: 30px;
   width: 200px;
   height: 50px;
-  background-color: rgb(223, 230, 203);
+  background-color: rgb(123, 190, 123);
+  /* background-color: rgb(223, 230, 203); */
   align-content: center;
   cursor: pointer;
   text-decoration: none;
@@ -556,6 +609,7 @@
 .socialmedia{
   display: grid;
   justify-content: center;
+  margin-top: 2.5em;
 }
 
 .SWMbackground{
@@ -588,15 +642,7 @@
   border-radius: 30px;
 }
 
-.NLDServicebackground{
-  display: grid;
-  background: url('./Images/services/NativeLandDesign.jpg');
-  background-size: cover;
-  background-position: center; 
-  height: 350px;
-  width: 400px;
-  border-radius: 30px;
-}
+
 
 .arborcultureservicebackground{
   display: grid;

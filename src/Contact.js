@@ -37,29 +37,31 @@ const Contact = () => {
                         <h2 className=''>Want us to reach out to you instead?</h2>
                         <div className='fields'>
                             <form className='form'>
-                                <label className='label'> 
-                                    <div className='labelleft'>
-                                        Name:
-                                    </div>
-                                    <input type="text" name="name" />
-                                </label>
-                                <label className='label'> 
-                                    <div className='labelleft'>
-                                        Number:
-                                    </div>
-                                    <input type="text" name="number" />
-                                </label>
-                                <label className='label'> 
-                                    <div className='labelleft'>
-                                        Email:
-                                    </div>                                
-                                    <input type="text" name="email" />
-                                </label>
+                                <div className='inputfieldscontainer'>
+                                    <label className='label'> 
+                                        <div className='labelleft'>
+                                            Name:
+                                        </div>
+                                        <input className='inputfields' type="text" name="name" />
+                                    </label>
+                                    <label className='label'> 
+                                        <div className='labelleft'>
+                                            Number:
+                                        </div>
+                                        <input className='inputfields' type="text" name="number" />
+                                    </label>
+                                    <label className='label'> 
+                                        <div className='labelleft'>
+                                            Email:
+                                        </div>                                
+                                        <input className='inputfields' type="text" name="email" />
+                                    </label>
+                                </div>
                                 <label className='label'> 
                                     <div className='labelleft'>
                                         Comments:
                                     </div>                                
-                                    <textarea name="Text1" cols="40" rows="5"></textarea>
+                                    <textarea name="Text1" cols="180" rows="10"></textarea>
                                     {/* <input type="textarea" cols="40" rows="5" name="comments" /> */}
                                 </label>
                                 <div className='inputsubmit'>

@@ -1,5 +1,6 @@
 import './index.css';
-import logo from './Images/invert.png';
+// import logo from './Images/invert.png';
+import logo from './Images/home/landing.PNG';
 import facebook from './Images/facebook.png';
 import instagram from './Images/instagram.png';
 import phone from './Images/phone-square.png';
@@ -17,9 +18,15 @@ const Home = () => {
         window.open("https://www.instagram.com/ecoscapes_md/", "_blank");
     }
 
-    const titleStatement = "We are an ecologically conscious";
-    const titleStatementTwo = "Landscaping and Hardscaping company.";
+    // const titleStatement = "We are an ecologically conscious";
+    // const titleStatementTwo = "Landscaping and Hardscaping company.";
+    // const titleStatementThree = "We provide quality, custom-tailored services at an honest price.";
+
+    const titleStatement = "We provide quality custom lanscape services";
+    const titleStatementTwo = " with mother nature in mimd.";
     const titleStatementThree = "We provide quality, custom-tailored services at an honest price.";
+
+
     const hardscapestring = "-Patios -Walkways -Garden Walls -Firepits"
     
 
@@ -31,11 +38,8 @@ const Home = () => {
             </div>
             <div className='housing'>
                 <div className='body'>
-                    <div className='font'>{titleStatement}</div>
-                    <div className='font'>{titleStatementTwo}</div>
-                </div>
-                <div className='body'>
-                    {titleStatementThree}
+                    <div className='titlestatementfont'>{titleStatement}</div>
+                    <div className='titlestatementfont'>{titleStatementTwo}</div>
                 </div>
             </div>
             <div className='socialmedia'>

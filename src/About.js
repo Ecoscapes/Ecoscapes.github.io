@@ -38,43 +38,49 @@ const mission = "At Ecoscapes, llc we design, install and maintain landscapes to
 const About = () => {
     return ( 
         <div className="about">
-            <div className='founders'>
-                <h1 className='font'>Meet the Founders</h1>
-            </div>
-            <div className='backdrop'>
-                <div className='bodythree'>
-                    <div className="joe">
-                        <div>
-                            <div className='text'>
-                                {dolor}
-                            </div>
-                        </div>
-                        <div className="joeimg">
-                        </div>
-                    </div>
-                    <div className="dan">
-                        <div className="danimg">
-                        </div>
-                        <div>
-                            <div className='text'>
-                                {ipsum}
-                            </div>
-                        </div>
-                    </div>
+            <div>
+                <div className="founders">
+                    <h1 className='font'>Ecoscapes Mission</h1>
                 </div>
-            </div>
-                <div>
-                    <div className="header">
-                        <h1 className='font'>Ecoscapes Mission</h1>
-                    </div>
-                    <div className='backdrop'>
-                        <div className='bodythree'>
+                <div className='backdrop'>
+                    <div className='bodythree'>
+                        <div className="missioncontainer">
+                            <div className="missionimagecontainer">
+                            </div>       
                             <div className='text'>
                                 {mission}
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className='header'>
+                <h1 className='font'>Meet the Founders</h1>
+            </div>
+            <div className='founderscontainer'>
+                <div className='backdrop'>
+                    <div className='bodythree'>
+                        <div className="joe">
+                            <div>
+                                <div className='text'>
+                                    {dolor}
+                                </div>
+                            </div>
+                            <div className="joeimg">
+                            </div>
+                        </div>
+                        <div className="dan">
+                            <div className="danimg">
+                            </div>
+                            <div>
+                                <div className='text'>
+                                    {ipsum}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
      );
 }

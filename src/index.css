@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:400italic,400,300,700');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Signika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
 
 /* base styles */
 * {
@@ -324,6 +328,38 @@
   justify-content: center;
   background-color: transparent;
 }
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+.landingtitletext
+{
+  display: grid;
+  justify-items: center;
+}
+
+.ecosapeslanding
+{
+  font-family: "Merienda One";
+  font-size: 8em;
+  font-weight: 100;
+  color: whitesmoke
+}
+
+.llclanding
+{
+  font-family: "Merienda One";
+  display: grid;
+  font-size: 3em;
+  font-weight: 200;
+  color: whitesmoke
+}
 
 .landscapebackground{
   display: grid;
@@ -373,6 +409,7 @@
 .navbar {
   position: fixed;
   background-color: rgb(123, 190, 123);
+  /* background-color: rgb(163, 230, 125); */
   /* background-color: rgb(223, 230, 203); */
   padding: 0px 20px 0px 20px;
   display: flex;
@@ -595,7 +632,7 @@
   justify-content: center;
   align-content: center;
   width: 400px;
-  font-size: .91em;
+  font-size: 1.em;
   font-weight: 600;
   background: whitesmoke;
   padding: 0px 50px 0px 50px;
@@ -685,7 +722,7 @@
 }
 
 .text{
-  font-size: large;
+  font-size: .9em;
   font-weight: 600;
   background: whitesmoke;
   padding: 20px;

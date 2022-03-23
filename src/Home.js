@@ -22,8 +22,8 @@ const Home = () => {
     // const titleStatementTwo = "Landscaping and Hardscaping company.";
     // const titleStatementThree = "We provide quality, custom-tailored services at an honest price.";
 
-    const titleStatement = "We provide quality custom lanscape services";
-    const titleStatementTwo = " with mother nature in mimd.";
+    const titleStatement = "We provide quality, custom landscape services";
+    const titleStatementTwo = " with mother nature in mind.";
     const titleStatementThree = "We provide quality, custom-tailored services at an honest price.";
 
 
@@ -34,7 +34,15 @@ const Home = () => {
     return ( 
         <div className="home">
             <div className='landing'>
-                <img src={logo} className="landinglogo" alt="logo" />
+                <div className='landingtitletext'>
+                    <div>
+                        <h1 className='ecosapeslanding'>Ecoscapes</h1>
+                    </div>
+                    <div>
+                        <h2 className='llclanding'>LLC</h2>
+                    </div>
+                </div>
+                {/* <img src={logo} className="landinglogo" alt="logo" /> */}
             </div>
             <div className='housing'>
                 <div className='body'>

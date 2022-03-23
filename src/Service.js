@@ -62,7 +62,7 @@ return (
                 </div>
             </div>
             <div className='serviceheadercontainer'>
-                <h2 className='serviceheader'>Harscapes</h2>   
+                <h2 className='serviceheader'>Hardscapes</h2>   
             </div>
             <div className='backdrop'>
                 <div className='bodytwo'>
@@ -110,7 +110,7 @@ return (
                 </div>
             </div>
             <div className='serviceheadercontainer'>
-                <h2 className='serviceheader'>Arborculture</h2>
+                <h2 className='serviceheader'>Arboriculture</h2>
             </div>
             <div className='backdrop'>
                 <div className='bodytwo'>

@@ -169,7 +169,7 @@ const Home = () => {
             </div>
             <div >
                 <div className="header">
-                    <h1 className='font'>Why Choose Us?</h1>
+                    <h2 className='chooseheader'>Why Choose Us?</h2>
                 </div>
                 <div className='whyanswercontainer'>
                     <div className='whyanswer'>
@@ -180,7 +180,9 @@ const Home = () => {
                             </div>
                         </div>
                         <div className='answersection'>
-                            <h2 className='whyanswerheader'>Environmental Practices</h2>
+                            <div>
+                                <h2 className='whyanswerheader'>Environmental Practices</h2>
+                            </div>
                             <div className='choosetext'>
                                 {environmental}
                             </div>

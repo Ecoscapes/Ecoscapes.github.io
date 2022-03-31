@@ -29,8 +29,10 @@
 
 .answersection{
   display: grid;
+  row-gap: 1em;
   justify-content: center;
   text-align: center;
+  align-items: top;
 }
 
 .arboriculturalbackground{
@@ -124,6 +126,11 @@
 .choosetext{
   color: whitesmoke;
   max-width: 300px;
+}
+
+.chooseheader{
+  color: whitesmoke;
+  font-size: 3em;
 }
 
 .clickable{

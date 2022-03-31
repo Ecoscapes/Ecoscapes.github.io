@@ -1,6 +1,6 @@
 import './index.css';
 import { Link } from 'react-router-dom';
-import logo from './Images/ThickLogo.png';
+import logo from './Images/home/LogoDark.png';
 
 const Navbar = () => {
 

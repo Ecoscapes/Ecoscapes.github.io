@@ -22,6 +22,11 @@
   margin-top: 50px;
 }
 
+.aboutheaders{
+  font-size: 3em;
+  color: whitesmoke;
+}
+
 .answersection{
   display: grid;
   justify-content: center;
@@ -114,6 +119,11 @@
   border-radius: 40px;
   margin: .5em .3em 0em .3em;
   font-size: .9em;
+}
+
+.choosetext{
+  color: whitesmoke;
+  max-width: 300px;
 }
 
 .clickable{
@@ -737,6 +747,7 @@
 .whyanswercontainer{
   display: grid;
   justify-content: center;
+  margin-bottom: 3em;
 }
 
 .whyanswerheader{

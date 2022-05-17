@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Signika&display=swap');
+
+/* base styles */
+* {
+  /* box-sizing: border-box;  */
+  margin: 0;
+  padding: 0;
+  font-family: "Signika";
+  color: #333;
+}
+
+.bar {
+  display: grid;
+  grid-template-columns: .5fr 1fr;
+  align-items: center;
+  left: 50%;
+  max-width: 1200px;
+  top: 0;
+  margin: 0 auto 0 auto;
+}
+
+.navbar {
+  position: fixed;
+  /* background-color: rgb(123, 190, 123); */
+  /* background-color: rgb(163, 230, 125); */
+  background-color: rgb(223, 230, 203);
+  padding: 0px 20px 0px 20px;
+  display: flex;
+  align-items: center;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+  top: 0;
+  margin: 0 auto 0 auto;
+  border-bottom: 1px solid #c5c4c4;
+  z-index: 3;
+}
+
+.navbar h1 {
+  color: #036d11;
+}
+
+.navbar .links {
+  margin-left: auto;
+  padding-top: 30px;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  font-weight: 1000;
+  font-size: x-large;
+  padding: 6px;
+
+}
+
+.navbar a:hover {
+  color: #036d11;
+}
+

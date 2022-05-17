@@ -11,7 +11,7 @@ const Footer = () => {
                     <div className='isaimage'>
                         <img src={isa} className="isa" alt="insta logo" />
                     </div>
-                    <div>
+                    <div className='footertextcontainer'>
                         <div className='footertext'>
                             ISA # MA-6060-A / MD LTE# 2208
                         </div>
@@ -19,7 +19,7 @@ const Footer = () => {
                             Contractors MHIC # 142765
                         </div>
                     </div>    
-                    <div>
+                    <div className='footertextcontainer'>
                         <div className='footertext'>
                             Contact Us
                         </div>

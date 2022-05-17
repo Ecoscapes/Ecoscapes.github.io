@@ -1,14 +1,14 @@
-import './index.css';
+import './homedesktopA.css';
 // import logo from './Images/invert.png';
 // import logo from './Images/home/landing.PNG';
-import facebook from './Images/facebook.png';
-import instagram from './Images/instagram.png';
-import phone from './Images/phone-square.png';
-import email from './Images/email-icon.png';
+import facebook from '../Images/facebook.png';
+import instagram from '../Images/instagram.png';
+import phone from '../Images/phone-square.png';
+import email from '../Images/email-icon.png';
 import { Link } from 'react-router-dom';
 
 
-const Home = () => {
+const HomeDesktop = () => {
 
     const handleFbClick = () => {
         window.open("https://www.facebook.com/EcoscapesMD/", "_blank");
@@ -27,71 +27,73 @@ const Home = () => {
     // const titleStatementThree = "We provide quality, custom-tailored services at an honest price.";
 
     const professionalism = "At Ecoscapes LLC, honesty and integrity are considered central values near "
-                            + "and dear to our hearts. It is our priority to provide you with a fair, "
-                            + "comprehensive estimate and to execute our work with class and professionalism. "
-                            + "As all Maryland contractors should, we hold an MHIC license and are fully insured. "
-                            + "Ecoscapes strives to provide you with exceptional customer service and communication "
-                            + "throughout the entire process from the estimate through the completion of every project.";
+        + "and dear to our hearts. It is our priority to provide you with a fair, "
+        + "comprehensive estimate and to execute our work with class and professionalism. "
+        + "As all Maryland contractors should, we hold an MHIC license and are fully insured. "
+        + "Ecoscapes strives to provide you with exceptional customer service and communication "
+        + "throughout the entire process from the estimate through the completion of every project.";
 
 
     const environmental = "At Ecoscapes, LLC we design, install and maintain landscapes to increase the "
-                            + "quality of life for all. We recognize the environmental repercussions of "
-                            + "irresponsible landscaping and so we plant with ecological restoration in "
-                            + "mind, acting regeneratively, not just sustainably. The team utilizes "
-                            + "permaculture design principles to create landscapes and hardscapes that "
-                            + "are beautiful, functional, and eco-friendly. We love to incorporate native, "
-                            + "pollinator-friendly plants in our designs as well as other ethnobotanically "
-                            + "significant plants that offer us food, medicine, and more!";
+        + "quality of life for all. We recognize the environmental repercussions of "
+        + "irresponsible landscaping and so we plant with ecological restoration in "
+        + "mind, acting regeneratively, not just sustainably. The team utilizes "
+        + "permaculture design principles to create landscapes and hardscapes that "
+        + "are beautiful, functional, and eco-friendly. We love to incorporate native, "
+        + "pollinator-friendly plants in our designs as well as other ethnobotanically "
+        + "significant plants that offer us food, medicine, and more!";
 
 
     const idividualized = "We provide our customers with individualized solutions to their unique landscaping "
-                            + "and hardscaping needs. Your property's site-specific conditions are carefully "
-                            + "documented and utilized to develop installations that work in agreement with your "
-                            + "landscape. Our designs always strive to find the perfect fit for our clients while "
-                            + "taking into consideration both aesthetics and functionality. Ecoscapes works closely "
-                            + "with you through each step of the process to turn your vision into a reality.";
+        + "and hardscaping needs. Your property's site-specific conditions are carefully "
+        + "documented and utilized to develop installations that work in agreement with your "
+        + "landscape. Our designs always strive to find the perfect fit for our clients while "
+        + "taking into consideration both aesthetics and functionality. Ecoscapes works closely "
+        + "with you through each step of the process to turn your vision into a reality.";
 
 
     return (
         <div className="home">
-            <div className='landing'>
-                <div className='landingtitletext'>
-                    <div>
-                        <h1 className='ecosapeslanding'>Ecoscapes</h1>
+            <div className='landingcontainer'>
+                <div className='landing'>
+                    <div className='landingtitletext'>
+                        <div>
+                            <h1 className='ecosapeslanding'>Ecoscapes</h1>
+                        </div>
+                        <div>
+                            <h2 className='llclanding'>LLC</h2>
+                        </div>
                     </div>
-                    <div>
-                        <h2 className='llclanding'>LLC</h2>
+                    {/* <img src={logo} className="landinglogo" alt="logo" /> */}
+                </div>
+                <div className='housing'>
+                    <div className='body'>
+                        <div className='titlestatementfont'>{titleStatement}</div>
+                        <div className='titlestatementfont'>{titleStatementTwo}</div>
                     </div>
                 </div>
-                {/* <img src={logo} className="landinglogo" alt="logo" /> */}
-            </div>
-            <div className='housing'>
-                <div className='body'>
-                    <div className='titlestatementfont'>{titleStatement}</div>
-                    <div className='titlestatementfont'>{titleStatementTwo}</div>
-                </div>
-            </div>
-            <div className='socialmedia'>
-                <div className='socialcontent'>
-                    <div className='instabook'>
-                        <div className='clickable' onClick={handleIgClick}>
-                            <img src={instagram} className="insta" alt="insta logo" />
+                <div className='socialmedia'>
+                    <div className='socialcontent'>
+                        <div className='instabook'>
+                            <div className='clickable' onClick={handleIgClick}>
+                                <img src={instagram} className="insta" alt="insta logo" />
+                            </div>
+                            <div className='clickable' onClick={handleFbClick}>
+                                <img src={facebook} className="fb" alt="facebook logo" />
+                            </div>
                         </div>
-                        <div className='clickable' onClick={handleFbClick}>
-                            <img src={facebook} className="fb" alt="facebook logo" />
+                        <div className='emailcontainer'>
+                            <div>
+                                <img src={email} className="email" alt="email logo" />
+                            </div>
                         </div>
-                    </div>
-                    <div className='emailcontainer'>
-                        <div>
-                            <img src={email} className="email" alt="email logo" />
-                        </div>
-                    </div>
-                    <div className='phonecontainer'>
-                        <div>
-                            <img src={phone} className="phone" alt="phone logo" />
-                        </div>
-                        <div className='phonetextcontainer'>
-                            <p className='phonetext'>(443)525-4178</p>
+                        <div className='phonecontainer'>
+                            <div>
+                                <img src={phone} className="phone" alt="phone logo" />
+                            </div>
+                            <div className='phonetextcontainer'>
+                                <p className='phonetext'>(443)525-4178</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -210,4 +212,4 @@ const Home = () => {
     );
 }
 
-export default Home;
+export default HomeDesktop;

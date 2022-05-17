@@ -1,0 +1,123 @@
+.about {
+    margin-top: 50px;
+}
+
+.backdrop {
+    display: grid;
+    background: whitesmoke;
+    background-size: cover;
+    border-top: 1px solid #000000;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.bodythree {
+    margin: 0;
+    padding: 0px;
+    max-width: 100vw;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(215, 215, 215);
+    justify-content: center;
+}
+
+
+.contactcontent {
+    display: grid;
+}
+
+.contactinfocontainer {
+    display: grid;
+    justify-content: center;
+}
+
+.email{
+    display: grid;
+    background: transparent;
+    height: 40px;
+    margin: 0em .5em 0em 0.2em;
+  }
+
+.fields {
+    display: grid;
+    justify-content: center;
+    margin: 2em;
+}
+
+.fontconnect {
+    color: whitesmoke;
+    font-size: 3em;
+}
+
+.founders {
+    margin: 7em 0px 3em 0px;
+    padding: 50px 0px 50px 0px;
+    color: whitesmoke;
+    text-align: center;
+    background-color: transparent;
+}
+
+.form {
+    display: grid;
+    row-gap: 1em;
+   max-width: 100vw;
+}
+
+.inputsubmit {
+    /* width: 100px; */
+}
+
+.inputfields {
+    padding: .2em;
+    font-size: .8em;
+}
+
+.inputfieldscontainer {
+    display: grid;
+    row-gap: 1.25em;
+    max-width: 100vw;
+    justify-self: center;
+    margin-bottom: 2em;
+}
+
+.label {
+    display: grid;
+}
+
+.labelleft {
+    display: grid;
+    justify-content: left;
+}
+
+
+.phonecontact {
+    background: transparent;
+    height: 40px;
+    margin: 0em .5em 0em 0.2em;
+}
+
+.phonecontactcontainer {
+    display: grid;
+    grid-template-columns: .1fr 1fr;
+    align-content: center;
+    justify-content: center;
+    margin: 0em;
+}
+
+.phonecontacttext {
+    display: grid;
+    color: white;
+    font-weight: 600;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.submitbutton{
+    width: 100px;
+    height: 40px;
+    color: #000000;
+    background-color: rgb(223, 230, 203);
+    border-radius: 10px;
+  }

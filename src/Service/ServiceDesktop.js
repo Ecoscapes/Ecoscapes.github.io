@@ -1,4 +1,5 @@
-import './index.css';
+// import './index.css';
+import './service.css';
 
 const NLD = "Do you love the idea of planting to feed wildlife but don't know where to start? "
                 + "Let Ecoscapes use their botanical knowledge to design your site specific native "
@@ -39,7 +40,7 @@ const SWM = "Rain gardens, erosion control, streambank stabilization and more;? 
                 + " of nature. ";
 
 
-const Service = () => {
+const ServiceDesktop = () => {
 return ( 
     <div>
         <div className = 'servicebackground'>
@@ -162,4 +163,4 @@ return (
  );
 }
 
-export default Service;
+export default ServiceDesktop;

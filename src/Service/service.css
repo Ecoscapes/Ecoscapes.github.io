@@ -37,7 +37,7 @@
 
 .arboriculturalbackground{
   display: grid;
-  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('./Images/home/Arboriculture.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../Images/home/Arboriculture.jpg');
   background-size: cover;
   background-position: center; 
   height: 300px;
@@ -55,7 +55,7 @@
   justify-content: center;
 }
 
-/* .bar {
+.bar {
   display: grid;
   grid-template-columns: .5fr 1fr;
   align-items: center;
@@ -63,7 +63,7 @@
   max-width: 1200px;
   top: 0;
   margin: 0 auto 0 auto;
-} */
+}
 
 
 .body {
@@ -159,7 +159,7 @@
   grid-template-columns: 1fr 1fr;
 }
 .danimg {
-  background-image: url('./Images/dan.jpg');
+  background-image: url('../Images/dan.jpg');
   background-size: cover;
   background-position: top;
 }
@@ -260,7 +260,7 @@
 
 .hardscapebackground{
   display: grid;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./Images/home/Hardscaping.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../Images/home/Hardscaping.jpg');
   background-size: cover;
   background-position: center; 
   height: 300px;
@@ -299,6 +299,14 @@
   margin-bottom: 2em;
 } 
 
+.submitbutton{
+  width: 100px;
+  height: 40px;
+  color: #000000;
+  background-color: rgb(223, 230, 203);
+  border-radius: 10px;
+}
+
 .insta{
   background-color: transparent;
   height: 40px;
@@ -324,7 +332,7 @@
 }
 
 .joeimg {
-  background-image: url('./Images/JoeTwo.jpg');
+  background-image: url('../Images/JoeTwo.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -345,12 +353,6 @@
   justify-content: center;
   background-color: transparent;
 }
-
-.landingcontainer{
-  /* display: grid; */
-  /* height: 100vh; */
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
@@ -386,7 +388,7 @@
 
 .landscapebackground{
   display: grid;
-  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('./Images/ServiceImage.png');
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../Images/ServiceImage.png');
   background-size: cover;
   background-position: center; 
   height: 200px;
@@ -395,14 +397,14 @@
 }
 
 .logo{
-  /* display: grid;
-  justify-content: left; */
-  /* max-width: 400px; */
-  /* margin-right: 100px; */
+  display: grid;
+  justify-content: left;
+  max-width: 400px;
+  margin-right: 100px;
 }
 
 .logoimg {
-  background-image: url('./Images/invert.png');
+  background-image: url('../Images/invert.png');
   background-size: cover;
   background-position: center;
 }
@@ -414,14 +416,14 @@
 
 .missionimagecontainer
 {
-  background-image: url('./Images/about/Mission.jpg');
+  background-image: url('../Images/about/Mission.jpg');
   background-size: cover;
   background-position: top;
 }
 
 .nativelanddesignbackground{
   display: grid;
-  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('./Images/home/NativePlantDesign.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../Images/home/NativePlantDesign.jpg');
   background-size: cover;
   background-position: center; 
   height: 300px;
@@ -429,12 +431,12 @@
   border-radius: 30px;
 }
 
-/*.navbar {
-  /* position: fixed;
-  background-color: rgb(123, 190, 123); */
+.navbar {
+  position: fixed;
+  background-color: rgb(123, 190, 123);
   /* background-color: rgb(163, 230, 125); */
   /* background-color: rgb(223, 230, 203); */
-  /* padding: 0px 20px 0px 20px;
+  padding: 0px 20px 0px 20px;
   display: flex;
   align-items: center;
   left: 50%;
@@ -443,11 +445,10 @@
   top: 0;
   margin: 0 auto 0 auto;
   border-bottom: 1px solid #c5c4c4;
-  z-index: 3; */
-/*}
-*/
+  z-index: 3;
+}
 
-/* .navbar h1 {
+.navbar h1 {
   color: #036d11;
 }
 
@@ -467,11 +468,11 @@
 
 .navbar a:hover {
   color: #036d11;
-} */
+}
 
 .NLDServicebackground{
   display: grid;
-  background: url('./Images/services/butterflyNLD.jpg');
+  background: url('../Images/services/butterflyNLD.jpg');
   background-size: cover;
   background-position: center; 
   height: 350px;
@@ -480,7 +481,7 @@
 }
 
 .page{
-  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('./Images/background.jpeg');
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../Images/background.jpeg');
   position: fixed;
   top: 0px;
   left: 0px;
@@ -550,7 +551,7 @@
 
 .permaculturebackground{
   display: grid;
-  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('./Images/home/Permaculture.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../Images/home/Permaculture.jpg');
   background-size: cover;
   background-position: center; 
   height: 300px;
@@ -565,7 +566,7 @@
 
 
 .servicebackground{
-  background-image:  linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./Images/services/servicePageBackground.jpg');
+  background-image:  linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../Images/services/servicePageBackground.jpg');
   position: fixed;
   top: 0px;
   left: 0px;
@@ -673,17 +674,9 @@
   margin-top: 2.5em;
 }
 
-.submitbutton{
-  width: 100px;
-  height: 40px;
-  color: #000000;
-  background-color: rgb(223, 230, 203);
-  border-radius: 10px;
-}
-
 .SWMbackground{
   display: grid;
-  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('./Images/ServiceImage.png');
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../Images/ServiceImage.png');
   background-size: cover;
   background-position: center; 
   height: 300px;
@@ -693,7 +686,7 @@
 
 .SWMServicebackground{
   display: grid;
-  background: url('./Images/services/StormWaterManagementService.jpg');
+  background: url('../Images/services/StormWaterManagementService.jpg');
   background-size: cover;
   background-position: center; 
   height: 350px;
@@ -703,7 +696,7 @@
 
 .permacultureservicebackground{
   display: grid;
-  background: url('./Images/services/Permaculture.jpg');
+  background: url('../Images/services/Permaculture.jpg');
   background-size: cover;
   background-position: center; 
   height: 350px;
@@ -715,7 +708,7 @@
 
 .arborcultureservicebackground{
   display: grid;
-  background: url('./Images/services/Arborculture.jpg');
+  background: url('../Images/services/Arborculture.jpg');
   background-size: cover;
   background-position: center; 
   height: 350px;
@@ -725,7 +718,7 @@
 
 .outdoorkitchenservicebackground{
   display: grid;
-  background: url('./Images/services/OutdoorKitchen.jpg');
+  background: url('../Images/services/OutdoorKitchen.jpg');
   background-size: cover;
   background-position: center; 
   height: 350px;
@@ -735,7 +728,7 @@
 
 .hardscapingservicebackground{
   display: grid;
-  background: url('./Images/services/Hardscaping.jpg');
+  background: url('../Images/services/Hardscaping.jpg');
   background-size: cover;
   background-position: center; 
   height: 350px;
@@ -745,7 +738,7 @@
 
 .generallandscapingservicebackground{
   display: grid;
-  background: url('./Images/services/GeneralLandscaping.jpg');
+  background: url('../Images/services/GeneralLandscaping.jpg');
   background-size: cover;
   background-position: center; 
   height: 350px;

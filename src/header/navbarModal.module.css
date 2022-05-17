@@ -1,0 +1,85 @@
+.backdrop {
+    display: grid;
+    background: whitesmoke;
+    background-size: cover;
+    border-top: 1px solid #000000;
+    text-align: center;
+    justify-content: center;
+}
+
+.bodytwo {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0;
+    padding: 1em;
+    max-width: 80vw;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(215, 215, 215);
+    justify-content: center;
+}
+
+
+.NLDServicebackground {
+    display: grid;
+    background: url('../Images/services/butterflyNLD.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 400px;
+    border-radius: 30px;
+}
+
+.service {
+    position: relative;
+    z-index: 2;
+    display: grid;
+    row-gap: 2em;
+    /* row-gap: 2.9em; */
+    margin-top: 8em;
+    margin-bottom: 9em;
+}
+
+.servicebackground {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Images/services/servicePageBackground.jpg');
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.servicepageimagescontainer {
+    display: grid;
+    justify-content: center;
+}
+
+.servicetext {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 400px;
+    font-size: 1.em;
+    font-weight: 600;
+    background: whitesmoke;
+    padding: 0px 0px 0px 0px;
+}
+
+
+.navbarModal {
+    position: absolute;
+    background-color: rgb(223, 230, 203);
+    /* overflow: auto; */
+    /* min-width: 90vw;
+    min-height: 80vh; */
+    top: '50%';
+    left: '50%';
+    right: 'auto';
+    bottom: 'auto';
+    margin-right: '-50%';
+    transform: 'translate(-50%, -50%)';
+}

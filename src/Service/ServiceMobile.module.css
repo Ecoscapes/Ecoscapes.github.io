@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Signika&display=swap');
+
+/* base styles */
+* {
+  /* box-sizing: border-box;  */
+  margin: 0;
+  padding: 0;
+  /* font-family: "Quicksand"; */
+  /* font-family: "Open Sans"; */
+  font-family: "Signika";
+  color: #333;
+}
+
+.arboriculturalbackground {
+  display: grid;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../Images/home/Arboriculture.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 350px;
+  border-radius: 30px;
+}
+
+
+.backdrop {
+  display: grid;
+  background: whitesmoke;
+  background-size: cover;
+  border-top: 1px solid #000000;
+  text-align: center;
+  justify-content: center;
+}
+
+.bodytwo {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0;
+  padding: 1em;
+  max-width: 80vw;
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(215, 215, 215);
+  justify-content: center;
+}
+
+
+.NLDServicebackground {
+  display: grid;
+  background: url('../Images/services/butterflyNLD.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  width: 400px;
+  border-radius: 30px;
+}
+
+
+.servicebackground {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Images/services/servicePageBackground.jpg');
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+
+.service {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  row-gap: 2em;
+  /* row-gap: 2.9em; */
+  margin-top: 8em;
+  margin-bottom: 9em;
+}
+
+.serviceheader {
+  color: whitesmoke;
+  font-size: 3em;
+  text-align: center;
+}
+
+.serviceheadercontainer {
+  display: grid;
+  justify-content: center;
+  /* margin-top: 3em; */
+}
+
+.servicepageimagescontainer {
+  display: grid;
+  justify-content: center;
+}
+
+.services {
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  /* column-gap: 3em; */
+  /* padding-bottom: 3em; */
+}
+
+
+
+.servicescontainer {
+  /* margin-bottom: 10em; */
+}
+
+.servicetext {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  width: 400px;
+  font-size: 1.em;
+  font-weight: 600;
+  background: whitesmoke;
+  padding: 0px 0px 0px 0px;
+}
+
+.SWMbackground {
+  display: grid;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../Images/ServiceImage.png');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 350px;
+  border-radius: 30px;
+}
+
+.SWMServicebackground {
+  display: grid;
+  background: url('../Images/services/StormWaterManagementService.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  width: 400px;
+  border-radius: 30px;
+}
+
+.permacultureservicebackground {
+  display: grid;
+  background: url('../Images/services/Permaculture.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  width: 400px;
+  border-radius: 30px;
+}
+
+
+
+.arborcultureservicebackground {
+  display: grid;
+  background: url('../Images/services/Arborculture.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  width: 400px;
+  border-radius: 30px;
+}
+
+.outdoorkitchenservicebackground {
+  display: grid;
+  background: url('../Images/services/OutdoorKitchen.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  width: 400px;
+  border-radius: 30px;
+}
+
+.hardscapingservicebackground {
+  display: grid;
+  background: url('../Images/services/Hardscaping.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  width: 400px;
+  border-radius: 30px;
+}
+
+.generallandscapingservicebackground {
+  display: grid;
+  background: url('../Images/services/GeneralLandscaping.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  width: 400px;
+  border-radius: 30px;
+}
+
+.text {
+  font-size: .9em;
+  font-weight: 600;
+  background: whitesmoke;
+  padding: 20px 0px 20px 60px;
+}

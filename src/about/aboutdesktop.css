@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:400italic,400,300,700');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Signika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+/* base styles */
+* {
+  /* box-sizing: border-box;  */
+  margin: 0;
+  padding: 0;
+  /* font-family: "Quicksand"; */
+  /* font-family: "Open Sans"; */
+  font-family: "Signika";
+  color: #333;
+}
+
+.about{
+  margin-top: 50px;
+}
+
+.aboutheaders{
+  font-size: 3em;
+  color: whitesmoke;
+}
+
+.answersection{
+  display: grid;
+  row-gap: 1em;
+  justify-content: center;
+  text-align: center;
+  align-items: top;
+}
+
+
+.backdrop {
+  display: grid;
+  background: whitesmoke;
+  background-size: cover;
+  border-top: 1px solid #000000;
+  text-align: center;
+  justify-content: center;
+}
+
+/* .bar {
+  display: grid;
+  grid-template-columns: .5fr 1fr;
+  align-items: center;
+  left: 50%;
+  max-width: 1200px;
+  top: 0;
+  margin: 0 auto 0 auto;
+} */
+
+
+.body {
+  margin: 0;
+  padding: 10px;
+  max-width: 1250px;
+  font-size: 1.7em;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(215, 215, 215);
+}
+
+.bodytwo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0;
+  padding: 25px;
+  max-width: 1000px;
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(215, 215, 215);
+  justify-content: center;
+}
+
+.bodythree {
+  margin: 0;
+  padding: 25px;
+  max-width: 1000px;
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(215, 215, 215);
+  justify-content: center;
+}
+
+
+.bulletpoints{
+  margin-top: .2em;
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+.centerimage{
+  display: grid;
+  align-content: center;
+}
+
+.centertext{
+  align-self: top;
+  color: whitesmoke;
+  background-color:  rgba(0, 0, 0, 0.6);
+  padding: .2em 0em .4em 0em;
+  height : 1.2em;
+  border-radius: 40px;
+  margin: .5em .3em 0em .3em;
+  font-size: .9em;
+}
+
+.choosetext{
+  color: whitesmoke;
+  font-size: 1.2em;
+  max-width: 400px;
+}
+
+.chooseheader{
+  color: whitesmoke;
+  font-size: 3em;
+}
+
+.clickable{
+  cursor: pointer;
+}
+
+.contactcontent {
+  display: grid;
+}
+
+.contactinfocontainer{
+  display: grid;
+  justify-content: center;
+}
+
+.content{
+  width: 100%;
+  /* margin: 40px auto; */
+  /* padding: 20px; */
+  background: white;
+}
+
+.dan{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.danimg {
+  background-image: url('../Images/dan.jpg');
+  background-size: cover;
+  background-position: top;
+}
+
+.emailcontainer{
+  display: flex;
+  margin: 11em 0em 4em .5em;
+}
+
+.emailtextcontainer{
+  align-self: center;
+}
+
+.emailtext{
+  color: white;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.email{
+  display: grid;
+  background: transparent;
+  height: 40px;
+  margin: 0em .5em 0em 0.2em;
+}
+
+.fb{
+  background: transparent;
+  height: 40px;
+  margin: 11em .5em 4em .5em;
+}
+
+.fields{
+  display: grid;
+  justify-content: center;
+  margin: 2em;
+}
+
+.form{
+  display: grid;
+  row-gap: 1em;
+  width: 500px;
+}
+
+.footer{
+  display: grid;
+  position: relative;
+  justify-content: center;
+  align-content: center;
+  background-color: rgb(123, 190, 123);
+  height: 200px; 
+  z-index: 4;
+}
+
+.footerbar{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 1000px;
+}
+
+.footertext{
+  margin: 2em 0em;
+}
+
+.font {
+  color: whitesmoke;
+}
+
+.titlestatementfont {
+  color: whitesmoke;
+  font-size: 1.5em;
+}
+
+.fontconnect {
+  color: whitesmoke;
+  font-size: 3em;
+}
+
+.footertextcontainer{
+  text-align: center;
+  display: grid;
+  justify-content: center;
+}
+
+.founders {
+  margin: 7em 0px 3em 0px;
+  padding: 50px 0px 50px 0px;
+  color: whitesmoke;
+  text-align: center;
+  background-color: transparent;
+}
+
+.founderscontainer{
+  display: grid;
+  margin-bottom: 8em;
+}
+
+.header{
+  padding: 50px 0px 50px 0px;
+  text-align: center;
+}
+
+.housing {
+  display: grid;
+  justify-content: center;
+}
+
+.home {
+  margin-top: 100px;
+}
+
+.inputsubmit{
+  /* width: 100px; */
+}
+
+.inputfields {
+  padding: .2em;
+  font-size: .8em;
+} 
+
+.inputfieldscontainer {
+  display: grid;
+  row-gap: 1.25em;
+  width: 300px;
+  justify-self: center;
+  margin-bottom: 2em;
+} 
+
+.insta{
+  background-color: transparent;
+  height: 40px;
+  margin: 11em .5em 4em .5em;
+}
+
+.instabook{
+  display: flex;
+}
+
+.isa{
+  height: 150px;
+}
+
+.isaimage{
+  display: grid;
+  justify-items: center;
+}
+
+.joe{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.joeimg {
+  background-image: url('../Images/JoeTwo.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.label{
+  display: grid;
+}
+
+.labelleft{
+  display: grid;
+  justify-content: left;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+
+.missioncontainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.missionimagecontainer
+{
+  background-image: url('../Images/about/Mission.jpg');
+  background-size: cover;
+  background-position: top;
+}
+
+.page{
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../Images/background.jpeg');
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+
+.pages {
+  position: relative;
+  z-index: 2;
+}
+
+
+.text{
+  font-size: .9em;
+  font-weight: 600;
+  background: whitesmoke;
+  padding:  20px 0px 20px 60px;
+}
+
+.textjoe{
+  font-size: .9em;
+  font-weight: 600;
+  background: whitesmoke;
+  padding:  20px 40px 40px 40px;
+}
+
+.textdan{
+  font-size: .9em;
+  font-weight: 600;
+  background: whitesmoke;
+  padding:  40px 40px 20px 40px;
+}
+

@@ -1,11 +1,10 @@
-import './index.css';
-import phone from './Images/phone-square.png';
-import email from './Images/email-icon.png';
+import './contactdesktop.css';
+import phone from '../Images/phone-square.png';
+import email from '../Images/email-icon.png';
 
-const contactYou = "WE would love to reach out to you please select prefered method and time for us to Contact You."
-               
+const contactYou = "WE would love to reach out to you please select prefered method and time for us to Contact You.";
 
-const Contact = () => {
+const ContactDesktop = () => {
     return ( 
         <div className="about">
             <div className='founders'>
@@ -86,4 +85,4 @@ const Contact = () => {
      );
 }
  
-export default Contact;
+export default ContactDesktop;

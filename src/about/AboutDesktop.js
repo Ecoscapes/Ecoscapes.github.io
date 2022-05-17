@@ -1,4 +1,4 @@
-import './index.css';
+import './aboutdesktop.css';
 
 const dantext = "Dan Thompson, partner at Ecoscapes LLC is a business major with a background in sales. "
     + "In his 7+ years selling millions in hardscaping and masonry materials, he fell in love "
@@ -41,7 +41,7 @@ const about = "Accountability is paramount at Ecoscapes, llc. We ensure that eve
 //                 + "your yard work for you, not against you. "
 
 
-const About = () => {
+const AboutDesktop = () => {
     return (
         <div className="about">
             <div>
@@ -55,10 +55,10 @@ const About = () => {
                             </div>
                             <div>
                                 <div className='text'>
-                                    {mission}
+                                    {about}
                                 </div>
                                 <div className='text'>
-                                    {about}
+                                    {mission}
                                 </div>
                             </div>
                         </div>
@@ -73,7 +73,7 @@ const About = () => {
                     <div className='bodythree'>
                         <div className="joe">
                             <div>
-                                <div className='text'>
+                                <div className='textjoe'>
                                     {joetext}
                                 </div>
                             </div>
@@ -84,7 +84,7 @@ const About = () => {
                             <div className="danimg">
                             </div>
                             <div>
-                                <div className='text'>
+                                <div className='textdan'>
                                     {dantext}
                                 </div>
                             </div>
@@ -96,4 +96,4 @@ const About = () => {
     );
 }
 
-export default About;
+export default AboutDesktop;

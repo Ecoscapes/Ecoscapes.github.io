@@ -1,8 +1,10 @@
-import './index.css';
+import './navbardesktop.css';
+import React from 'react';
+import ReactDOM from 'react-dom';
 import { Link } from 'react-router-dom';
-import logo from './Images/home/LogoDark.png';
+import logo from '../Images/home/LogoDark.png';
 
-const Navbar = () => {
+const NavbarDesktop = () => {
 
     return ( 
         <div>
@@ -26,4 +28,4 @@ const Navbar = () => {
     );
 }
  
-export default Navbar;
+export default NavbarDesktop;

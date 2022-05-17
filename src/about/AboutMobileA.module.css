@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Signika&display=swap');
+
+
+.about {
+  margin-top: 50px;
+}
+
+.aboutheaders {
+  font-size: 3em;
+  color: whitesmoke;
+}
+
+.answersection {
+  display: grid;
+  row-gap: 1em;
+  justify-content: center;
+  text-align: center;
+  align-items: top;
+}
+
+
+.backdrop {
+  display: grid;
+  background: whitesmoke;
+  background-size: cover;
+  border-top: 1px solid #000000;
+  text-align: center;
+  justify-content: center;
+}
+
+.body {
+  margin: 0;
+  padding: 10px;
+  max-width: 1250px;
+  font-size: 1.7em;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(215, 215, 215);
+}
+
+.bodytwo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0;
+  padding: 25px;
+  max-width: 1000px;
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(215, 215, 215);
+  justify-content: center;
+}
+
+.bodythree {
+  padding: 0px;
+  max-width: 100vw;
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(215, 215, 215);
+  justify-content: center;
+}
+
+
+
+.centerimage {
+  display: grid;
+  align-content: center;
+}
+
+.centertext {
+  align-self: top;
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: .2em 0em .4em 0em;
+  height: 1.2em;
+  border-radius: 40px;
+  margin: .5em .3em 0em .3em;
+  font-size: .9em;
+}
+
+.choosetext {
+  color: whitesmoke;
+  font-size: 1.2em;
+  max-width: 400px;
+}
+
+.chooseheader {
+  color: whitesmoke;
+  font-size: 3em;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.content {
+  width: 100%;
+  /* margin: 40px auto; */
+  /* padding: 20px; */
+  background: white;
+}
+
+.dan {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.danimg {
+  background-image: url('../Images/dan.jpg');
+  display: grid;
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+  width: 100vw;
+}
+
+.font {
+  color: whitesmoke;
+}
+
+.fontconnect {
+  color: whitesmoke;
+  font-size: 3em;
+}
+
+
+.founders {
+  margin: 7em 0px 3em 0px;
+  padding: 50px 0px 50px 0px;
+  color: whitesmoke;
+  text-align: center;
+  background-color: transparent;
+}
+
+.founderscontainer {
+  display: grid;
+  margin-bottom: 8em;
+}
+
+.header {
+  padding: 50px 0px 50px 0px;
+  text-align: center;
+}
+
+.housing {
+  display: grid;
+  justify-content: center;
+}
+
+
+.joe {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.joeimg {
+  background-image: url('../Images/JoeTwo.jpg');
+  display: grid;
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+  width: 100vw;
+  /* border-radius: 30px; */
+  /* background-size: 100vw;
+  background-position: center; */
+}
+
+.missioncontainer {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.missionimagecontainer {
+  background-image: url('../Images/about/Mission.jpg');
+  height: 40vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: top;
+}
+
+.page {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../Images/background.jpeg');
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+
+.pages {
+  position: relative;
+  z-index: 2;
+}
+
+.text {
+  font-size: .9em;
+  font-weight: 600;
+  background: whitesmoke;
+  padding: 1em;
+}
+
+.textjoe {
+  font-size: .9em;
+  font-weight: 600;
+  background: whitesmoke;
+  padding: 1em;
+}
+
+.textdan {
+  font-size: .9em;
+  font-weight: 600;
+  background: whitesmoke;
+  padding: 1em;
+}

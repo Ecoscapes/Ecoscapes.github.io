@@ -1,11 +1,11 @@
-import Navbar from './Navbar';
-import Footer from './Footer';
+import Navbar from './header/Navbar';
+// import Footer from './Footer';
 import './index.css';
-import Home from './Home';
-import About from './About';
+import Home from './home/Home';
+import About from './about/About';
 import Gallery from './Gallery'
-import Service from './Service'
-import Contact from './Contact';
+import Service from './Service/Service'
+import Contact from './contact/Contact';
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
 
@@ -25,7 +25,7 @@ function App() {
               <Route exact path="/about" element={<About />} />
               <Route exact path="/contact" element={<Contact />} />
             </Routes>
-            <Footer />
+            {/* <Footer /> */}
           </div>
         </div>
       </div>

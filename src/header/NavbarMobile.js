@@ -1,42 +1,52 @@
-import './navbarformobile.css';
+import styles from './navbarmobile.module.css';
 import React, { useState } from 'react';
 // import React from 'react';
 import logo from '../Images/home/LogoDark.png';
-import Modal from 'react-modal';
-import NavbarModal from './NavbarModal';
-
-Modal.setAppElement('#root');
+import { Link } from 'react-router-dom';
 
 function NavbarMobile() {
-
-    const [navbarModalIsOpen, setNavbarModalIsOpen] = useState(true);
-
-    const openNavbarModal = () => {
-        setNavbarModalIsOpen(true);
-    };
-
-    const closeNavbarModal = () => {
-        setNavbarModalIsOpen(false);
-    };
-
+    const [disp, setDisplay] = useState(false);
+    // const [menu, setMenu] = useState(false);
+    const displayShow = () => setDisplay(true);
+    const displayHide = () => setDisplay(false);
+    // const menuOpen = () => setMenu(true);
+    // const menuClose = () => setMenu(false);
 
     return (
         <div>
             <nav className="navbar">
-                <div className='bar'>
-                    <button type="button" onClick={openNavbarModal}>
-                        <div>
-                            <img src={logo} className="logo" alt="logo" />
-                        </div>
-                    </button>
-                    <div className='lucky2'>
-                        <NavbarModal
-                            closeModal={closeNavbarModal}
-                            modalIsOpen={navbarModalIsOpen} />
+                <div className={styles.bar}>
+                    <div className={styles.dropdown}>
+                        {disp ? (
+                            <button type="button" className={styles.link} onClick={displayHide} >
+                                <div>
+                                    <img src={logo} className={styles.logo} alt="logo" />
+                                </div>
+                            </button>
+                        ) :
+                            < button type="button" className={styles.link} onClick={displayShow} >
+                                <div>
+                                    <img src={logo} className={styles.logo} alt="logo" />
+                                </div>
+                            </button>
+                        }
+                        {disp ? (<div onClick={displayHide}>
+                            <div className={styles.dropdownMenu}>
+                                <div className={styles.links}>
+                                    <Link to="/">Home</Link>
+                                    <Link to="/services">Services</Link>
+                                    <Link to="/gallery">Gallery</Link>
+                                    <Link to="/about">About</Link>
+                                    <Link to="/contact">Contact Us</Link>
+                                </div>
+                            </div>
+                        </div>) : null}
+                    </div>
+                    <div className={styles.lucky2}>
                     </div>
                 </div>
-            </nav>
-        </div>
+            </nav >
+        </div >
     );
 }
 

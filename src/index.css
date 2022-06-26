@@ -479,7 +479,7 @@
   border-radius: 30px;
 }
 
-.page{
+/* .page{
   background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('./Images/background.jpeg');
   position: fixed;
   top: 0px;
@@ -489,7 +489,7 @@
   background-size: cover;
   background-position: center;
   z-index: 1;
-}
+} */
 
 .pages {
   position: relative;

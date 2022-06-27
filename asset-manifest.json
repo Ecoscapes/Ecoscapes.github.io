@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/main/static/css/main.e236b419.css",
+    "main.js": "/main/static/js/main.b0d249b8.js",
+    "static/media/Mission.jpg": "/main/static/media/Mission.2fc0899f1c8a31fad89f.jpg",
+    "static/media/Hardscaping.jpg": "/main/static/media/Hardscaping.5b2262437ced71ebcc8a.jpg",
+    "static/media/ServiceImage.png": "/main/static/media/ServiceImage.b82d9b0bfa8da9a9574c.png",
+    "static/media/JoeTwo.jpg": "/main/static/media/JoeTwo.e5861e9f11c89c3ea05d.jpg",
+    "static/media/Permaculture.jpg": "/main/static/media/Permaculture.3a31ec9f21fe0c8d385f.jpg",
+    "static/media/butterflyNLD.jpg": "/main/static/media/butterflyNLD.02551cc0bc01dfe2d3b5.jpg",
+    "static/media/servicePageBackground.jpg": "/main/static/media/servicePageBackground.6bf368db4cc9c39d82ca.jpg",
+    "static/media/dan.jpg": "/main/static/media/dan.84a88b70ff4ba94c5b9b.jpg",
+    "static/media/Arboriculture.jpg": "/main/static/media/Arboriculture.469aea8f543239103578.jpg",
+    "static/media/NativePlantDesign.jpg": "/main/static/media/NativePlantDesign.5e39614b776707642864.jpg",
+    "static/media/background.jpeg": "/main/static/media/background.620e52627297aab8fb84.jpeg",
+    "static/media/StormWaterManagementService.jpg": "/main/static/media/StormWaterManagementService.744204978fab80e2f8ef.jpg",
+    "static/media/LogoDark.png": "/main/static/media/LogoDark.fac40720a0176834ed5e.png",
+    "static/media/Arborculture.jpg": "/main/static/media/Arborculture.36354bf1a90ae1ad2833.jpg",
+    "static/media/GeneralLandscaping.jpg": "/main/static/media/GeneralLandscaping.0ff37710a1a2eb2966df.jpg",
+    "static/media/OutdoorKitchen.jpg": "/main/static/media/OutdoorKitchen.500f8e9771fc8c9796b0.jpg",
+    "static/media/invert.png": "/main/static/media/invert.8a1d13960153a7917239.png",
+    "static/media/instagram.png": "/main/static/media/instagram.ad55f885cad9dc61466e.png",
+    "static/media/phone-square.png": "/main/static/media/phone-square.bf6beb5fe0adc1d6947e.png",
+    "static/media/email-icon.png": "/main/static/media/email-icon.adced8ac2a645a33c77f.png",
+    "index.html": "/main/index.html",
+    "main.e236b419.css.map": "/main/static/css/main.e236b419.css.map",
+    "main.b0d249b8.js.map": "/main/static/js/main.b0d249b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e236b419.css",
+    "static/js/main.b0d249b8.js"
+  ]
+}

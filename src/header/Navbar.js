@@ -1,6 +1,6 @@
-// import NavbarDesktop from './NavbarDesktop';
+import NavbarDesktop from './NavbarDesktop';
 import NavbarMobile from './NavbarMobile';
-// import { isMobile } from "react-device-detect";
+import { isMobile } from "react-device-detect";
 
 
 var mobile = true;
@@ -13,7 +13,7 @@ var mobile = true;
 const Navbar = () => {
     return ( 
         <div>
-            { mobile ? <NavbarMobile /> : <NavbarMobile />}
+            { isMobile ? <NavbarMobile /> : <NavbarDesktop />}
         </div>
     );
 }

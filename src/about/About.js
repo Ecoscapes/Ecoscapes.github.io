@@ -1,5 +1,5 @@
 import { isMobile } from "react-device-detect";
-// import AboutDesktop from "./AboutDesktop.js";
+import AboutDesktop from "./AboutDesktop";
 import AboutMobile from "./AboutMobile.js";
 
 
@@ -14,7 +14,7 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
 const About = () => {
     return (
         <div>
-            {mobile ? <AboutMobile /> : <AboutMobile />}
+            { isMobile ? <AboutMobile /> : <AboutDesktop />}
         </div>
     );
 }

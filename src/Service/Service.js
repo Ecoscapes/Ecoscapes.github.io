@@ -1,4 +1,4 @@
-// import { isMobile } from "react-device-detect";
+import { isMobile } from "react-device-detect";
 import ServiceDesktop from "./ServiceDesktop.js";
 import ServiceMobile from "./ServiceMobile.js";
 
@@ -15,7 +15,7 @@ const Service = () => {
 return ( 
     <div>
         <div>
-            { mobile ? <ServiceMobile /> : <ServiceDesktop />}
+            { isMobile ? <ServiceMobile /> : <ServiceDesktop />}
         </div>
     </div>
  );

@@ -6,6 +6,7 @@ import instagram from '../Images/instagram.png';
 import phone from '../Images/phone-square.png';
 import email from '../Images/email-icon.png';
 import { Link } from 'react-router-dom';
+import Carousel, { CarouselItem } from "../Carousel/Carousel.js"
 
 
 const Home = () => {
@@ -189,15 +190,18 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className={styles.galleryhighlight}>
-                <div>
-                </div>
-                <div>
-                </div>
-                <div>
-                </div>
-                <div>
-                </div>
+            <div className='galleryhighlight'>
+                <Carousel>
+                    <CarouselItem><div className='imageOne'></div></CarouselItem>
+                    <CarouselItem><div className='imageTwo'></div></CarouselItem>
+                    <CarouselItem><div className='imageThree'></div></CarouselItem>
+                    <CarouselItem><div className='imageFour'></div></CarouselItem>
+                    <CarouselItem><div className='imageFive'></div></CarouselItem>
+                    <CarouselItem><div className='imageSix'></div></CarouselItem>
+                    <CarouselItem><div className='imageSeven'></div></CarouselItem>
+                    <CarouselItem><div className='imageEight'></div></CarouselItem>
+                    <CarouselItem><div className='imageNine'></div></CarouselItem>
+                </Carousel>
             </div>
         </div>
     );

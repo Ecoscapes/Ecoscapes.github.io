@@ -257,6 +257,9 @@
   margin-bottom: 8em;
 }
 
+.gallery{
+  padding-top: 10rem;
+}
 
 .hardscapebackground{
   display: grid;

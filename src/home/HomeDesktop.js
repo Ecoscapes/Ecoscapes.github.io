@@ -1,10 +1,13 @@
 import './homedesktopA.css';
 // import logo from './Images/invert.png';
 // import logo from './Images/home/landing.PNG';
+// import Carousel from '../Carousel/Carousel';
+import Carousel, { CarouselItem } from "../Carousel/Carousel.js"
 import facebook from '../Images/facebook.png';
 import instagram from '../Images/instagram.png';
 import phone from '../Images/phone-square.png';
 import email from '../Images/email-icon.png';
+import one from '../Images/Gallery/1.jpg';
 import { Link } from 'react-router-dom';
 
 
@@ -199,14 +202,17 @@ const HomeDesktop = () => {
                 </div>
             </div>
             <div className='galleryhighlight'>
-                <div>
-                </div>
-                <div>
-                </div>
-                <div>
-                </div>
-                <div>
-                </div>
+                <Carousel>
+                    <CarouselItem><div className='imageOne'></div></CarouselItem>
+                    <CarouselItem><div className='imageTwo'></div></CarouselItem>
+                    <CarouselItem><div className='imageThree'></div></CarouselItem>
+                    <CarouselItem><div className='imageFour'></div></CarouselItem>
+                    <CarouselItem><div className='imageFive'></div></CarouselItem>
+                    <CarouselItem><div className='imageSix'></div></CarouselItem>
+                    <CarouselItem><div className='imageSeven'></div></CarouselItem>
+                    <CarouselItem><div className='imageEight'></div></CarouselItem>
+                    <CarouselItem><div className='imageNine'></div></CarouselItem>
+                </Carousel>
             </div>
         </div>
     );

@@ -11,7 +11,7 @@ const Hardscapes = "Ecoscapes works closely with you to create a beautiful "
     + "and practical outdoor space customized to meet your unique needs. Ecoscapes designs "
     + "focus on the unique goals and needs of each client, "
     + "From patios and firepits to walkways and more, our projects utilize local, affordable and "
-    + "premium materials  including interlocking concrete pavers and natural stone.";
+    + "premium materials  including interlocking concrete pavers and natural stone."
     + "The products we use are carefully selected to best suit your hardscape vision.";
 
 const Arboriculture = "International Society of Arboriculture (ISA) certification demonstrates knowledge "

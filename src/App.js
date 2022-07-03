@@ -6,18 +6,19 @@ import About from './about/About';
 import Gallery from './Gallery'
 import Service from './Service/Service'
 import Contact from './contact/Contact';
-import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-
+import ScrollToTop from './utilities/ScrollToTop';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
 
   return (
     <Router>
       <div className="App">
-      <Navbar />
+        <Navbar />
         <div className='content'>
           <div className='page'></div>
           <div className='pages'>
+            <ScrollToTop />
             <Routes>
               <Route exact path="/" element={<Home />} />
               <Route exact path="/gallery" element={<Gallery />} />

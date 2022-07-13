@@ -1,21 +1,13 @@
-import { isMobile } from "react-device-detect";
 import ServiceDesktop from "./ServiceDesktop.js";
 import ServiceMobile from "./ServiceMobile.js";
-
-
-var mobile = true;
-
-// if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-//     mobile = true;    
-// }
-
+import { isOnMobile } from '../utilities/isUserOnMobile';
 
 
 const Service = () => {
 return ( 
     <div>
         <div>
-            { isMobile ? <ServiceMobile /> : <ServiceDesktop />}
+            { isOnMobile ? <ServiceMobile /> : <ServiceDesktop />}
         </div>
     </div>
  );

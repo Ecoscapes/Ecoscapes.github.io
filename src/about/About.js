@@ -1,20 +1,12 @@
-import { isMobile } from "react-device-detect";
+import { isOnMobile } from '../utilities/isUserOnMobile';
 import AboutDesktop from "./AboutDesktop";
 import AboutMobile from "./AboutMobile.js";
-
-
-var mobile = false;
-
-if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-    mobile = true;    
-}
-
 
 
 const About = () => {
     return (
         <div>
-            { isMobile ? <AboutMobile /> : <AboutDesktop />}
+            { isOnMobile ? <AboutMobile /> : <AboutDesktop />}
         </div>
     );
 }

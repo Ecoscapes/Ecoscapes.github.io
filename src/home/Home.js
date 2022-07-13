@@ -1,4 +1,4 @@
-import { isMobile } from "react-device-detect";
+import { isOnMobile } from '../utilities/isUserOnMobile';
 import HomeDesktop from "./HomeDesktop.js";
 import HomeMobile from "./HomeMobile.js";
 
@@ -6,7 +6,7 @@ import HomeMobile from "./HomeMobile.js";
 const Home = () => {
     return (
         <div>
-            {isMobile ? <HomeMobile /> : <HomeDesktop />}
+            {isOnMobile ? <HomeMobile /> : <HomeDesktop />}
         </div>
     );
 }

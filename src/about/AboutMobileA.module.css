@@ -110,10 +110,13 @@
 .danimg {
   background-image: url('../Images/dan.jpg');
   display: grid;
+  justify-self: center;
+  background-position: top;
   background-size: cover;
-  background-position: center;
-  height: 40vh;
-  width: 100vw;
+  background-position: top; 
+  height: 300px;
+  width: 350px;
+  border-radius: 30px;
 }
 
 .font {
@@ -158,13 +161,14 @@
 .joeimg {
   background-image: url('../Images/JoeTwo.jpg');
   display: grid;
+  margin-top: 1em;
+  justify-self: center;
+  background-position: top;
   background-size: cover;
-  background-position: center;
-  height: 40vh;
-  width: 100vw;
-  /* border-radius: 30px; */
-  /* background-size: 100vw;
-  background-position: center; */
+  background-position: top; 
+  height: 300px;
+  width: 350px;
+  border-radius: 30px;
 }
 
 .missioncontainer {
@@ -174,10 +178,14 @@
 
 .missionimagecontainer {
   background-image: url('../Images/about/Mission.jpg');
-  height: 40vh;
-  width: 100vw;
-  background-size: cover;
+  display: grid;
+  justify-self: center;
   background-position: top;
+  background-size: cover;
+  background-position: top; 
+  height: 300px;
+  width: 350px;
+  border-radius: 30px;
 }
 
 .page {

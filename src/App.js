@@ -8,6 +8,7 @@ import Service from './Service/Service'
 import Contact from './contact/Contact';
 import ScrollToTop from './utilities/ScrollToTop';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import React from 'react';
 
 function App() {
 

@@ -1,7 +1,5 @@
 import './homedesktopA.css';
-// import logo from './Images/invert.png';
-// import logo from './Images/home/landing.PNG';
-// import Carousel from '../Carousel/Carousel';
+import React from 'react';
 import Carousel, { CarouselItem } from "../Carousel/Carousel.js"
 import facebook from '../Images/facebook.png';
 import instagram from '../Images/instagram.png';

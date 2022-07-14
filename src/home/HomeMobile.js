@@ -1,6 +1,5 @@
 import styles from './HomeMobileA.module.css';
-// import logo from './Images/invert.png';
-// import logo from './Images/home/landing.PNG';
+import React from 'react';
 import facebook from '../Images/facebook.png';
 import instagram from '../Images/instagram.png';
 import phone from '../Images/phone-square.png';

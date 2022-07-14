@@ -1,4 +1,5 @@
 import styles from './AboutMobileA.module.css';
+import React from 'react';
 
 const dantext = "Dan Thompson, partner at Ecoscapes LLC is a business major with a background in sales. "
     + "In his 7+ years selling millions in hardscaping and masonry materials, he fell in love "

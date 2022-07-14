@@ -1,4 +1,5 @@
 import { isOnMobile } from '../utilities/isUserOnMobile';
+import React from 'react';
 import HomeDesktop from "./HomeDesktop.js";
 import HomeMobile from "./HomeMobile.js";
 

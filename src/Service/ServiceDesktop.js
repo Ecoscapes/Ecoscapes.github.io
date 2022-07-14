@@ -1,5 +1,6 @@
 // import './index.css';
 import './service.css';
+import React from 'react';
 
 const NLD = "Do you love the idea of planting to feed wildlife but don't know where to start? "
     + "Let Ecoscapes use their deep-rooted botanical knowledge to design your site specific native "

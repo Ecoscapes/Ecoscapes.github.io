@@ -1,4 +1,5 @@
 import './contactdesktop.css';
+import React from 'react';
 import phone from '../Images/phone-square.png';
 import email from '../Images/email-icon.png';
 

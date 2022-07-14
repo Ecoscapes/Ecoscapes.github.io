@@ -52,7 +52,7 @@ const ServiceMobile = () => {
             </div>
             <div className={styles.service}>
                 <div className={styles.serviceheadercontainer}>
-                    <h2 className={styles.serviceheader}>Native Landscaping Design</h2>
+                    <h2 className={styles.serviceheader}>Native Landscape Design</h2>
                 </div>
                 <div className={styles.backdrop}>
                     <div className={styles.bodytwo}>

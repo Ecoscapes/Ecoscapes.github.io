@@ -90,7 +90,7 @@ return (
         </div>
         <div className="service">
             <div className='serviceheadercontainer'>
-                <h2 className='serviceheader'>Native Landscaping Design</h2>
+                <h2 className='serviceheader'>Native Landscape Design</h2>
             </div>
             <div className='backdrop'>
                 <div className='bodytwo'>

@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 // import React from 'react';
 import logo from '../Images/home/LogoDark.png';
 import { Link } from 'react-router-dom';
+import MenuIcon from '@mui/icons-material/Menu';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 function NavbarMobile() {
     const [disp, setDisplay] = useState(false);
@@ -22,11 +24,17 @@ function NavbarMobile() {
                                 <div>
                                     <img src={logo} className={styles.logo} alt="logo" />
                                 </div>
+                                <div  className={styles.menuIcon}>
+                                    <ExpandMoreIcon />
+                                </div>
                             </button>
                         ) :
                             < button type="button" className={styles.link} onClick={displayShow} >
                                 <div>
                                     <img src={logo} className={styles.logo} alt="logo" />
+                                </div>
+                                <div  className={styles.menuIcon}>
+                                    <MenuIcon />
                                 </div>
                             </button>
                         }

@@ -61,7 +61,12 @@
 }
 
 .link {
+  display: grid;
+  grid-template-columns: 1fr .1fr;
+  background-color: rgb(123, 190, 123);
   justify-self: center;
+  border: none;
+  outline: none;
 }
 
 .links{
@@ -72,12 +77,22 @@
 }
 
 .logo{
-    display: grid;
-    justify-content: left; 
-    max-width: 60vw; 
-    margin-right: 100px;
-    background-color: rgb(123, 190, 123);
-  }
+  display: grid;
+  /* justify-content: left;  */
+  justify-self: center;
+  width: 80vw; 
+  /* margin-right: 100px; */
+  background-color: rgb(123, 190, 123);
+}
+
+.menuIcon {
+  display: grid;
+  position: relative;
+  background-color: rgb(123, 190, 123);
+  align-self: center;
+  margin-left: 1em;
+  width: 20vw;
+}
   
 
 .navbar {

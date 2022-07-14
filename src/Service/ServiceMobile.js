@@ -1,4 +1,3 @@
-// import './index.css';
 import styles from './ServiceMobile.module.css';
 
 const NLD = "Do you love the idea of planting to feed wildlife but don't know where to start? "

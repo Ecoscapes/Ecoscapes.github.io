@@ -112,9 +112,9 @@ const HomeDesktop = () => {
                                         <p className='centertext'>Hardscaping</p>
                                         <div>
                                             <p className='bulletpoints'>Patios</p>
-                                            {/* <p className='bulletpoints'>Garden Walls</p> */}
                                             <p className='bulletpoints'>Walkways</p>
                                             <p className='bulletpoints'>Firepits</p>
+                                            <p className='bulletpoints'>And More</p>
                                         </div>
                                     </div>
                                 </div>
@@ -125,6 +125,7 @@ const HomeDesktop = () => {
                                             <p className='bulletpoints'>Design</p>
                                             <p className='bulletpoints'>Install</p>
                                             <p className='bulletpoints'>Maintain</p>
+                                            <p className='bulletpoints'>And More</p>
                                         </div>
                                     </div>
                                 </div>
@@ -135,6 +136,7 @@ const HomeDesktop = () => {
                                             <p className='bulletpoints'>Rain Gardens</p>
                                             <p className='bulletpoints'>Erosion Control</p>
                                             <p className='bulletpoints'>Steambank Stabilization</p>
+                                            <p className='bulletpoints'>And More</p>
                                         </div>
                                     </div>
                                 </div>
@@ -147,6 +149,7 @@ const HomeDesktop = () => {
                                             <p className='bulletpoints'>Edible Landscaping</p>
                                             <p className='bulletpoints'>Homestead Design</p>
                                             <p className='bulletpoints'>Education</p>
+                                            <p className='bulletpoints'>And More</p>
                                         </div>
                                     </div>
                                 </div>
@@ -157,6 +160,7 @@ const HomeDesktop = () => {
                                             <p className='bulletpoints'>Consult</p>
                                             <p className='bulletpoints'>Pruning</p>
                                             <p className='bulletpoints'>Removals</p>
+                                            <p className='bulletpoints'>And More</p>
                                         </div>
                                     </div>
                                 </div>

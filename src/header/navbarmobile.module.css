@@ -80,7 +80,8 @@
   display: grid;
   /* justify-content: left;  */
   justify-self: center;
-  width: 80vw; 
+  /* width: 80vw;  */
+  height: 10vh;
   /* margin-right: 100px; */
   background-color: rgb(123, 190, 123);
 }
@@ -108,7 +109,7 @@
   /* transform: translateX(-50%); */
   top: 0;
   margin: 0 auto 0 auto;
-  border-bottom: 1px solid #c5c4c4;
+  border-bottom: 10px solid #c5c4c4;
   z-index: 3;
 }
 

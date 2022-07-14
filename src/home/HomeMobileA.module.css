@@ -40,8 +40,8 @@
   background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../Images/home/Arboriculture.jpg');
   background-size: cover;
   background-position: center; 
-  height: 300px;
-  width: 350px;
+  height: 250px;
+  width: 300px;
   border-radius: 30px;
 }
 
@@ -70,7 +70,7 @@
   margin: 0;
   padding: 10px;
   max-width: 1250px;
-  font-size: 1.7em;
+  font-size: 1.em;
   font-weight: 600;
   text-align: center;
   color: rgb(215, 215, 215);
@@ -126,7 +126,7 @@
 .choosetext{
   color: whitesmoke;
   font-size: 1.2em;
-  max-width: 400px;
+  max-width: 300px;
 }
 
 .chooseheader{
@@ -183,13 +183,13 @@
   display: grid;
   background: transparent;
   height: 40px;
-  margin: 11em .5em 4em .5em;
+  margin: 20vh .9vw 8vh .9vh;
 }
 
 .fb{
   background: transparent;
   height: 40px;
-  margin: 11em .5em 4em .5em;
+  margin: 20vh .9vw 8vh .9vh;
 }
 
 .fields{
@@ -263,8 +263,8 @@
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../Images/home/Hardscaping.jpg');
   background-size: cover;
   background-position: center; 
-  height: 300px;
-  width: 350px;
+  height: 250px;
+  width: 300px;
   border-radius: 30px;
 }
 
@@ -279,14 +279,14 @@
 }
 
 .home {
-  margin-top: 100px;
+  /* margin-top: 100px; */
 }
 
 .insta{
   background-color: transparent;
   height: 40px;
   /* margin: 0em; */
-  margin: 11em .5em 4em .5em;
+  margin: 20vh .9vw 8vh .9vh;
 }
 
 .instabook{
@@ -306,15 +306,15 @@
 
 .landing {
   display: grid;
-  margin-top: 13.5em;
-  margin-bottom: 7em;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
   justify-content: center;
   background-color: transparent;
 }
 
 .landingcontainer{
-  /* display: grid; */
-  /* height: 100vh; */
+  display: grid;
+  height: 100vh;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
@@ -335,10 +335,11 @@
 
 .ecosapeslanding
 {
+  display: grid;
   font-family: "Merienda One";
-  font-size: 4em;
+  font-size: 3.7em;
   font-weight: 100;
-  color: whitesmoke
+  color: whitesmoke;
 }
 
 .llclanding
@@ -379,8 +380,8 @@
   background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../Images/home/NativePlantDesign.jpg');
   background-size: cover;
   background-position: center; 
-  height: 300px;
-  width: 350px;
+  height: 250px;
+  width: 300px;
   border-radius: 30px;
 }
 
@@ -389,10 +390,14 @@
   background: url('../Images/services/butterflyNLD.jpg');
   background-size: cover;
   background-position: center; 
-  height: 350px;
-  width: 400px;
+  height: 250px;
+  width: 300px;
   border-radius: 30px;
 }
+
+p {
+  margin: 12px;
+} 
 
 .page{
   background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../Images/background.jpeg');
@@ -415,7 +420,7 @@
   background: transparent;
   height: 40px;
   margin: 0em;
-  margin: 11em .5em 4em .5em;
+  margin: 20vh .9vw 8vh .9vh;
 }
 
 .phonecontact{
@@ -440,14 +445,6 @@
   margin: 0em .5em 0em 0em;
 }
 
-.phonetext{
-  display: grid;
-  color: white;
-  font-weight: 600;
-  font-size: 40px;
-  margin-top: 0em;
-}
-
 .phonecontacttext{
   display: grid;
   color: white;
@@ -456,12 +453,20 @@
   margin-bottom: 10px;
 }
 
+.phonetext{
+  display: grid;
+  color: white;
+  font-weight: 600;
+  font-size: 40px;
+  margin-top: 0em;
+}
+
 .phonetextcontainer{
   display: grid;
   align-items: top;
   align-content: top;
   align-self: top;
-  margin: 20px;
+  margin-bottom: 2vh;
 }
 
 .permaculturebackground{
@@ -469,8 +474,8 @@
   background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../Images/home/Permaculture.jpg');
   background-size: cover;
   background-position: center; 
-  height: 300px;
-  width: 350px;
+  height: 250px;
+  width: 300px;
   border-radius: 30px;
 }
 
@@ -571,7 +576,7 @@
   display: grid;
   justify-content: center;
   align-content: center;
-  width: 400px;
+  width: 300px;
   font-size: 1.em;
   font-weight: 600;
   background: whitesmoke;
@@ -586,7 +591,7 @@
 .socialmedia{
   display: grid;
   justify-content: center;
-  margin-top: 2.5em;
+  margin-top: 0vh;
 }
 
 .submitbutton{
@@ -602,8 +607,8 @@
   background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../Images/ServiceImage.png');
   background-size: cover;
   background-position: center; 
-  height: 300px;
-  width: 350px;
+  height: 250px;
+  width: 300px;
   border-radius: 30px;
 }
 
@@ -612,8 +617,8 @@
   background: url('../Images/services/StormWaterManagementService.jpg');
   background-size: cover;
   background-position: center; 
-  height: 350px;
-  width: 400px;
+  height: 250px;
+  width: 300px;
   border-radius: 30px;
 }
 
@@ -622,8 +627,8 @@
   background: url('../Images/services/Permaculture.jpg');
   background-size: cover;
   background-position: center; 
-  height: 350px;
-  width: 400px;
+  height: 250px;
+  width: 300px;
   border-radius: 30px;
 }
 
@@ -634,8 +639,8 @@
   background: url('../Images/services/Arborculture.jpg');
   background-size: cover;
   background-position: center; 
-  height: 350px;
-  width: 400px;
+  height: 250px;
+  width: 300px;
   border-radius: 30px;
 }
 
@@ -644,8 +649,8 @@
   background: url('../Images/services/OutdoorKitchen.jpg');
   background-size: cover;
   background-position: center; 
-  height: 350px;
-  width: 400px;
+  height: 250px;
+  width: 300px;
   border-radius: 30px;
 }
 
@@ -654,8 +659,8 @@
   background: url('../Images/services/Hardscaping.jpg');
   background-size: cover;
   background-position: center; 
-  height: 350px;
-  width: 400px;
+  height: 250px;
+  width: 300px;
   border-radius: 30px;
 }
 
@@ -664,8 +669,8 @@
   background: url('../Images/services/GeneralLandscaping.jpg');
   background-size: cover;
   background-position: center; 
-  height: 350px;
-  width: 400px;
+  height: 250px;
+  width: 300px;
   border-radius: 30px;
 }
 

@@ -183,13 +183,13 @@
   display: grid;
   background: transparent;
   height: 40px;
-  margin: 20vh .9vw 8vh .9vh;
+  margin: 12vh .9vw 8vh .9vh;
 }
 
 .fb{
   background: transparent;
   height: 40px;
-  margin: 20vh .9vw 8vh .9vh;
+  margin: 12vh .9vw 8vh .9vh;
 }
 
 .fields{
@@ -286,7 +286,7 @@
   background-color: transparent;
   height: 40px;
   /* margin: 0em; */
-  margin: 20vh .9vw 8vh .9vh;
+  margin: 12vh .9vw 8vh .9vh;
 }
 
 .instabook{
@@ -420,7 +420,7 @@ p {
   background: transparent;
   height: 40px;
   margin: 0em;
-  margin: 20vh .9vw 8vh .9vh;
+  margin: 12vh .9vw 8vh .9vh;
 }
 
 .phonecontact{
@@ -466,7 +466,7 @@ p {
   align-items: top;
   align-content: top;
   align-self: top;
-  margin-bottom: 2vh;
+  margin-bottom: 6vh;
 }
 
 .permaculturebackground{

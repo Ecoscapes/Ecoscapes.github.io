@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/4c54a24b-82bc-45fa-816b-22024584b635/microsoft.web/sites/subscriptions/4c54a24b-82bc-45fa-816b-22024584b635/resourceGroups/Ecoscapes-react-static-web-app/providers/Microsoft.Web/sites/Ecoscapes",
+    "appService.deploySubpath": "."
+}

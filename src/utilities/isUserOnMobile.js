@@ -1,6 +1,6 @@
 import { isMobile } from "react-device-detect";
 
-// var isOnMobile = true;
+// var isOnMobile = true;Y
 // var isOnMobile = false;
 var isOnMobile = isMobile;
 

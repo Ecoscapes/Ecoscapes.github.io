@@ -5,7 +5,7 @@ import facebook from '../Images/facebook.png';
 import instagram from '../Images/instagram.png';
 import phone from '../Images/phone-square.png';
 import email from '../Images/email-icon.png';
-import one from '../Images/Gallery/1.jpg';
+// import one from '../Images/Gallery/1.jpg';
 import { Link } from 'react-router-dom';
 
 

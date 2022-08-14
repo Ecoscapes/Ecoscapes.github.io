@@ -3,7 +3,7 @@ import React from 'react';
 import phone from '../Images/phone-square.png';
 import email from '../Images/email-icon.png';
 
-const contactYou = "WE would love to reach out to you please select prefered method and time for us to Contact You.";
+// const contactYou = "WE would love to reach out to you please select prefered method and time for us to Contact You.";
 
 const ContactMobile = () => {
     return ( 

@@ -753,3 +753,328 @@ p {
   color: whitesmoke;
   margin: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.carousel {
+  overflow: hidden;
+}
+
+.inner {
+  white-space: nowrap;
+  transition: transform 0.3s;
+}
+
+.carousel-item {
+  display: inline-flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  /* background-color: rgb(123, 190, 123); */
+  /* background-color: rgb(223, 230, 203); */
+  color: #fff;
+}
+
+
+
+.indicators {
+  display: flex;
+  justify-content: center;
+}
+
+.indicators > button {
+  margin: 5px;
+}
+
+.indicators > button.active {
+  background-color: green;
+  color: #fff;
+}
+
+.imageOne{
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../Images/Gallery/1.png');
+  display: block;
+  position: absolute;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80vh;
+  width: 100vw;
+  padding:0;
+
+}
+
+/* .imageTwo{
+  display: grid;
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../Images/Gallery/2.jpg');
+  background-position: center; 
+  height: 80vh;
+  width: 100vw;
+} */
+
+  .imageTwo{
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../Images/Gallery/2.jpg');
+  display: block;
+  position: absolute;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80vh;
+  width: 100vw;
+  padding:0;
+
+}
+
+.imageThree{
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../Images/Gallery/3.jpg');
+  display: block;
+  position: absolute;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80vh;
+  width: 100vw;
+  padding:0;
+}
+
+.imageFour{
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../Images/Gallery/4.jpg');
+  display: block;
+  position: absolute;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80vh;
+  width: 100vw;
+  padding:0;
+}
+
+.imageFive{
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../Images/Gallery/5.jpg');
+  display: block;
+  position: absolute;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80vh;
+  width: 100vw;
+  padding:0;
+}
+
+.imageSix{
+
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../Images/Gallery/6.jpg');
+  display: block;
+  position: absolute;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80vh;
+  width: 100vw;
+  padding:0;
+}
+
+.imageSeven{
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../Images/Gallery/7.jpg');
+  display: block;
+  position: absolute;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80vh;
+  width: 100vw;
+  padding:0;
+}
+
+.imageEight{
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../Images/Gallery/8.png');
+  display: block;
+  position: absolute;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80vh;
+  width: 100vw;
+  padding:0;
+}
+
+.imageNine{
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../Images/Gallery/9.jpg');
+  display: block;
+  position: absolute;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80vh;
+  width: 100vw;
+  padding:0;
+}
+
+.imageA{
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../Images/Gallery/A.jpg');
+  display: block;
+  position: absolute;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80vh;
+  width: 100vw;
+  padding:0;
+}
+
+.imageB{
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../Images/Gallery/B.jpg');
+  display: block;
+  position: absolute;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80vh;
+  width: 100vw;
+  padding:0;
+}
+
+.imageC{
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../Images/Gallery/C.jpg');
+  display: block;
+  position: absolute;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80vh;
+  width: 100vw;
+  padding:0;
+}
+
+.imageD{
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../Images/Gallery/D.jpg');
+  display: block;
+  position: absolute;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80vh;
+  width: 100vw;
+  padding:0;
+}
+
+.imageE{
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../Images/Gallery/E.jpg');
+  display: block;
+  position: absolute;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80vh;
+  width: 100vw;
+  padding:0;
+}
+
+.imageF{
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../Images/Gallery/F.jpg');
+  display: block;
+  position: absolute;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80vh;
+  width: 100vw;
+  padding:0;
+}
+
+.imageG{
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../Images/Gallery/G.jpg');
+  display: block;
+  position: absolute;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80vh;
+  width: 100vw;
+  padding:0;
+}
+
+.imageH{
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../Images/Gallery/H.jpg');
+  display: block;
+  position: absolute;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80vh;
+  width: 100vw;
+  padding:0;
+}
+
+.imageI{
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../Images/Gallery/I.jpg');
+  display: block;
+  position: absolute;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80vh;
+  width: 100vw;
+  padding:0;
+}
+.imageJ{
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../Images/Gallery/I.jpg');
+  display: block;
+  position: absolute;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80vh;
+  width: 100vw;
+  padding:0;
+}

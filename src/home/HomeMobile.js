@@ -41,12 +41,14 @@ const Home = () => {
         + "permaculture design principles to create landscapes and hardscapes that "
         + "are beautiful, functional, and eco-friendly. We love to incorporate native, "
         + "pollinator-friendly plants in our designs as well as other ethnobotanically "
-        + "significant plants that offer us food, medicine, and more!";
+        + "significant plants that offer us food, medicine, and more! "
+        + "We compost our yard waste, repurpose our construction scraps and stack vehicle trips in an effort "
+        + "to Reduce, Reuse, Recycle";
 
 
     const idividualized = "We provide our customers with individualized solutions to their unique landscaping "
         + "and hardscaping needs. Your property's site-specific conditions are carefully "
-        + "documented and utilized to develop installations that work in agreement with your "
+        + "analyzed to develop installations that work in agreement with your "
         + "landscape. Our designs always strive to find the perfect fit for our clients while "
         + "taking into consideration both aesthetics and functionality. Ecoscapes works closely "
         + "with you through each step of the process to turn your vision into a reality.";
@@ -97,7 +99,7 @@ const Home = () => {
             <div className={styles.servicescontainer}>
                 <div className={styles.backdrop}>
                     <div className={styles.header}>
-                        <h1>Services</h1>
+                        <h3>Services</h3>
                     </div>
                     <div className={styles.body}>
                         <div className={styles.services}>
@@ -108,7 +110,7 @@ const Home = () => {
                                         <p className={styles.bulletpoints}>Patios</p>
                                         <p className={styles.bulletpoints}>Walkways</p>
                                         <p className={styles.bulletpoints}>Firepits</p>
-                                        <p className={styles.bulletpoints}>And More</p>
+                                        <p className={styles.bulletpoints}>and more</p>
                                     </div>
                                 </div>
                             </div>
@@ -119,7 +121,7 @@ const Home = () => {
                                         <p className={styles.bulletpoints}>Design</p>
                                         <p className={styles.bulletpoints}>Install</p>
                                         <p className={styles.bulletpoints}>Maintain</p>
-                                        <p className={styles.bulletpoints}>And More</p>
+                                        <p className={styles.bulletpoints}>and more</p>
                                     </div>
                                 </div>
                             </div>
@@ -130,7 +132,7 @@ const Home = () => {
                                         <p className={styles.bulletpoints}>Rain Gardens</p>
                                         <p className={styles.bulletpoints}>Erosion Control</p>
                                         <p className={styles.bulletpoints}>Steambank Stabilization</p>
-                                        <p className={styles.bulletpoints}>And More</p>
+                                        <p className={styles.bulletpoints}>and more</p>
                                     </div>
                                 </div>
                             </div>
@@ -141,7 +143,7 @@ const Home = () => {
                                         <p className={styles.bulletpoints}>Edible Landscaping</p>
                                         <p className={styles.bulletpoints}>Homestead Design</p>
                                         <p className={styles.bulletpoints}>Education</p>
-                                        <p className={styles.bulletpoints}>And More</p>
+                                        <p className={styles.bulletpoints}>and more</p>
                                     </div>
                                 </div>
                             </div>
@@ -152,7 +154,7 @@ const Home = () => {
                                         <p className={styles.bulletpoints}>Consult</p>
                                         <p className={styles.bulletpoints}>Pruning</p>
                                         <p className={styles.bulletpoints}>Removals</p>
-                                        <p className={styles.bulletpoints}>And More</p>
+                                        <p className={styles.bulletpoints}>and more</p>
                                     </div>
                                 </div>
                             </div>

@@ -42,12 +42,14 @@ const HomeDesktop = () => {
         + "permaculture design principles to create landscapes and hardscapes that "
         + "are beautiful, functional, and eco-friendly. We love to incorporate native, "
         + "pollinator-friendly plants in our designs as well as other ethnobotanically "
-        + "significant plants that offer us food, medicine, and more!";
+        + "significant plants that offer us food, medicine, and more! "
+        + "We compost our yard waste, repurpose our construction scraps and stack vehicle trips in an effort "
+        + "to Reduce, Reuse, Recycle";
 
 
     const idividualized = "We provide our customers with individualized solutions to their unique landscaping "
         + "and hardscaping needs. Your property's site-specific conditions are carefully "
-        + "documented and utilized to develop installations that work in agreement with your "
+        + "analyzed to develop installations that work in agreement with your "
         + "landscape. Our designs always strive to find the perfect fit for our clients while "
         + "taking into consideration both aesthetics and functionality. Ecoscapes works closely "
         + "with you through each step of the process to turn your vision into a reality.";
@@ -102,7 +104,7 @@ const HomeDesktop = () => {
             <div className='servicescontainer'>
                 <div className='backdrop'>
                     <div className="header">
-                        <h1>Services</h1>
+                    <h1 className='servicesSectionHeader'>Services</h1>
                     </div>
                     <div className='body'>
                         <div className='services'>
@@ -114,7 +116,7 @@ const HomeDesktop = () => {
                                             <p className='bulletpoints'>Patios</p>
                                             <p className='bulletpoints'>Walkways</p>
                                             <p className='bulletpoints'>Firepits</p>
-                                            <p className='bulletpoints'>And More</p>
+                                            <p className='bulletpoints'>and more</p>
                                         </div>
                                     </div>
                                 </div>
@@ -125,7 +127,7 @@ const HomeDesktop = () => {
                                             <p className='bulletpoints'>Design</p>
                                             <p className='bulletpoints'>Install</p>
                                             <p className='bulletpoints'>Maintain</p>
-                                            <p className='bulletpoints'>And More</p>
+                                            <p className='bulletpoints'>and more</p>
                                         </div>
                                     </div>
                                 </div>
@@ -136,7 +138,7 @@ const HomeDesktop = () => {
                                             <p className='bulletpoints'>Rain Gardens</p>
                                             <p className='bulletpoints'>Erosion Control</p>
                                             <p className='bulletpoints'>Steambank Stabilization</p>
-                                            <p className='bulletpoints'>And More</p>
+                                            <p className='bulletpoints'>and more</p>
                                         </div>
                                     </div>
                                 </div>
@@ -149,7 +151,7 @@ const HomeDesktop = () => {
                                             <p className='bulletpoints'>Edible Landscaping</p>
                                             <p className='bulletpoints'>Homestead Design</p>
                                             <p className='bulletpoints'>Education</p>
-                                            <p className='bulletpoints'>And More</p>
+                                            <p className='bulletpoints'>and more</p>
                                         </div>
                                     </div>
                                 </div>
@@ -160,7 +162,7 @@ const HomeDesktop = () => {
                                             <p className='bulletpoints'>Consult</p>
                                             <p className='bulletpoints'>Pruning</p>
                                             <p className='bulletpoints'>Removals</p>
-                                            <p className='bulletpoints'>And More</p>
+                                            <p className='bulletpoints'>and more</p>
                                         </div>
                                     </div>
                                 </div>

@@ -1,10 +1,10 @@
 import styles from './ServiceMobile.module.css';
 import React from 'react';
 
-const NLD = "Do you love the idea of planting to feed wildlife but don't know where to start? "
+const NLD = "Do you love the idea of planting to feed wildlife, but don't know where to start? "
     + "Let Ecoscapes use their deep-rooted botanical knowledge to design your site specific native "
-    + "plant garden today. This is regenerative landscaping aimed at reversing the destructive "
-    + "practices of landscaping with invasive plant species. Landscapes should be planted to look " 
+    + "plant garden today. This is regenerative landscaping aimed at balancing the needs of the "
+    + "property owner and ecosystem alike. Landscapes should be planted to look " 
     + "beautiful and provide ecosystem services.";
 
 const Hardscapes = "Ecoscapes works closely with you to create a beautiful "

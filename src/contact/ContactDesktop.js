@@ -2,10 +2,17 @@ import './contactdesktop.css';
 import React from 'react';
 import phone from '../Images/phone-square.png';
 import email from '../Images/email-icon.png';
+import { useState } from 'react';
+import emailjs from '@emailjs/browser';
 
-// const contactYou = "WE would love to reach out to you please select prefered method and time for us to Contact You.";
 
-const ContactDesktop = () => {
+function ContactDesktop() {
+
+    const handleSubmit = (e) =>{
+        // e.preventDefault()
+        emailjs.sendForm('service_kgo4nbe', 'template_846a8lm', e.target, '2OHicHGfm886qFvFl')
+    }
+
     return ( 
         <div className="about">
             <div className='founders'>
@@ -36,7 +43,7 @@ const ContactDesktop = () => {
                     <div className=''>
                         <h2 className=''>Want us to reach out to you instead?</h2>
                         <div className='fields'>
-                            <form className='form'>
+                            <form className='form' onSubmit={handleSubmit}>
                                 <div className='inputfieldscontainer'>
                                     <label className='label'> 
                                         <div className='labelleft'>
@@ -61,7 +68,7 @@ const ContactDesktop = () => {
                                     <div className='labelleft'>
                                         Comments:
                                     </div>                                
-                                    <textarea name="Text1" cols="180" rows="10"></textarea>
+                                    <textarea name="comments" id="message" cols="180" rows="10"></textarea>
                                     {/* <input type="textarea" cols="40" rows="5" name="comments" /> */}
                                 </label>
                                 <div className='inputsubmit'>
@@ -69,15 +76,6 @@ const ContactDesktop = () => {
                                 </div>
                                 
                             </form>
-                            <div>
-                            
-                            </div>
-                            <div>
-                        
-                            </div>
-                            <div>
-                        
-                            </div>
                         </div>
                     </div>
                 </div>

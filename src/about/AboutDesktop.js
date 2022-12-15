@@ -22,7 +22,7 @@ const mission = "The team at Ecoscapes, LLC is equipped with professional trade 
     + "enjoy your new landscape. We plant the right species in the right place and ensure that every design element "
     + "is properly positioned to achieve maximum functionality. "
 
-const about = "Accountability is paramount at Ecoscapes, llc. We ensure that every task is performed with purpose and respect "
+const about = "Accountability is paramount at Ecoscapes, LLC. We ensure that every task is performed with purpose and respect "
     + "for the environment. The satisfaction that we "
     + "receive from installing the outdoor project of your dreams is what drives us to produce captivating "
     + "results fueled by passion and tenacity. We feel better when we notice our actions improving the lives of others, "

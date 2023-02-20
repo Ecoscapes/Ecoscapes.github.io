@@ -88,9 +88,9 @@ const Home = () => {
                             <div className={styles.clickable} onClick={handleFbClick}>
                                 <img src={facebook} className={styles.fb} alt="facebook logo" />
                             </div>
-                            <div href="mailto:ecoscapesllc@aol.com" className={styles.clickable}>
+                            <a href="mailto:ecoscapesllc@aol.com" className={styles.clickable}>
                                 <img src={email} className={styles.email} alt="email logo" />
-                            </div>
+                            </a>
                             <div className={styles.clickable} onClick={handlePhoneClick}>
                                 <img src={phone} className={styles.phone} alt="phone logo" />
                             </div>

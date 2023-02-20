@@ -1,5 +1,6 @@
 import './homedesktopA.css';
-import React from 'react';
+import { React } from 'react';
+import { useNavigate } from 'react-router-dom';
 import Carousel, { CarouselItem } from "../Carousel/Carousel.js"
 import facebook from '../Images/facebook.png';
 import instagram from '../Images/instagram.png';
@@ -10,6 +11,7 @@ import { Link } from 'react-router-dom';
 
 
 const HomeDesktop = () => {
+    const navigate = useNavigate();
 
     const handleFbClick = () => {
         window.open("https://www.facebook.com/EcoscapesMD/", "_blank");
@@ -17,6 +19,16 @@ const HomeDesktop = () => {
 
     const handleIgClick = () => {
         window.open("https://www.instagram.com/ecoscapes_md/", "_blank");
+    }
+
+    const handleEmailClick = () => {
+        navigate("/contact");
+        
+    }
+
+    const handlePhoneClick = () => {
+        navigate("/contact");
+        
     }
 
     // const titleStatement = "We are an ecologically conscious";
@@ -86,12 +98,12 @@ const HomeDesktop = () => {
                             </div>
                         </div>
                         <div className='emailcontainer'>
-                            <div>
+                            <div className='clickable' onClick={handleEmailClick}>
                                 <img src={email} className="email" alt="email logo" />
                             </div>
                         </div>
                         <div className='phonecontainer'>
-                            <div>
+                            <div className='clickable' onClick={handlePhoneClick}>
                                 <img src={phone} className="phone" alt="phone logo" />
                             </div>
                             <div className='phonetextcontainer'>

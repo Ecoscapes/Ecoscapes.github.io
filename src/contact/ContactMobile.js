@@ -2,8 +2,14 @@ import styles from './ContactMobileA.module.css';
 import React from 'react';
 import phone from '../Images/phone-square.png';
 import email from '../Images/email-icon.png';
+import emailjs from '@emailjs/browser';
 
 // const contactYou = "WE would love to reach out to you please select prefered method and time for us to Contact You.";
+
+const handleSubmit = (e) =>{
+    // e.preventDefault()
+    emailjs.sendForm('service_kgo4nbe', 'template_846a8lm', e.target, '2OHicHGfm886qFvFl')
+}
 
 const ContactMobile = () => {
     return ( 
@@ -36,7 +42,7 @@ const ContactMobile = () => {
                     <div>
                         <h2>Want us to reach out to you instead?</h2>
                         <div className={styles.fields}>
-                            <form className={styles.form}>
+                            <form className={styles.form} onSubmit={handleSubmit}>
                                 <div className={styles.inputfieldscontainer}>
                                     <label className={styles.label}> 
                                         <div className={styles.labelleft}>

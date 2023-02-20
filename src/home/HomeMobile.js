@@ -84,7 +84,7 @@ const Home = () => {
                                 <img src={facebook} className={styles.fb} alt="facebook logo" />
                             </div>
                             <div className={styles.clickable}>
-                                <img src={email} className={styles.email} alt="email logo" />
+                                <img src={email} href="mailto:ecoscapesllc@aol.com" className={styles.email} alt="email logo" />
                             </div>
                             <div className={styles.clickable}>
                                 <img src={phone} className={styles.phone} alt="phone logo" />

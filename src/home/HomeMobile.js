@@ -18,6 +18,11 @@ const Home = () => {
         window.open("https://www.instagram.com/ecoscapes_md/", "_blank");
     }
 
+    const handlePhoneClick = () => {
+        window.open('tel:4435254178')
+    }
+
+
     // const titleStatement = "We are an ecologically conscious";
     // const titleStatementTwo = "Landscaping and Hardscaping company.";
     // const titleStatementThree = "We provide quality, custom-tailored services at an honest price.";
@@ -83,15 +88,15 @@ const Home = () => {
                             <div className={styles.clickable} onClick={handleFbClick}>
                                 <img src={facebook} className={styles.fb} alt="facebook logo" />
                             </div>
-                            <div className={styles.clickable}>
-                                <img src={email} href="mailto:ecoscapesllc@aol.com" className={styles.email} alt="email logo" />
+                            <div href="mailto:ecoscapesllc@aol.com" className={styles.clickable}>
+                                <img src={email} className={styles.email} alt="email logo" />
                             </div>
-                            <div className={styles.clickable}>
+                            <div className={styles.clickable} onClick={handlePhoneClick}>
                                 <img src={phone} className={styles.phone} alt="phone logo" />
                             </div>
                         </div>
                     </div>
-                    <div className={styles.phonetextcontainer}>
+                    <div className={styles.phonetextcontainer} onClick={handlePhoneClick}> 
                         <p className={styles.phonetext}>(443)525-4178</p>
                     </div>
                 </div>

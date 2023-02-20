@@ -1,0 +1,41 @@
+
+.footermobile{
+    display: grid;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    z-index: 666;
+    margin-top: 5em;
+}
+
+.footermobilebackdrop{
+    display: grid;
+    padding-top: 1em;
+    background:  rgb(123, 190, 123);
+    width: 100vw;
+    /* background-size: cover; */
+    border-top: 1px solid #000000;
+    text-align: center;
+    justify-content: center;
+}
+  
+  
+.footertext{
+    margin: 0em 0em;
+}
+
+.footertextcontainer{
+    text-align: center;
+    display: grid;
+    justify-content: center;
+}
+
+.isa{
+    height: 150px;
+}
+
+ .isaimage{
+    display: grid;
+    justify-items: center;
+}
+  

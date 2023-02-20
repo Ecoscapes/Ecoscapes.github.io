@@ -1,5 +1,5 @@
 import Navbar from './header/Navbar';
-// import Footer from './Footer';
+import Footer from './footer/Footer';
 import './index.css';
 import Home from './home/Home';
 import About from './about/About';
@@ -27,7 +27,7 @@ function App() {
               <Route exact path="/about" element={<About />} />
               <Route exact path="/contact" element={<Contact />} />
             </Routes>
-            {/* <Footer /> */}
+            <Footer />
           </div>
         </div>
       </div>

@@ -1,0 +1,35 @@
+.footer{
+    display: grid;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(123, 190, 123);
+    height: 200px; 
+    z-index: 4;
+}
+  
+.footerbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 1000px;
+}
+  
+.footertext{
+    margin: 2em 0em;
+}
+
+.footertextcontainer{
+    text-align: center;
+    display: grid;
+    justify-content: center;
+}
+
+.isa{
+    height: 150px;
+}
+
+ .isaimage{
+    display: grid;
+    justify-items: center;
+}
+  

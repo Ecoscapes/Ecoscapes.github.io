@@ -115,7 +115,6 @@ const Home = () => {
                                         <p className={styles.bulletpoints}>Patios</p>
                                         <p className={styles.bulletpoints}>Walkways</p>
                                         <p className={styles.bulletpoints}>Firepits</p>
-                                        <p className={styles.bulletpoints}>and more</p>
                                     </div>
                                 </div>
                             </div>
@@ -126,7 +125,6 @@ const Home = () => {
                                         <p className={styles.bulletpoints}>Design</p>
                                         <p className={styles.bulletpoints}>Install</p>
                                         <p className={styles.bulletpoints}>Maintain</p>
-                                        <p className={styles.bulletpoints}>and more</p>
                                     </div>
                                 </div>
                             </div>
@@ -137,7 +135,6 @@ const Home = () => {
                                         <p className={styles.bulletpoints}>Rain Gardens</p>
                                         <p className={styles.bulletpoints}>Erosion Control</p>
                                         <p className={styles.bulletpoints}>Steambank Stabilization</p>
-                                        <p className={styles.bulletpoints}>and more</p>
                                     </div>
                                 </div>
                             </div>
@@ -148,7 +145,6 @@ const Home = () => {
                                         <p className={styles.bulletpoints}>Edible Landscaping</p>
                                         <p className={styles.bulletpoints}>Homestead Design</p>
                                         <p className={styles.bulletpoints}>Education</p>
-                                        <p className={styles.bulletpoints}>and more</p>
                                     </div>
                                 </div>
                             </div>
@@ -159,7 +155,6 @@ const Home = () => {
                                         <p className={styles.bulletpoints}>Consult</p>
                                         <p className={styles.bulletpoints}>Pruning</p>
                                         <p className={styles.bulletpoints}>Removals</p>
-                                        <p className={styles.bulletpoints}>and more</p>
                                     </div>
                                 </div>
                             </div>

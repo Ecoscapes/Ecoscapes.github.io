@@ -1,9 +1,9 @@
-import './index.css';
+import './footerDesktop.module.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
-import isa from './Images/ISA.png';
+import isa from '../Images/ISA.png';
 
-const Footer = () => {
+const FooterDesktop = () => {
 
     return ( 
         <div>
@@ -34,4 +34,4 @@ const Footer = () => {
     );
 }
  
-export default Footer;
+export default FooterDesktop;

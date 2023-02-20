@@ -67,7 +67,7 @@ const ContactMobile = () => {
                                     <div className={styles.labelleft}>
                                         Comments:
                                     </div>                                
-                                    <textarea name="Text1" cols="180" rows="10"></textarea>
+                                    <textarea name="comments" cols="180" rows="10"></textarea>
                                     {/* <input type="textarea" cols="40" rows="5" name="comments" /> */}
                                 </label>
                                 <div className={styles.inputsubmit}>

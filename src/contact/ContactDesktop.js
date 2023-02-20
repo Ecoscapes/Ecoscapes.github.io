@@ -73,8 +73,7 @@ function ContactDesktop() {
                                 </label>
                                 <div className='inputsubmit'>
                                     <input className="submitbutton" type="submit" value="Submit" />
-                                </div>
-                                
+                                </div> 
                             </form>
                         </div>
                     </div>

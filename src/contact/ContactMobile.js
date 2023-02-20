@@ -4,14 +4,15 @@ import phone from '../Images/phone-square.png';
 import email from '../Images/email-icon.png';
 import emailjs from '@emailjs/browser';
 
-// const contactYou = "WE would love to reach out to you please select prefered method and time for us to Contact You.";
 
-const handleSubmit = (e) =>{
-    // e.preventDefault()
-    emailjs.sendForm('service_kgo4nbe', 'template_846a8lm', e.target, '2OHicHGfm886qFvFl')
-}
 
-const ContactMobile = () => {
+function ContactMobile() {
+
+    const handleSubmit = (e) =>{
+        // e.preventDefault()
+        emailjs.sendForm('service_kgo4nbe', 'template_846a8lm', e.target, '2OHicHGfm886qFvFl')
+    }
+
     return ( 
         <div className={styles.about}>
             <div className={styles.founders}>
@@ -67,23 +68,13 @@ const ContactMobile = () => {
                                     <div className={styles.labelleft}>
                                         Comments:
                                     </div>                                
-                                    <textarea name="comments" cols="180" rows="10"></textarea>
+                                    <textarea name="comments" id="message" cols="180" rows="10"></textarea>
                                     {/* <input type="textarea" cols="40" rows="5" name="comments" /> */}
                                 </label>
                                 <div className={styles.inputsubmit}>
                                     <input className={styles.submitbutton} type="submit" value="Submit" />
                                 </div>
-                                
                             </form>
-                            <div>
-                            
-                            </div>
-                            <div>
-                        
-                            </div>
-                            <div>
-                        
-                            </div>
                         </div>
                     </div>
                 </div>

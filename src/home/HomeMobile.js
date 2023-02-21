@@ -134,7 +134,7 @@ const Home = () => {
                                     <div>
                                         <p className={styles.bulletpoints}>Rain Gardens</p>
                                         <p className={styles.bulletpoints}>Erosion Control</p>
-                                        <p className={styles.bulletpoints}>Steambank Stabilization</p>
+                                        <p className={styles.bulletpoints}>Streambank Stabilization</p>
                                     </div>
                                 </div>
                             </div>

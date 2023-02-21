@@ -147,7 +147,7 @@ const HomeDesktop = () => {
                                         <div>
                                             <p className='bulletpoints'>Rain Gardens</p>
                                             <p className='bulletpoints'>Erosion Control</p>
-                                            <p className='bulletpoints'>Steambank Stabilization</p>
+                                            <p className='bulletpoints'>Streambank Stabilization</p>
                                         </div>
                                     </div>
                                 </div>

@@ -7,7 +7,8 @@ const Footer = () => {
 
     return ( 
         <div>
-            { isOnMobile ? <FooterMobile /> : <FooterDesktop />}
+            { isOnMobile ? <FooterMobile /> : <FooterMobile />}
+            {/* { isOnMobile ? <FooterMobile /> : <FooterDesktop />} */}
         </div>
     );
 }

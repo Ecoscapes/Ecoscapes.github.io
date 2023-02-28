@@ -939,6 +939,51 @@ p {
   padding:0;
 }
 
+.imageHomePage{
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../Images/Gallery/homepage.jpg');
+  display: block;
+  position: absolute;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80vh;
+  width: 100vw;
+  padding:0;
+
+}
+
+.imageHomePageOne{
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../Images/Gallery/homepage1.jpg');
+  display: block;
+  position: absolute;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80vh;
+  width: 100vw;
+  padding:0;
+
+}
+
+.imageHomePageTwo{
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../Images/Gallery/homepage2.jpg');
+  display: block;
+  position: absolute;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80vh;
+  width: 100vw;
+  padding:0;
+
+}
+
 .imageA{
   background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../Images/Gallery/A.jpg');
   display: block;

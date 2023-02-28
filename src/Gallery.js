@@ -24,6 +24,27 @@ const Gallery = () => {
                 <CarouselItem><div className='imageG'></div></CarouselItem>
                 <CarouselItem><div className='imageH'></div></CarouselItem>
                 <CarouselItem><div className='imageI'></div></CarouselItem>
+                <CarouselItem><div className='imageHomePage'></div></CarouselItem>
+                <CarouselItem><div className='imageHomePageOne'></div></CarouselItem>
+                <CarouselItem><div className='imageHomePageTwo'></div></CarouselItem>
+                <CarouselItem><div className='imageTen'></div></CarouselItem>
+                <CarouselItem><div className='imageEleven'></div></CarouselItem>
+                <CarouselItem><div className='imageTwelve'></div></CarouselItem>
+                <CarouselItem><div className='imageThirteen'></div></CarouselItem>
+                <CarouselItem><div className='imageFourteen'></div></CarouselItem>
+                <CarouselItem><div className='imageFifteen'></div></CarouselItem>
+                <CarouselItem><div className='imageSixteen'></div></CarouselItem>
+                <CarouselItem><div className='imageSeventeen'></div></CarouselItem>
+                <CarouselItem><div className='imageEighteen'></div></CarouselItem>
+                <CarouselItem><div className='imageNineteen'></div></CarouselItem>
+                <CarouselItem><div className='imageTwenty'></div></CarouselItem>
+                <CarouselItem><div className='imageTwentyone'></div></CarouselItem>
+                <CarouselItem><div className='imageTwentythree'></div></CarouselItem>
+                <CarouselItem><div className='imageTwentyfour'></div></CarouselItem>
+                <CarouselItem><div className='imageTwentyfive'></div></CarouselItem>
+                <CarouselItem><div className='imageTwentysix'></div></CarouselItem>
+                <CarouselItem><div className='imageTwentyseven'></div></CarouselItem>
+                <CarouselItem><div className='imageTwentyeight'></div></CarouselItem>
             </Carousel>
         </div>
     );

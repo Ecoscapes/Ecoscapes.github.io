@@ -207,6 +207,9 @@ const Home = () => {
                     <CarouselItem><div className='imageSeven'></div></CarouselItem>
                     <CarouselItem><div className='imageEight'></div></CarouselItem>
                     <CarouselItem><div className='imageNine'></div></CarouselItem>
+                    <CarouselItem><div className='imageHomePage'></div></CarouselItem>
+                    <CarouselItem><div className='imageHomePageOne'></div></CarouselItem>
+                    <CarouselItem><div className='imageHomePageTwo'></div></CarouselItem>
                 </Carousel>
             </div>
         </div>

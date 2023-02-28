@@ -7,8 +7,8 @@ import { isOnMobile } from '../utilities/isUserOnMobile';
 const Navbar = () => {
     return ( 
         <div>
-            { isOnMobile ? <NavbarMobile /> : <NavbarMobile />}
-            {/* { isOnMobile ? <NavbarMobile /> : <NavbarDesktop />} */}
+            {/* { isOnMobile ? <NavbarMobile /> : <NavbarMobile />} */}
+            { isOnMobile ? <NavbarMobile /> : <NavbarDesktop />}
         </div>
     );
 }

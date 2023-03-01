@@ -10,6 +10,7 @@
 
 .footermobilebackdrop{
     display: grid;
+    grid-template-columns: 1fr 1fr;
     padding-top: 1em;
     background:  rgb(123, 190, 123);
     width: 100vw;
@@ -21,7 +22,7 @@
   
   
 .footertext{
-    margin: 0em 0em;
+    margin: 0em 2em 0em 0em ;
 }
 
 .footertextcontainer{

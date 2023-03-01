@@ -39,32 +39,13 @@ const HomeDesktop = () => {
     const titleStatementTwo = " with mother nature in mind.";
     // const titleStatementThree = "We provide quality, custom-tailored services at an honest price.";
 
-    const professionalism = "At Ecoscapes LLC, honesty and integrity are considered central values near "
-        + "and dear to our hearts. It is our priority to provide you with a fair, "
-        + "comprehensive estimate and to execute our work with class and professionalism. "
-        + "As all Maryland contractors should, we hold an MHIC license and are fully insured. "
-        + "Ecoscapes strives to provide you with exceptional customer service and communication "
-        + "throughout the entire process from the estimate through the completion of every project.";
+    const professionalism = "At Ecoscapes LLC, honesty and integrity are considered central values near and dear to our hearts. It is our priority to provide you with a fair, comprehensive estimate and to execute our work with class and professionalism. As all Maryland contractors should, we hold an MHIC license and are fully insured. Ecoscapes strives to provide you with exceptional customer service and communication throughout the entire process from the estimate through the completion of every project.";
 
 
-    const environmental = "At Ecoscapes, LLC we design, install and maintain landscapes to increase the "
-        + "quality of life for all. We recognize the environmental repercussions of "
-        + "irresponsible landscaping and so we plant with ecological restoration in "
-        + "mind, acting regeneratively, not just sustainably. The team utilizes "
-        + "permaculture design principles to create landscapes and hardscapes that "
-        + "are beautiful, functional, and eco-friendly. We love to incorporate native, "
-        + "pollinator-friendly plants in our designs as well as other ethnobotanically "
-        + "significant plants that offer us food, medicine, and more! "
-        + "We compost our yard waste, repurpose our construction scraps and stack vehicle trips in an effort "
-        + "to Reduce, Reuse, Recycle";
+    const environmental = "At Ecoscapes, LLC we design, install and maintain landscapes to increase the quality of life for all. We plant with ecological restoration in mind, acting regeneratively, not just sustainably. We love to incorporate native, pollinator-friendly plants in our designs as well as other ethnobotanically significant plants that offer us food, medicine, and more! We compost our yard waste, repurpose our construction scraps and stack vehicle trips in an effort to reduce, reuse, and recycle.";
 
 
-    const idividualized = "We provide our customers with individualized solutions to their unique landscaping "
-        + "and hardscaping needs. Your property's site-specific conditions are carefully "
-        + "analyzed to develop installations that work in agreement with your "
-        + "landscape. Our designs always strive to find the perfect fit for our clients while "
-        + "taking into consideration both aesthetics and functionality. Ecoscapes works closely "
-        + "with you through each step of the process to turn your vision into a reality.";
+    const idividualized = "We provide our customers with individualized solutions to their unique landscaping and hardscaping needs. Your property's site-specific conditions are carefully analyzed to develop installations that work in agreement with your landscape. Our designs always strive to find the perfect fit for our clients while taking into consideration both aesthetics and functionality. Ecoscapes works closely with you through each step of the process to turn your vision into a reality.";
 
 
     return (

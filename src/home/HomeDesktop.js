@@ -193,6 +193,9 @@ const HomeDesktop = () => {
                     </div>
                 </div>
             </div>
+            <div className="header">
+                    <h2 className='chooseheader'>Gallery</h2>
+                </div>
             <div className='galleryhighlight'>
                 <Carousel>
                     <CarouselItem><div className='imageOne'></div></CarouselItem>

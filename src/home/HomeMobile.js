@@ -86,7 +86,7 @@ const Home = () => {
             <div className={styles.servicescontainer}>
                 <div className={styles.backdrop}>
                     <div className={styles.header}>
-                        <h3>Services</h3>
+                        <h1>Services</h1>
                     </div>
                     <div className={styles.body}>
                         <div className={styles.services}>

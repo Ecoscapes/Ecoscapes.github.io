@@ -26,14 +26,6 @@
   color: whitesmoke;
 }
 
-.answersection{
-  display: grid;
-  row-gap: 1em;
-  justify-content: center;
-  text-align: center;
-  align-items: top;
-}
-
 
 .backdrop {
   display: grid;
@@ -207,10 +199,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   width: 1000px;
-}
-
-.footertext{
-  margin: 2em 0em;
 }
 
 .font {

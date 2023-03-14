@@ -26,14 +26,6 @@
   color: whitesmoke;
 }
 
-.answersection{
-  display: grid;
-  row-gap: 1em;
-  justify-content: center;
-  text-align: center;
-  align-items: top;
-}
-
 .arboriculturalbackground{
   display: grid;
   background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../Images/home/Arboriculture.jpg');
@@ -163,6 +155,16 @@
   background-position: top;
 }
 
+.decksservicebackground{
+  display: grid;
+  background: url('../Images/services/DSC00689.JPG');
+  background-size: cover;
+  background-position: center; 
+  height: 350px;
+  width: 400px;
+  border-radius: 30px;
+}
+
 .emailcontainer{
   display: flex;
   margin: 11em 0em 4em .5em;
@@ -217,10 +219,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   width: 1000px;
-}
-
-.footertext{
-  margin: 2em 0em;
 }
 
 .font {
@@ -471,7 +469,7 @@
 
 .NLDServicebackground{
   display: grid;
-  background: url('../Images/services/butterflyNLD.jpg');
+  background: url('../Images/services/JoePyeWeed.jpg');
   background-size: cover;
   background-position: center; 
   height: 350px;
@@ -673,16 +671,6 @@
   margin-top: 2.5em;
 }
 
-.SWMbackground{
-  display: grid;
-  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../Images/ServiceImage.png');
-  background-size: cover;
-  background-position: center; 
-  height: 300px;
-  width: 350px;
-  border-radius: 30px;
-}
-
 .SWMServicebackground{
   display: grid;
   background: url('../Images/services/StormWaterManagementService.jpg');
@@ -770,12 +758,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   width: 1200px;
-}
-
-.whyanswercontainer{
-  display: grid;
-  justify-content: center;
-  margin-bottom: 3em;
 }
 
 .whyanswerheader{

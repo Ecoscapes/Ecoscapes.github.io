@@ -120,7 +120,7 @@ return (
                         </div>
                     </div>
                     <div className='servicepageimagescontainer'>
-                        <div className="generallandscapingservicebackground">
+                        <div className="decksservicebackground">
                         </div>
                     </div>    
                 </div>

@@ -28,18 +28,6 @@ const about = "Accountability is paramount at Ecoscapes, llc. We ensure that eve
     + "results fueled by passion and tenacity. We feel better when we notice our actions improving the lives of others, "
     + "so let us aid in the creation of an outdoor space we all can be proud of. "
 
-// const mission = "At Ecoscapes, llc we design, install and maintain landscapes to increase the quality of "
-//                 + "life for all. We recognize the environmental reprocussions of irresponsible landscaping "
-//                 +" decisions. Landscape installations need to support the health of the Chesapeake Bay as "
-//                 + "well as declining wildlife populations. Accountability is paramount at Ecoscapes,llc and, "
-//                 + "so we plant in accordance with ecological restoration, acting regeneratively, not just "
-//                 + "sustainably. The team utilizes permaculture design principles to create landscapes that are "
-//                 + "beautiful, functional, and eco-friendly. We love to incorporate native, pollinator-friendly "
-//                 + "plants in our designs as well as other ethnobotanically significant plants that offer us food, "
-//                 + "medicine, and more! We want your property to work efficiently and so we aim to harmonize nature's "
-//                 + "demands with your own by observing site-specific conditions and utilizing these resources to make "
-//                 + "your yard work for you, not against you. "
-
 
 const AboutDesktop = () => {
     return (

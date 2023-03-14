@@ -20,6 +20,14 @@ const FooterMobile = () => {
                             Contractors MHIC # 142765
                         </div>
                     </div>    
+                    <div className={styles.footertextcontainer}>
+                        <div className={styles.footertext}>
+                            Contact Us
+                        </div>
+                        <div className={styles.footertext}>
+                            Come Work With Us
+                        </div>
+                    </div>
                 </div>
             </nav>
         </div>

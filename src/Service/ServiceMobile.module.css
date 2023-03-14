@@ -47,7 +47,7 @@
 
 .NLDServicebackground {
   display: grid;
-  background: url('../Images/services/butterflyNLD.jpg');
+  background: url('../Images/services/JoePyeWeed.jpg');
   background-size: cover;
   background-position: center;
   height: 250px;
@@ -154,6 +154,16 @@
 .arborcultureservicebackground {
   display: grid;
   background: url('../Images/services/Arborculture.jpg');
+  background-size: cover;
+  background-position: center; 
+  height: 250px;
+  width: 300px;
+  border-radius: 30px;
+}
+
+.decksservicebackground {
+  display: grid;
+  background: url('../Images/services/DSC00689.JPG');
   background-size: cover;
   background-position: center; 
   height: 250px;

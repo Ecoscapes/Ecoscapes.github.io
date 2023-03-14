@@ -29,6 +29,7 @@
 .answersection{
   display: grid;
   row-gap: 1em;
+  margin: 0em 2em;
   justify-content: center;
   text-align: center;
   align-items: top;
@@ -223,7 +224,8 @@ p {
 }
 
 .footertext{
-  margin: 2em 0em;
+  font-size: 1.3em;
+  margin: 1em 0em;
 }
 
 .font {
@@ -645,7 +647,7 @@ p {
 
 .SWMbackground{
   display: grid;
-  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../Images/ServiceImage.png');
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../Images/home/StormWaterManagement.PNG');
   background-size: cover;
   background-position: center; 
   height: 300px;
@@ -745,7 +747,7 @@ p {
 .whyanswercontainer{
   display: grid;
   justify-content: center;
-  margin-bottom: 3em;
+  margin-bottom: 0em;
 }
 
 .whyanswerheader{

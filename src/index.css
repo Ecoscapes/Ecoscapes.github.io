@@ -211,10 +211,6 @@
   width: 1000px;
 }
 
-.footertext{
-  margin: 2em 0em;
-}
-
 .font {
   color: whitesmoke;
 }
@@ -677,7 +673,7 @@
 
 .SWMbackground{
   display: grid;
-  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('./Images/ServiceImage.png');
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('./Images/home/StormWaterManagement.PNG');
   background-size: cover;
   background-position: center; 
   height: 300px;

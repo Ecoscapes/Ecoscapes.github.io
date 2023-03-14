@@ -110,10 +110,13 @@ const ServiceMobile = () => {
                         </div>
                     </div>
                 </div>
+                <div className={styles.serviceheadercontainer}>
+                    <h2 className={styles.serviceheader}>Decks</h2>
+                </div>
                 <div className={styles.backdrop}>
                     <div className={styles.bodytwo}>
                         <div className={styles.servicepageimagescontainer}>
-                            <div className={styles.generallandscapingservicebackground}>
+                            <div className={styles.decksservicebackground}>
                             </div>
                         </div>
                         <div className={styles.servicetext}>
@@ -124,10 +127,7 @@ const ServiceMobile = () => {
                     </div>
                 </div>
                 <div className={styles.serviceheadercontainer}>
-                    <h2 className={styles.serviceheader}>Decks</h2>
-                </div>
-                <div className={styles.serviceheadercontainer}>
-                    <h2 className={styles.serviceheader}>General Landscaping</h2>
+                    <h2 className={styles.serviceheader}> Outdoor Kitckens</h2>
                 </div>
                 <div className={styles.backdrop}>
                     <div className={styles.bodytwo}>
@@ -142,6 +142,9 @@ const ServiceMobile = () => {
                         </div>
                     </div>
                 </div>
+                <div className={styles.serviceheadercontainer}>
+                    <h2 className={styles.serviceheader}>General Lanscaping</h2>
+                </div>
                 <div className={styles.backdrop}>
                     <div className={styles.bodytwo}>
                         <div className={styles.servicepageimagescontainer}>
@@ -154,9 +157,6 @@ const ServiceMobile = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className={styles.serviceheadercontainer}>
-                    <h2 className={styles.serviceheader}>Outdoor Kitchens</h2>
                 </div>
             </div>
         </div>

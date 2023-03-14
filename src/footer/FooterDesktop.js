@@ -25,7 +25,7 @@ const FooterDesktop = () => {
                             Contact Us
                         </div>
                         <div className='footertext'>
-                            Come Work For Us
+                            Come Work With Us
                         </div>
                     </div>
                 </div>

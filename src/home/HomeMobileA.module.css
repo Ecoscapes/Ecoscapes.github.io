@@ -269,6 +269,8 @@
 
 .header{
   padding: 50px 0px 50px 0px;
+  font-size: 2.1em;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -603,7 +605,7 @@ p {
 
 .SWMbackground{
   display: grid;
-  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../Images/ServiceImage.png');
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../Images/home/StormWaterManagement.PNG');
   background-size: cover;
   background-position: center; 
   height: 250px;

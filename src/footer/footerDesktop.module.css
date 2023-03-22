@@ -1,3 +1,4 @@
+
 .footer{
     display: grid;
     position: relative;
@@ -13,16 +14,38 @@
     grid-template-columns: 1fr 1fr 1fr;
     width: 1000px;
 }
+
+.footerbutton{
+    height: 8vh;
+    width: 20vw;
+    font-size: xx-large;
+    background-color: rgb(123, 190, 123);
+    cursor: pointer;
+    border-radius: 30px;
+    font-weight: bolder;
+
+}
+
+.footerbuttoncontainer
+{  
+    display: grid;
+    justify-content: end;
+    margin: 2em 2em 1em 2em;
+}
   
 .footertext{
     font-size: larger;
-    margin: 2em 0em;
+    margin: .8em 0em;
 }
 
 .footertextcontainer{
     text-align: center;
     display: grid;
     justify-content: center;
+}
+
+.footerwork{
+    cursor: pointer;
 }
 
 .isa{

@@ -1,4 +1,22 @@
 
+.footerbutton{
+    height: 10vh;
+    width: 80vw;
+    font-size: xx-large;
+    background-color: rgb(123, 190, 123);
+    cursor: pointer;
+    border-radius: 30px;
+    font-weight: bolder;
+
+}
+
+.footerbuttoncontainer
+{  
+    display: grid;
+    justify-content: end;
+    margin: 2em 2em 1em 2em;
+}
+
 .footermobile{
     display: grid;
     position: relative;
@@ -10,8 +28,8 @@
 
 .footermobilebackdrop{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 1em 0em 1em 0em ;
+    grid-template-columns: 1fr 1fr;
+    padding: 1em 1em 1em 0em ;
     background:  rgb(123, 190, 123);
     width: 100vw;
     /* background-size: cover; */

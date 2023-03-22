@@ -1,13 +1,24 @@
 import styles from './footerMobileA.module.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import isa from '../Images/ISA.png';
 
 const FooterMobile = () => {
 
+    const navigate = useNavigate();
+
+    const handleContactClick = () => {
+        navigate("/contact");
+        
+    }
+
     return ( 
         <div>
             <nav className={styles.footermobile}>
+                <div className={styles.footerbuttoncontainer}>
+                    <button className={styles.footerbutton}  onClick={handleContactClick}>Contact Us</button>
+                </div>
                 <div className={styles.footermobilebackdrop}>
                     <div className={styles.isaimage}>
                         <img src={isa} className={styles.isa} alt="insta logo" />
@@ -19,13 +30,8 @@ const FooterMobile = () => {
                         <div className={styles.footertext}>
                             Contractors MHIC # 142765
                         </div>
-                    </div>    
-                    <div className={styles.footertextcontainer}>
-                        <div className={styles.footertext}>
-                            Contact Us
-                        </div>
-                        <div className={styles.footertext}>
-                            Come Work With Us
+                        <div className={styles.footerwork} onClick={handleContactClick}>
+                                    Come Work With Us
                         </div>
                     </div>
                 </div>

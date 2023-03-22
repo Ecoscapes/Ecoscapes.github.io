@@ -2,6 +2,7 @@ import './homedesktopA.css';
 import { React } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Carousel, { CarouselItem } from "../Carousel/Carousel.js"
+import google from '../Images/google_greyscale.png';
 import facebook from '../Images/facebook.png';
 import instagram from '../Images/instagram.png';
 import phone from '../Images/phone-square.png';
@@ -28,8 +29,14 @@ const HomeDesktop = () => {
 
     const handlePhoneClick = () => {
         navigate("/contact");
-        
     }
+
+    const handleGoogleClick = () => {
+        window.open("https://www.google.com/maps/place/Havre+De+Grace,+MD+21078/@39.5478211,-76.1242585,13.5z/data=!4m6!3m5!1s0x89c7c0a939bed6b9:0x227c9fba4b7aa3fb!8m2!3d39.5492792!4d-76.091617!16zL20vMHR2dnA",
+                     "_blank");
+    }
+
+
 
     // const titleStatement = "We are an ecologically conscious";
     // const titleStatementTwo = "Landscaping and Hardscaping company.";
@@ -71,6 +78,9 @@ const HomeDesktop = () => {
                 <div className='socialmedia'>
                     <div className='socialcontent'>
                         <div className='instabook'>
+                            <div className='clickable' onClick={handleGoogleClick}>
+                                <img src={google} className="insta" alt="insta logo" />
+                            </div>
                             <div className='clickable' onClick={handleIgClick}>
                                 <img src={instagram} className="insta" alt="insta logo" />
                             </div>

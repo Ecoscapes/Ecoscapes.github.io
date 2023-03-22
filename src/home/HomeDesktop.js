@@ -22,6 +22,10 @@ const HomeDesktop = () => {
         window.open("https://www.instagram.com/ecoscapes_md/", "_blank");
     }
 
+    const handleServiceClick = () => {
+        navigate("/services");
+    }
+
     const handleEmailClick = () => {
         navigate("/contact");
         
@@ -113,7 +117,7 @@ const HomeDesktop = () => {
                         <div className='services'>
                             <div className='servicesrowone'>
                                 <div>
-                                    <div className='hardscapebackground'>
+                                    <div onClick={handleServiceClick} className='hardscapebackground'>
                                         <p className='centertext'>Hardscaping</p>
                                         <div>
                                             <p className='bulletpoints'>Patios</p>
@@ -123,7 +127,7 @@ const HomeDesktop = () => {
                                     </div>
                                 </div>
                                 <div>
-                                    <div className='nativelanddesignbackground'>
+                                    <div onClick={handleServiceClick} className='nativelanddesignbackground'>
                                         <p className='centertext'>Native Landscape Design</p>
                                         <div>
                                             <p className='bulletpoints'>Design</p>
@@ -133,7 +137,7 @@ const HomeDesktop = () => {
                                     </div>
                                 </div>
                                 <div>
-                                    <div className='SWMbackground'>
+                                    <div onClick={handleServiceClick} className='SWMbackground'>
                                         <p className='centertext'>Storm Water Management</p>
                                         <div>
                                             <p className='bulletpoints'>Rain Gardens</p>
@@ -145,7 +149,7 @@ const HomeDesktop = () => {
                             </div>
                             <div className='servicesrowtwo'>
                                 <div className='right'>
-                                    <div className='permaculturebackground'>
+                                    <div onClick={handleServiceClick} className='permaculturebackground'>
                                         <p className='centertext'>Permaculture</p>
                                         <div>
                                             <p className='bulletpoints'>Edible Landscaping</p>
@@ -155,7 +159,7 @@ const HomeDesktop = () => {
                                     </div>
                                 </div>
                                 <div>
-                                    <div className='arboriculturalbackground'>
+                                    <div onClick={handleServiceClick} className='arboriculturalbackground'>
                                         <p className='centertext'>Arboricultural</p>
                                         <div>
                                             <p className='bulletpoints'>Consult</p>

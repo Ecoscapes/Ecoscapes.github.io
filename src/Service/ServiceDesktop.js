@@ -1,4 +1,3 @@
-// import './index.css';
 import './service.css';
 import React from 'react';
 
@@ -26,7 +25,7 @@ const GeneralLandscaping = "We specialize in native/edible landscaping; however,
 const ServiceDesktop = () => {
 return ( 
     <div>
-        <div className = 'servicebackground'>
+        <div className='servicebackground'>
         </div>
         <div className="service">
             <div className='serviceheadercontainer'>

@@ -22,9 +22,7 @@
 
 .navbar {
   position: fixed;
-  /* background-color: rgb(123, 190, 123); */
-  /* background-color: rgb(163, 230, 125); */
-  background-color: rgb(223, 230, 203);
+  background-color: rgb(123, 190, 123);
   padding: 0px 20px 0px 20px;
   display: flex;
   align-items: center;

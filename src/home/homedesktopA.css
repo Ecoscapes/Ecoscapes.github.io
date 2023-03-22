@@ -43,6 +43,7 @@
   height: 300px;
   width: 350px;
   border-radius: 30px;
+  cursor: pointer;
 }
 
 
@@ -270,6 +271,7 @@ p {
   height: 300px;
   width: 350px;
   border-radius: 30px;
+  cursor: pointer;
 }
 
 .header{
@@ -396,6 +398,7 @@ p {
   height: 200px;
   width: 250px;
   border-radius: 30px;
+  cursor: pointer;
 }
 
 .logo{
@@ -431,6 +434,7 @@ p {
   height: 300px;
   width: 350px;
   border-radius: 30px;
+  cursor: pointer;
 }
 
 .NLDServicebackground{
@@ -441,6 +445,7 @@ p {
   height: 350px;
   width: 400px;
   border-radius: 30px;
+  cursor: pointer;
 }
 
 .page{
@@ -520,6 +525,7 @@ p {
   height: 300px;
   width: 350px;
   border-radius: 30px;
+  cursor: pointer;
 }
 
 .right{
@@ -653,68 +659,7 @@ p {
   height: 300px;
   width: 350px;
   border-radius: 30px;
-}
-
-.SWMServicebackground{
-  display: grid;
-  background: url('../Images/services/StormWaterManagementService.jpg');
-  background-size: cover;
-  background-position: center; 
-  height: 350px;
-  width: 400px;
-  border-radius: 30px;
-}
-
-.permacultureservicebackground{
-  display: grid;
-  background: url('../Images/services/Permaculture.jpg');
-  background-size: cover;
-  background-position: center; 
-  height: 350px;
-  width: 400px;
-  border-radius: 30px;
-}
-
-
-
-.arborcultureservicebackground{
-  display: grid;
-  background: url('../Images/services/Arborculture.jpg');
-  background-size: cover;
-  background-position: center; 
-  height: 350px;
-  width: 400px;
-  border-radius: 30px;
-}
-
-.outdoorkitchenservicebackground{
-  display: grid;
-  background: url('../Images/services/OutdoorKitchen.jpg');
-  background-size: cover;
-  background-position: center; 
-  height: 350px;
-  width: 400px;
-  border-radius: 30px;
-}
-
-.hardscapingservicebackground{
-  display: grid;
-  background: url('../Images/services/Hardscaping.jpg');
-  background-size: cover;
-  background-position: center; 
-  height: 350px;
-  width: 400px;
-  border-radius: 30px;
-}
-
-.generallandscapingservicebackground{
-  display: grid;
-  background: url('../Images/services/GeneralLandscaping.jpg');
-  background-size: cover;
-  background-position: center; 
-  height: 350px;
-  width: 400px;
-  border-radius: 30px;
+  cursor: pointer;
 }
 
 .text{

@@ -26,6 +26,16 @@
   color: whitesmoke;
 }
 
+.arboriculturalbackground{
+  display: grid;
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../Images/home/Arboriculture.jpg');
+  background-size: cover;
+  background-position: center; 
+  height: 300px;
+  width: 350px;
+  border-radius: 30px;
+}
+
 
 .backdrop {
   display: grid;
@@ -135,6 +145,26 @@
   background: white;
 }
 
+.dan{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.danimg {
+  background-image: url('../Images/dan.jpg');
+  background-size: cover;
+  background-position: top;
+}
+
+.decksservicebackground{
+  display: grid;
+  background: url('../Images/services/DSC00689.JPG');
+  background-size: cover;
+  background-position: center; 
+  height: 350px;
+  width: 400px;
+  border-radius: 30px;
+}
+
 .emailcontainer{
   display: flex;
   margin: 11em 0em 4em .5em;
@@ -150,6 +180,19 @@
   font-size: 40px;
 }
 
+.email{
+  display: grid;
+  background: transparent;
+  height: 40px;
+  margin: 0em .5em 0em 0.2em;
+}
+
+.fb{
+  background: transparent;
+  height: 40px;
+  margin: 11em .5em 4em .5em;
+}
+
 .fields{
   display: grid;
   justify-content: center;
@@ -162,6 +205,21 @@
   width: 500px;
 }
 
+.footer{
+  display: grid;
+  position: relative;
+  justify-content: center;
+  align-content: center;
+  background-color: rgb(123, 190, 123);
+  height: 200px; 
+  z-index: 4;
+}
+
+.footerbar{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 1000px;
+}
 
 .font {
   color: whitesmoke;
@@ -181,6 +239,30 @@
   text-align: center;
   display: grid;
   justify-content: center;
+}
+
+.founders {
+  margin: 7em 0px 3em 0px;
+  padding: 50px 0px 50px 0px;
+  color: whitesmoke;
+  text-align: center;
+  background-color: transparent;
+}
+
+.founderscontainer{
+  display: grid;
+  margin-bottom: 8em;
+}
+
+
+.hardscapebackground{
+  display: grid;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../Images/home/Hardscaping.jpg');
+  background-size: cover;
+  background-position: center; 
+  height: 300px;
+  width: 350px;
+  border-radius: 30px;
 }
 
 .header{
@@ -213,6 +295,44 @@
   justify-self: center;
   margin-bottom: 2em;
 } 
+
+.submitbutton{
+  width: 100px;
+  height: 40px;
+  color: #000000;
+  background-color: rgb(223, 230, 203);
+  border-radius: 10px;
+}
+
+.insta{
+  background-color: transparent;
+  height: 40px;
+  margin: 11em .5em 4em .5em;
+}
+
+.instabook{
+  display: flex;
+}
+
+.isa{
+  height: 150px;
+}
+
+.isaimage{
+  display: grid;
+  justify-items: center;
+}
+
+.joe{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.joeimg {
+  background-image: url('../Images/JoeTwo.jpg');
+  background-size: cover;
+  background-position: center;
+}
 
 .label{
   display: grid;
@@ -263,7 +383,15 @@
   color: whitesmoke
 }
 
-
+.landscapebackground{
+  display: grid;
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../Images/ServiceImage.png');
+  background-size: cover;
+  background-position: center; 
+  height: 200px;
+  width: 250px;
+  border-radius: 30px;
+}
 
 .logo{
   display: grid;
@@ -272,11 +400,82 @@
   margin-right: 100px;
 }
 
+.logoimg {
+  background-image: url('../Images/invert.png');
+  background-size: cover;
+  background-position: center;
+}
+
 .missioncontainer{
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
+.missionimagecontainer
+{
+  background-image: url('../Images/about/Mission.jpg');
+  background-size: cover;
+  background-position: top;
+}
+
+.nativelanddesignbackground{
+  display: grid;
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../Images/home/NativePlantDesign.jpg');
+  background-size: cover;
+  background-position: center; 
+  height: 300px;
+  width: 350px;
+  border-radius: 30px;
+}
+
+.navbar {
+  position: fixed;
+  background-color: rgb(123, 190, 123);
+  /* background-color: rgb(163, 230, 125); */
+  /* background-color: rgb(223, 230, 203); */
+  padding: 0px 20px 0px 20px;
+  display: flex;
+  align-items: center;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+  top: 0;
+  margin: 0 auto 0 auto;
+  border-bottom: 1px solid #c5c4c4;
+  z-index: 3;
+}
+
+.navbar h1 {
+  color: #036d11;
+}
+
+.navbar .links {
+  margin-left: auto;
+  padding-top: 30px;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  font-weight: 1000;
+  font-size: x-large;
+  padding: 6px;
+
+}
+
+.navbar a:hover {
+  color: #036d11;
+}
+
+.NLDServicebackground{
+  display: grid;
+  background: url('../Images/services/JoePyeWeed.jpg');
+  background-size: cover;
+  background-position: center; 
+  height: 350px;
+  width: 400px;
+  border-radius: 30px;
+}
 
 .page{
   background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../Images/background.jpeg');
@@ -293,6 +492,68 @@
 .pages {
   position: relative;
   z-index: 2;
+}
+
+.phone{
+  background: transparent;
+  height: 40px;
+  margin: 11em 2.5em 0em .5em;
+}
+
+.phonecontact{
+  background: transparent;
+  height: 40px;
+  margin-left: 4px;
+  /* margin: 11em 2.5em 0em .5em; */
+} 
+
+
+.phonecontainer {
+  display: grid;
+  grid-template-columns: .1fr 1fr;
+  margin: 0em .5em 0em 0em;
+}
+
+.phonecontactcontainer {
+  display: grid;
+  grid-template-columns: .1fr 1fr;
+  align-content: center;
+  justify-content: center;
+  margin: 0em .5em 0em 0em;
+}
+
+.phonetext{
+  display: grid;
+  color: white;
+  font-weight: 600;
+  font-size: 40px;
+  margin-top: 3.65em;
+}
+
+.phonecontacttext{
+  display: grid;
+  color: white;
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.phonetextcontainer{
+  display: grid;
+  align-items: top;
+  align-content: top;
+  align-self: top;
+  margin: 20px;
+}
+
+.permaculturebackground{
+  display: grid;
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../Images/home/Permaculture.jpg');
+  background-size: cover;
+  background-position: center; 
+  height: 300px;
+  width: 350px;
+  border-radius: 30px;
 }
 
 .right{
@@ -392,7 +653,7 @@
   display: grid;
   justify-content: center;
   align-content: center;
-  width: 500px;
+  width: 400px;
   font-size: 1.em;
   font-weight: 600;
   background: whitesmoke;
@@ -479,3 +740,27 @@
   padding:  20px 0px 20px 60px;
 }
 
+.textjoe{
+  font-size: .9em;
+  font-weight: 600;
+  background: whitesmoke;
+  padding:  20px 40px 40px 40px;
+}
+
+.textdan{
+  font-size: .9em;
+  font-weight: 600;
+  background: whitesmoke;
+  padding:  40px 40px 20px 40px;
+}
+
+.whyanswer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 1200px;
+}
+
+.whyanswerheader{
+  color: whitesmoke;
+  margin: 10px;
+}

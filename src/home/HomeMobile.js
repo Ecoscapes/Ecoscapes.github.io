@@ -1,6 +1,6 @@
 import styles from './HomeMobileA.module.css';
 import React from 'react';
-import google from '../Images/google_greyscale.png';
+import google from '../Images/Googlegreyscale.png';
 import facebook from '../Images/facebook.png';
 import instagram from '../Images/instagram.png';
 import phone from '../Images/phone-square.png';

@@ -82,9 +82,7 @@ const HomeDesktop = () => {
                 <div className='socialmedia'>
                     <div className='socialcontent'>
                         <div className='instabook'>
-                            <div className='clickable' onClick={handleGoogleClick}>
-                                <img src={google} className="insta" alt="insta logo" />
-                            </div>
+
                             <div className='clickable' onClick={handleIgClick}>
                                 <img src={instagram} className="insta" alt="insta logo" />
                             </div>
@@ -102,10 +100,21 @@ const HomeDesktop = () => {
                                 <img src={phone} className="phone" alt="phone logo" />
                             </div>
                             <div className='phonetextcontainer'>
-                                <p className='phonetext'>(443)525-4178</p>
+                                <div className='phonetext'>(443)525-4178</div>
+                            </div>
+                        </div>
+                        <div className='locationcontainer'>
+                            <div className='clickable' onClick={handleGoogleClick}>
+                                    <img src={google} className="insta" alt="insta logo" />
+                                </div>
+                            <div className='locationtextcontainer' onClick={handleGoogleClick}>
+                                    <p className='phonetext'>Havre De Grace</p>
                             </div>
                         </div>
                     </div>
+                </div>
+                <div>
+
                 </div>
             </div>
             <div className='servicescontainer'>

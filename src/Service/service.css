@@ -124,6 +124,16 @@
   background: white;
 }
 
+.decksservicebackground{
+  display: grid;
+  background: url('../Images/services/Decks.png');
+  background-size: cover;
+  background-position: center; 
+  height: 350px;
+  width: 400px;
+  border-radius: 30px;
+}
+
 .emailcontainer{
   display: flex;
   margin: 11em 0em 4em .5em;
@@ -388,10 +398,6 @@
   padding: 0px 50px 0px 50px;
 }
 
-.socialcontent {
-  display: grid;
-  grid-template-columns: .1fr .1fr 1fr;
-}
 
 .socialmedia{
   display: grid;

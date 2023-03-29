@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import one from '../Images/Gallery/1.jpg';
 import two from '../Images/Gallery/2.jpg';
 import three from '../Images/Gallery/3.jpg';
+import DoubleArrowSharpIcon from '@mui/icons-material/DoubleArrowSharp';
 
 
 
@@ -31,8 +32,10 @@ const Slider = () => {
     return (
         <div className={styles.carousel} data-carousel>
             <button></button>
+            {/* <DoubleArrowSharpIcon  className={styles.carouselbuttonprev} data-carousel-button="next"/> */}
             <button className={styles.carouselbuttonprev} data-carousel-button="next">&#8656;</button>
             <button className={styles.carouselbuttonnext} data-carousel-button="prev">&#8658;</button>  
+            {/* <DoubleArrowSharpIcon/> */}
             <div className={styles.centerslider}>
                 <ul data-slides>
                     <li className={styles.slide} data-active>

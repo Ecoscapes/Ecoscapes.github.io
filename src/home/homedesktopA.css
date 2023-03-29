@@ -373,6 +373,20 @@ p {
   justify-items: center;
 }
 
+.locationcontainer {
+  display: grid;
+  grid-template-columns: .05fr 1fr;
+}
+
+.locationtextcontainer{
+  display: grid;
+  align-items: top;
+  align-content: top;
+  align-self: top;
+  margin: 20px 0px 0px 0px;
+  cursor: pointer;
+}
+
 .ecosapeslanding
 {
   font-family: "Merienda One";
@@ -495,10 +509,12 @@ p {
 
 .phonetext{
   display: grid;
+  grid-template-columns: 1fr;
   color: white;
   font-weight: 600;
   font-size: 40px;
-  margin-top: 3.65em;
+  margin-top: 3.75em;
+  
 }
 
 .phonecontacttext{
@@ -514,7 +530,7 @@ p {
   align-items: top;
   align-content: top;
   align-self: top;
-  margin: 20px;
+  margin: 20px 0px 0px 0px;
 }
 
 .permaculturebackground{
@@ -634,7 +650,7 @@ p {
 
 .socialcontent {
   display: grid;
-  grid-template-columns: .1fr .1fr 1fr;
+  grid-template-columns: .1fr.1fr 1fr 1fr;
 }
 
 .socialmedia{
@@ -750,7 +766,7 @@ p {
 }
 
 .imageOne{
-  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../Images/Gallery/1.png');
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../Images/Gallery/1.jpg');
   display: block;
   position: absolute;
   background-size: contain;

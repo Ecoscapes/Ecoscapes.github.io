@@ -108,7 +108,7 @@ const HomeDesktop = () => {
                                     <img src={google} className="insta" alt="insta logo" />
                                 </div>
                             <div className='locationtextcontainer' onClick={handleGoogleClick}>
-                                    <p className='phonetext'>Havre De Grace</p>
+                                    <p className='phonetext'>Havre de Grace, MD</p>
                             </div>
                         </div>
                     </div>

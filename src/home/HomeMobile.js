@@ -70,9 +70,6 @@ const Home = () => {
                 <div className={styles.socialmedia}>
                     <div className={styles.socialcontent}>
                         <div className={styles.instabook}>
-                            <div className={styles.clickable} onClick={handleGoogleClick}>
-                                <img src={google} className={styles.insta} alt="insta logo" />
-                            </div>
                             <div className={styles.clickable} onClick={handleIgClick}>
                                 <img src={instagram} className={styles.insta} alt="insta logo" />
                             </div>
@@ -82,13 +79,23 @@ const Home = () => {
                             <a href="mailto:ecoscapesllc@aol.com" className={styles.clickable}>
                                 <img src={email} className={styles.email} alt="email logo" />
                             </a>
-                            <div className={styles.clickable} onClick={handlePhoneClick}>
-                                <img src={phone} className={styles.phone} alt="phone logo" />
-                            </div>
                         </div>
                     </div>
-                    <div className={styles.phonetextcontainer} onClick={handlePhoneClick}> 
-                        <p className={styles.phonetext}>(443)525-4178</p>
+                    <div className={styles.phonecontainer} >
+                        <div className={styles.clickable} onClick={handlePhoneClick}>
+                            <img src={phone} className={styles.phone} alt="phone logo" />
+                        </div>
+                        <div className={styles.phonetextcontainer} onClick={handlePhoneClick}> 
+                            <p className={styles.phonetext}>(443)525-4178</p>
+                        </div>
+                    </div>
+                    <div className={styles.locationcontainer} >
+                        <div className={styles.clickable} onClick={handleGoogleClick}>
+                            <img src={google} className={styles.insta} alt="insta logo" />
+                        </div>
+                        <div className={styles.locationtextcontainer} onClick={handlePhoneClick}> 
+                            <p className={styles.locationtext}>Havre de Grace, MD</p>
+                        </div>
                     </div>
                 </div>
             </div>

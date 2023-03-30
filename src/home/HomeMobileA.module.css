@@ -292,7 +292,7 @@
 
 .instabook{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: .1fr 1fr .1fr;
   justify-items: center;
 }
 
@@ -434,7 +434,8 @@ p {
 
 .phonecontainer {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: .1fr 1fr; 
+  height: 10vh;
   margin: 0em .5em 0em 0em;
 }
 
@@ -458,8 +459,31 @@ p {
   display: grid;
   color: white;
   font-weight: 600;
-  font-size: 40px;
+  font-size: 28px;
   margin-top: 0em;
+}
+
+.locationtext{
+  display: grid;
+  color: white;
+  font-weight: 600;
+  font-size: 28px;
+  margin-top: 0em;
+}
+
+.locationtextcontainer{
+  display: grid;
+  align-items: top;
+  align-content: top;
+  align-self: top;
+  margin: 0em 0em 0em 0em;
+}
+
+.locationcontainer {
+  display: grid;
+  grid-template-columns: .1fr 1fr; 
+  /* height: 10vh; */
+  margin: 0em 0em 0em 0em;
 }
 
 .phonetextcontainer{
@@ -467,8 +491,17 @@ p {
   align-items: top;
   align-content: top;
   align-self: top;
-  margin-bottom: 6vh;
+  margin: 5em 0em 0em 0em;
 }
+
+.locationtextcontainer{
+  display: grid;
+  align-items: top;
+  align-content: top;
+  align-self: top;
+  margin: 5em 0em 0em 0em;
+}
+
 
 .permaculturebackground{
   display: grid;
@@ -587,6 +620,7 @@ p {
 .socialcontent {
   display: grid;
   grid-template-columns: 1fr;
+  height: 10vh;
 }
 
 .socialmedia{

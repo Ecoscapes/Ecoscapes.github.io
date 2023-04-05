@@ -21,7 +21,7 @@ function ContactMobile() {
             <div className={styles.contactinfocontainer}>
                 <div className={styles.contactcontent}>
                     <div className={styles.phonecontactcontainer}>
-                        <div className={styles.centerimage}>
+                        <div className={styles.contactcenterimage}>
                             <img src={phone} className={styles.phonecontact} alt="phone logo" />
                         </div>
                         <div className={styles.phonetextcontainer}>
@@ -29,11 +29,17 @@ function ContactMobile() {
                         </div>
                     </div>
                     <div className={styles.phonecontactcontainer}>
-                        <div className={styles.centerimage}>
+                        <div className={styles.contactcenterimage}>
                             <img src={email} className={styles.email} alt="email logo" />
                         </div>
                         <div className={styles.phonetextcontainer}>
-                            <p className={styles.phonecontacttext}>ecoscapesllc@aol.com</p>
+                            <p className={styles.phonecontacttext}>dan@ecoscapesmd.com</p>
+                        </div>
+                        <div className={styles.contactcenterimage}>
+                            <img src={email} className={styles.email} alt="email logo" />
+                        </div>
+                        <div className={styles.phonetextcontainer}>
+                            <p className={styles.phonecontacttext}>joe@ecoscapesmd.com</p>
                         </div>
                     </div>
                 </div>

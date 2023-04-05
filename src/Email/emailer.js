@@ -6,7 +6,7 @@ function sendEmail() {
       Host: "smtp.gmail.com",
       Username: "testSenderEmail12@gmail.com",
       Password: "Enter1ngTh3P@ssword",
-      To: 'ecoscapesllc@aol.com',
+      To: 'dan@ecoscapesmd.com',
       From: "testSenderEmail12@gmail.com",
       Subject: "Test Email using javascript",
       Body: "Well that was easy!!",

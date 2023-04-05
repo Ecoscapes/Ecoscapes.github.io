@@ -39,7 +39,7 @@ const ServiceMobile = () => {
                             <div className={styles.NLDServicebackground}>
                             </div>
                         </div>
-                        <div className={styles.servicetext}>
+                        <div className={styles.servicemobiletext}>
                             <div>
                                 {NLD}
                             </div>
@@ -55,7 +55,7 @@ const ServiceMobile = () => {
                             <div className={styles.hardscapingservicebackground}>
                             </div>
                         </div>
-                        <div className={styles.servicetext}>
+                        <div className={styles.servicemobiletext}>
                             <div>
                                 {Hardscapes}
                             </div>
@@ -71,7 +71,7 @@ const ServiceMobile = () => {
                             <div className={styles.arborcultureservicebackground}>
                             </div>
                         </div>
-                        <div className={styles.servicetext}>
+                        <div className={styles.servicemobiletext}>
                             <div>
                                 {Arboriculture}
                             </div>
@@ -87,7 +87,7 @@ const ServiceMobile = () => {
                             <div className={styles.permacultureservicebackground}>
                             </div>
                         </div>
-                        <div className={styles.servicetext}>
+                        <div className={styles.servicemobiletext}>
                             <div>
                                 {Permaculture}
                             </div>
@@ -103,7 +103,7 @@ const ServiceMobile = () => {
                             <div className={styles.SWMServicebackground}>
                             </div>
                         </div>
-                        <div className={styles.servicetext}>
+                        <div className={styles.servicemobiletext}>
                             <div>
                                 {SWM}
                             </div>
@@ -119,7 +119,7 @@ const ServiceMobile = () => {
                             <div className={styles.decksservicebackground}>
                             </div>
                         </div>
-                        <div className={styles.servicetext}>
+                        <div className={styles.servicemobiletext}>
                             <div>
                                 {Decks}
                             </div>
@@ -135,7 +135,7 @@ const ServiceMobile = () => {
                             <div className={styles.outdoorkitchenservicebackground}>
                             </div>
                         </div>
-                        <div className={styles.servicetext}>
+                        <div className={styles.servicemobiletext}>
                             <div>
                                 {OutdoorKitchens}
                             </div>
@@ -151,7 +151,7 @@ const ServiceMobile = () => {
                             <div className={styles.generallandscapingservicebackground}>
                             </div>
                         </div>
-                        <div className={styles.servicetext}>
+                        <div className={styles.servicemobiletext}>
                             <div>
                                 {GeneralLandscaping}
                             </div>

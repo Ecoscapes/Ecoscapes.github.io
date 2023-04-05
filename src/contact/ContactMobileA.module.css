@@ -23,6 +23,10 @@
     justify-content: center;
 }
 
+.contactcenterimage{
+    display: grid;
+    align-content: center;
+}
 
 .contactcontent {
     display: grid;
@@ -110,8 +114,8 @@
     display: grid;
     color: white;
     font-weight: 600;
-    font-size: 2em;
-    margin-bottom: 10px;
+    font-size: 1.4em;
+    margin-bottom: 20px;
 }
 
 .submitbutton{

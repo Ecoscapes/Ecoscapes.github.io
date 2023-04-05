@@ -28,7 +28,7 @@ return (
         <div className='servicebackground'>
         </div>
         <div className="service">
-            <div className='serviceheadercontainer'>
+            <div id="targetNative" className='serviceheadercontainer'>
                 <h2 className='serviceheader'>Native Landscape Design</h2>
             </div>
             <div className='backdrop'>
@@ -44,7 +44,7 @@ return (
                     </div>
                 </div>
             </div>
-            <div className='serviceheadercontainer'>
+            <div id="targetHardscaping" className='serviceheadercontainer'>
                 <h2 className='serviceheader'>Hardscapes</h2>   
             </div>
             <div className='backdrop'>
@@ -60,7 +60,7 @@ return (
                     </div>
                 </div>
             </div>
-            <div className='serviceheadercontainer'>
+            <div id="targetStorm" className='serviceheadercontainer'>
                 <h2 className='serviceheader'>Storm Water Management</h2>
             </div>
             <div className='backdrop'>
@@ -76,7 +76,7 @@ return (
                     </div>
                 </div>
             </div>
-            <div className='serviceheadercontainer'>
+            <div id="targetPerma" className='serviceheadercontainer'>
                 <h2 className='serviceheader'>Permaculture</h2>
             </div>
             <div className='backdrop'>
@@ -92,7 +92,7 @@ return (
                     </div>
                 </div>
             </div>
-            <div className='serviceheadercontainer'>
+            <div id="targetArbor" className='serviceheadercontainer'>
                 <h2 className='serviceheader'>Arboriculture</h2>
             </div>
             <div className='backdrop'>
@@ -137,6 +137,7 @@ return (
                         <div>
                             {OutdoorKitchens}
                         </div>
+                        <div id="targetgeneral"></div>
                     </div>
                 </div>
             </div>

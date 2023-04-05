@@ -130,7 +130,7 @@
 
 .chooseheader{
   color: whitesmoke;
-  font-size: 3em;
+  font-size: 1.5em;
 }
 
 .clickable{
@@ -292,7 +292,7 @@
 
 .instabook{
   display: grid;
-  grid-template-columns: .1fr 1fr .1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
 }
 
@@ -434,7 +434,7 @@ p {
 
 .phonecontainer {
   display: grid;
-  grid-template-columns: .1fr 1fr; 
+  grid-template-columns: 1fr; 
   height: 10vh;
   margin: 0em .5em 0em 0em;
 }
@@ -457,6 +457,7 @@ p {
 
 .phonetext{
   display: grid;
+  text-align: center;
   color: white;
   font-weight: 600;
   font-size: 28px;
@@ -465,6 +466,7 @@ p {
 
 .locationtext{
   display: grid;
+  text-align: center;
   color: white;
   font-weight: 600;
   font-size: 28px;
@@ -481,7 +483,7 @@ p {
 
 .locationcontainer {
   display: grid;
-  grid-template-columns: .1fr 1fr; 
+  grid-template-columns: 1fr; 
   /* height: 10vh; */
   margin: 0em 0em 0em 0em;
 }

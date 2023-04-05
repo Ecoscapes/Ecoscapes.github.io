@@ -9,10 +9,19 @@ import phone from '../Images/phone-square.png';
 import email from '../Images/email-icon.png';
 // import one from '../Images/Gallery/1.jpg';
 import { Link } from 'react-router-dom';
-
+import { ScrollLink } from 'react-scroll';
+import { FunctionsRounded } from '@mui/icons-material';
+import { useRef } from 'react';
+import { HashLink } from 'react-router-hash-link';
 
 const HomeDesktop = () => {
     const navigate = useNavigate();
+
+    const scrollWithOffset = (el) => {
+        const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+        const yOffset = -127; 
+        window.scrollTo({ top: yCoordinate + yOffset }); 
+    }
 
     const handleFbClick = () => {
         window.open("https://www.facebook.com/EcoscapesMD/", "_blank");
@@ -26,9 +35,13 @@ const HomeDesktop = () => {
         navigate("/services");
     }
 
+    // const handleHardscapingClick = () => {
+    //    refType.
+    // };
+
+
     const handleEmailClick = () => {
         navigate("/contact");
-        
     }
 
     const handlePhoneClick = () => {
@@ -126,56 +139,66 @@ const HomeDesktop = () => {
                         <div className='services'>
                             <div className='servicesrowone'>
                                 <div>
-                                    <div onClick={handleServiceClick} className='hardscapebackground'>
-                                        <p className='centertext'>Hardscaping</p>
-                                        <div>
-                                            <p className='bulletpoints'>Patios</p>
-                                            <p className='bulletpoints'>Walkways</p>
-                                            <p className='bulletpoints'>Firepits</p>
+                                    <HashLink to="/services#targetHardscaping" scroll={scrollWithOffset}>
+                                        <div className='hardscapebackground'>
+                                            <p className='centertext'>Hardscaping</p>
+                                            <div>
+                                                <p className='bulletpoints'>Patios</p>
+                                                <p className='bulletpoints'>Walkways</p>
+                                                <p className='bulletpoints'>Firepits</p>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </HashLink>
                                 </div>
                                 <div>
-                                    <div onClick={handleServiceClick} className='nativelanddesignbackground'>
-                                        <p className='centertext'>Native Landscape Design</p>
-                                        <div>
-                                            <p className='bulletpoints'>Design</p>
-                                            <p className='bulletpoints'>Install</p>
-                                            <p className='bulletpoints'>Maintain</p>
+                                    <HashLink to="/services#targetNative" scroll={scrollWithOffset}>   
+                                        <div className='nativelanddesignbackground'>
+                                            <p className='centertext'>Native Landscape Design</p>
+                                            <div>
+                                                <p className='bulletpoints'>Design</p>
+                                                <p className='bulletpoints'>Install</p>
+                                                <p className='bulletpoints'>Maintain</p>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </HashLink>
                                 </div>
                                 <div>
-                                    <div onClick={handleServiceClick} className='SWMbackground'>
-                                        <p className='centertext'>Storm Water Management</p>
-                                        <div>
-                                            <p className='bulletpoints'>Rain Gardens</p>
-                                            <p className='bulletpoints'>Erosion Control</p>
-                                            <p className='bulletpoints'>Streambank Stabilization</p>
+                                    <HashLink to="/services#targetStorm" scroll={scrollWithOffset}>
+                                        <div className='SWMbackground'>
+                                            <p className='centertext'>Storm Water Management</p>
+                                            <div>
+                                                <p className='bulletpoints'>Rain Gardens</p>
+                                                <p className='bulletpoints'>Erosion Control</p>
+                                                <p className='bulletpoints'>Streambank Stabilization</p>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </HashLink>
                                 </div>
                             </div>
                             <div className='servicesrowtwo'>
                                 <div className='right'>
-                                    <div onClick={handleServiceClick} className='permaculturebackground'>
-                                        <p className='centertext'>Permaculture</p>
-                                        <div>
-                                            <p className='bulletpoints'>Edible Landscaping</p>
-                                            <p className='bulletpoints'>Homestead Design</p>
-                                            <p className='bulletpoints'>Education</p>
+                                    <HashLink to="/services#targetPerma" scroll={scrollWithOffset}>
+                                        <div className='permaculturebackground'>
+                                            <p className='centertext'>Permaculture</p>
+                                            <div>
+                                                <p className='bulletpoints'>Edible Landscaping</p>
+                                                <p className='bulletpoints'>Homestead Design</p>
+                                                <p className='bulletpoints'>Education</p>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </HashLink>
                                 </div>
                                 <div>
-                                    <div onClick={handleServiceClick} className='arboriculturalbackground'>
-                                        <p className='centertext'>Arboricultural</p>
-                                        <div>
-                                            <p className='bulletpoints'>Consult</p>
-                                            <p className='bulletpoints'>Pruning</p>
-                                            <p className='bulletpoints'>Removals</p>
+                                    <HashLink to="/services#targetArbor" scroll={scrollWithOffset}>   
+                                        <div className='arboriculturalbackground'>
+                                            <p className='centertext'>Arboricultural</p>
+                                            <div>
+                                                <p className='bulletpoints'>Consult</p>
+                                                <p className='bulletpoints'>Pruning</p>
+                                                <p className='bulletpoints'>Removals</p>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </HashLink>
                                 </div>
                             </div>
                             <div className='sevicesbuttoncontainer'>

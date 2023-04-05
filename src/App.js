@@ -19,7 +19,6 @@ function App() {
         <div className='content'>
           <div className='page'></div>
           <div className='pages'>
-            <ScrollToTop />
             <Routes>
               <Route exact path="/" element={<Home />} />
               <Route exact path="/gallery" element={<Gallery />} />

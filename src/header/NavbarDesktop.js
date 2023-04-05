@@ -3,8 +3,15 @@ import React from 'react';
 // import ReactDOM from 'react-dom';
 import { Link } from 'react-router-dom';
 import logo from '../Images/home/LogoDark.png';
+import { HashLink } from 'react-router-hash-link';
 
 const NavbarDesktop = () => {
+
+    const scrollWithOffset = (el) => {
+        const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+        const yOffset = -190; 
+        window.scrollTo({ top: yCoordinate + yOffset }); 
+    }
 
     return ( 
         <div>
@@ -16,11 +23,11 @@ const NavbarDesktop = () => {
                         </div>
                     </div>
                     <div className="links">
-                        <Link to="/">Home</Link>
-                        <Link to="/services">Services</Link>
-                        <Link to="/gallery">Gallery</Link>
-                        <Link to="/about">About</Link>
-                        <Link to="/contact">Contact Us</Link>
+                        <HashLink to="/#" scroll={scrollWithOffset} >Home</HashLink>
+                        <HashLink to="/services#" scroll={scrollWithOffset} >Services</HashLink>
+                        <HashLink to="/gallery#" scroll={scrollWithOffset} >Gallery</HashLink>
+                        <HashLink to="/about#" scroll={scrollWithOffset} >About</HashLink>
+                        <HashLink to="/contact#" scroll={scrollWithOffset} >Contact Us</HashLink>
                     </div>
                 </div>
             </nav>

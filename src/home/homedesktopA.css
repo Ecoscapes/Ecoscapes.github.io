@@ -313,6 +313,7 @@ p {
 
 .instabook{
   display: grid;
+  grid-template-columns: .1fr .1fr;
 }
 
 .isa{
@@ -527,6 +528,7 @@ p {
 
 .phonetextcontainer{
   display: grid;
+  text-align: center;
   align-items: top;
   align-content: top;
   align-self: top;
@@ -635,17 +637,6 @@ p {
 
 .servicescontainer{
   /* margin-bottom: 10em; */
-}
-
-.servicetext{
-  display: grid;
-  justify-content: center;
-  align-content: center;
-  width: 400px;
-  font-size: 1.em;
-  font-weight: 600;
-  background: whitesmoke;
-  padding: 0px 50px 0px 50px;
 }
 
 .socialcontent {

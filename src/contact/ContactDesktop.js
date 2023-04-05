@@ -21,7 +21,7 @@ function ContactDesktop() {
             <div className='contactinfocontainer'>
                 <div className='contactcontent'>
                     <div className='phonecontactcontainer'>
-                        <div className='centerimage'>
+                        <div className='contactcenterimage'>
                             <img src={phone} className="phonecontact" alt="phone logo" />
                         </div>
                         <div className='phonetextcontainer'>
@@ -29,11 +29,19 @@ function ContactDesktop() {
                         </div>
                     </div>
                     <div className='phonecontactcontainer'>
-                        <div className='centerimage'>
+                        <div className='contactcenterimage'>
                             <img src={email} className="email" alt="email logo" />
                         </div>
                         <div className='phonetextcontainer'>
-                            <p className='phonecontacttext'>ecoscapesllc@aol.com</p>
+                            <p className='phonecontacttext'>dan@ecoscapesmd.com</p>
+                        </div>
+                    </div>
+                    <div className='phonecontactcontainer'>
+                        <div className='contactcenterimage'>
+                            <img src={email} className="email" alt="email logo" />
+                        </div>
+                        <div className='phonetextcontainer'>
+                            <p className='phonecontacttext'>joe@ecoscapesmd.com</p>
                         </div>
                     </div>
                 </div>

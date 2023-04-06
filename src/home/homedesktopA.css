@@ -496,13 +496,13 @@ p {
 
 .phonecontainer {
   display: grid;
-  grid-template-columns: .1fr 1fr;
+  grid-template-columns:  1fr;
   margin: 0em .5em 0em 0em;
 }
 
 .phonecontactcontainer {
   display: grid;
-  grid-template-columns: .1fr 1fr;
+  grid-template-columns: 1fr;
   align-content: center;
   justify-content: center;
   margin: 0em .5em 0em 0em;
@@ -641,7 +641,14 @@ p {
 
 .socialcontent {
   display: grid;
-  grid-template-columns: .1fr.1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.socialclickables{
+  display: grid;
+  grid-template-columns: .1fr .1fr .1fr;
+  align-content: end;
+  justify-content: end;
 }
 
 .socialmedia{

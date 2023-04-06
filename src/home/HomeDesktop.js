@@ -94,24 +94,27 @@ const HomeDesktop = () => {
                 </div>
                 <div className='socialmedia'>
                     <div className='socialcontent'>
-                        <div className='instabook'>
-
-                            <div className='clickable' onClick={handleIgClick}>
-                                <img src={instagram} className="insta" alt="insta logo" />
+                        <div className='socialclickables'>
+                            <div className='instabook'>
+                                <div className='clickable' onClick={handleIgClick}>
+                                    <img src={instagram} className="insta" alt="insta logo" />
+                                </div>
+                                <div className='clickable' onClick={handleFbClick}>
+                                    <img src={facebook} className="fb" alt="facebook logo" />
+                                </div>
                             </div>
-                            <div className='clickable' onClick={handleFbClick}>
-                                <img src={facebook} className="fb" alt="facebook logo" />
+                            <div className='emailcontainer'>
+                                <div className='clickable' onClick={handleEmailClick}>
+                                    <img src={email} className="email" alt="email logo" />
+                                </div>
+                            </div>
+                            <div className='phonecontainer'>
+                                <div className='clickable' onClick={handlePhoneClick}>
+                                    <img src={phone} className="phone" alt="phone logo" />
+                                </div>
                             </div>
                         </div>
-                        <div className='emailcontainer'>
-                            <div className='clickable' onClick={handleEmailClick}>
-                                <img src={email} className="email" alt="email logo" />
-                            </div>
-                        </div>
-                        <div className='phonecontainer'>
-                            <div className='clickable' onClick={handlePhoneClick}>
-                                <img src={phone} className="phone" alt="phone logo" />
-                            </div>
+                        <div className='clickable' onClick={handlePhoneClick}>
                             <div className='phonetextcontainer'>
                                 <div className='phonetext'>(443)525-4178</div>
                             </div>

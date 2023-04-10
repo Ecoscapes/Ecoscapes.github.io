@@ -488,14 +488,14 @@ p {
   align-items: top;
   align-content: top;
   align-self: top;
-  margin: 0em 0em 0em 0em;
+  margin: 0em 0em  0em 0em;
 }
 
 .locationcontainer {
   display: grid;
   grid-template-columns: 1fr; 
   /* height: 10vh; */
-  margin: 0em 0em 0em 0em;
+  margin: 0em 0em 5vh 0em;
 }
 
 .locationtextcontainer{

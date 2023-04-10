@@ -115,13 +115,11 @@ const HomeDesktop = () => {
                             </div>
                         </div>
                         <div className='clickable' onClick={handlePhoneClick}>
-                                {/* <HashLink to="/contact#" scroll={scrollWithOffset} >
-                                    <div className='phonetext'>(443)525-4178</div>
-                                </HashLink> */}
-
-                            <div className='phonetextcontainer'>
-                                <div className='phonetext'>(443)525-4178</div>
-                            </div>
+                                <HashLink to="/contact#" scroll={scrollWithOffset} >
+                                     <div className='phonetextcontainer'>
+                                        <div className='phonetext'>(443)525-4178</div>
+                                    </div>
+                                </HashLink>
                         </div>
                         <div className='locationcontainer'>
                             <div className='clickable' onClick={handleGoogleClick}>

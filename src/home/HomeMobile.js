@@ -76,7 +76,7 @@ const Home = () => {
                             <div className={styles.clickable} onClick={handleFbClick}>
                                 <img src={facebook} className={styles.fb} alt="facebook logo" />
                             </div>
-                            <a href="mailto:ecoscapesllc@aol.com" className={styles.clickable}>
+                            <a href="mailto:dan@ecoscapesmd.com" className={styles.clickable}>
                                 <img src={email} className={styles.email} alt="email logo" />
                             </a>
                         </div>

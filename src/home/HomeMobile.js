@@ -82,17 +82,11 @@ const Home = () => {
                         </div>
                     </div>
                     <div className={styles.phonecontainer} >
-                        {/* <div className={styles.clickable} onClick={handlePhoneClick}>
-                            <img src={phone} className={styles.phone} alt="phone logo" />
-                        </div> */}
-                        <div className={styles.phonetextcontainer} onClick={handlePhoneClick}> 
-                            <p className={styles.phonetext}>(443)525-4178</p>
+                        <div className={styles.phonetextcontainer} > 
+                            <p className={styles.phonetext} onClick={handlePhoneClick}>(443)525-4178</p>
                         </div>
                     </div>
                     <div className={styles.locationcontainer} >
-                        {/* <div className={styles.clickable} onClick={handleGoogleClick}>
-                            <img src={google} className={styles.insta} alt="insta logo" />
-                        </div> */}
                         <div className={styles.locationtextcontainer} onClick={handleGoogleClick}> 
                             <p className={styles.locationtext}>Havre de Grace, MD</p>
                         </div>

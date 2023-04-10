@@ -28,12 +28,18 @@
 
 .footermobilebackdrop{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 1em 1em 1em 0em ;
+    padding: 1em 1em 1.5em 1em ;
     background:  rgb(123, 190, 123);
     width: 100vw;
     /* background-size: cover; */
     border-top: 1px solid #000000;
+    text-align: center;
+    justify-content: center;
+}
+
+.footermobilebackdroptop{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     text-align: center;
     justify-content: center;
 }
@@ -45,6 +51,21 @@
 
 .footertextcontainer{
     text-align: center;
+    display: grid;
+    justify-content: center;
+}
+
+.hnp{
+    width: 80vw;
+}
+
+.hnpimage{
+    display: grid;
+    justify-content: center;
+    margin: 2vh 0em 0em 0em;
+}
+
+.hnpimagecontainer{
     display: grid;
     justify-content: center;
 }

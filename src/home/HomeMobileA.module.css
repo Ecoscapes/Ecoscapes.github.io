@@ -623,7 +623,6 @@ p {
 
 .socialcontent {
   display: grid;
-  grid-template-columns: 1fr;
   height: 10vh;
 }
 

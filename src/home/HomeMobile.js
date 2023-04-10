@@ -93,7 +93,7 @@ const Home = () => {
                         {/* <div className={styles.clickable} onClick={handleGoogleClick}>
                             <img src={google} className={styles.insta} alt="insta logo" />
                         </div> */}
-                        <div className={styles.locationtextcontainer} onClick={handlePhoneClick}> 
+                        <div className={styles.locationtextcontainer} onClick={handleGoogleClick}> 
                             <p className={styles.locationtext}>Havre de Grace, MD</p>
                         </div>
                     </div>

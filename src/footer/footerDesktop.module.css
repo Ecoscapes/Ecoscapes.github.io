@@ -48,12 +48,23 @@
     cursor: pointer;
 }
 
+.hnp{
+    height: 100px;
+}
+
+.hnpimage{
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}
+
 .isa{
     height: 150px;
 }
 
- .isaimage{
+.isaimage{
     display: grid;
-    justify-items: center;
+    justify-items: end;
+    margin-right: 20px;
 }
-  
+

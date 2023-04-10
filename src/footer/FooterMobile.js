@@ -28,7 +28,7 @@ const FooterMobile = () => {
                             ISA # MA-6060-A / MD LTE# 2208
                         </div>
                         <div className={styles.footertext}>
-                            Contractors MHIC # 142765
+                            Contractors MHIC # 144142
                         </div>
                         <div className={styles.footerwork} onClick={handleContactClick}>
                                     Come Work With Us

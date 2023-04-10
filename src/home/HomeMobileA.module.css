@@ -182,13 +182,13 @@
   display: grid;
   background: transparent;
   height: 40px;
-  margin: 12vh .9vw 8vh .9vh;
+  margin: 12vh .9vw 0vh .9vh;
 }
 
 .fb{
   background: transparent;
   height: 40px;
-  margin: 12vh .9vw 8vh .9vh;
+  margin: 12vh .9vw 0vh .9vh;
 }
 
 .fields{
@@ -287,13 +287,14 @@
   background-color: transparent;
   height: 40px;
   /* margin: 0em; */
-  margin: 12vh .9vw 8vh .9vh;
+  margin: 12vh .9vw 0vh .9vh;
 }
 
 .instabook{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
+  height: 20vh;
 }
 
 .label{
@@ -433,8 +434,8 @@ p {
 
 
 .phonecontainer {
+  position: relative;
   display: grid;
-  grid-template-columns: 1fr; 
   height: 10vh;
   margin: 0em .5em 0em 0em;
 }
@@ -464,6 +465,15 @@ p {
   margin-top: 0em;
 }
 
+.phonetextcontainer{
+  display: grid;
+  align-items: top;
+  align-content: top;
+  align-self: top;
+  margin: 0em 0em 0em 0em;
+  padding: 5em 0em 0em 0em;
+}
+
 .locationtext{
   display: grid;
   text-align: center;
@@ -486,14 +496,6 @@ p {
   grid-template-columns: 1fr; 
   /* height: 10vh; */
   margin: 0em 0em 0em 0em;
-}
-
-.phonetextcontainer{
-  display: grid;
-  align-items: top;
-  align-content: top;
-  align-self: top;
-  margin: 5em 0em 0em 0em;
 }
 
 .locationtextcontainer{

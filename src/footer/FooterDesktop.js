@@ -3,6 +3,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import isa from '../Images/ISA.png';
+import hnp from '../Images/hnp.png';
 
 const FooterDesktop = () => {
     const navigate = useNavigate();
@@ -21,19 +22,24 @@ const FooterDesktop = () => {
                 <div className={styles.footer}>
                     <div  className={styles.footerbar}>
                         <div  className={styles.isaimage}>
-                            <img src={isa}  className={styles.isa} alt="insta logo" />
+                            <img src={isa}  className={styles.isa} alt="isa logo" />
                         </div>
                         <div  className={styles.footertextcontainer}>
                             <div  className={styles.footertext}>
                                 ISA # MA-6060-A / MD LTE# 2208
                             </div>
                             <div  className={styles.footertext}>
-                                Contractors MHIC # 142765
+                                Contractors MHIC # 144142
                             </div>
                             <div  className={styles.footertext} >
                                 <div className={styles.footerwork} onClick={handleContactClick}>
                                     Come Work With Us
                                 </div>
+                            </div>
+                        </div>
+                        <div className={styles.hnpimage}>
+                            <div className={styles.hnpimage}>
+                                <img src={hnp} className={styles.hnp} alt="hnp logo" />  
                             </div>
                         </div>
                     </div>

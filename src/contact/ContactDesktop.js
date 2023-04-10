@@ -20,28 +20,28 @@ function ContactDesktop() {
             </div>
             <div className='contactinfocontainer'>
                 <div className='contactcontent'>
-                    <div className='phonecontactcontainer'>
+                    <div className='phonecontactuscontainer'>
                         <div className='contactcenterimage'>
-                            <img src={phone} className="phonecontact" alt="phone logo" />
+                            <img src={phone} className="phonecontactus" alt="phone logo" />
                         </div>
                         <div className='phonetextcontainer'>
-                            <p className='phonecontacttext'>(443)525-4178</p>
+                            <p className='phonecontactustext'>(443)525-4178</p>
                         </div>
                     </div>
-                    <div className='phonecontactcontainer'>
+                    <div className='phonecontactuscontainer'>
                         <div className='contactcenterimage'>
                             <img src={email} className="email" alt="email logo" />
                         </div>
                         <div className='phonetextcontainer'>
-                            <p className='phonecontacttext'>dan@ecoscapesmd.com</p>
+                            <p className='phonecontactustext'>dan@ecoscapesmd.com</p>
                         </div>
                     </div>
-                    <div className='phonecontactcontainer'>
+                    <div className='phonecontactuscontainer'>
                         <div className='contactcenterimage'>
                             <img src={email} className="email" alt="email logo" />
                         </div>
                         <div className='phonetextcontainer'>
-                            <p className='phonecontacttext'>joe@ecoscapesmd.com</p>
+                            <p className='phonecontactustext'>joe@ecoscapesmd.com</p>
                         </div>
                     </div>
                 </div>

@@ -13,9 +13,9 @@ function ContactMobile() {
         emailjs.sendForm('service_kgo4nbe', 'template_846a8lm', e.target, '2OHicHGfm886qFvFl')
     }
 
-    <a href="mailto:dan@ecoscapesmd.com &cc=joe@ecoscapesmd.com" className={styles.clickable}>
-    <img src={email} className={styles.email} alt="email logo" />
-</a>
+    const handlePhoneClick = () => {
+        window.open('tel:4435254178')
+    }
 
 
     return ( 
@@ -26,7 +26,7 @@ function ContactMobile() {
             <div className={styles.contactinfocontainer}>
                 <div className={styles.contactcontent}>
                     <div className={styles.phonecontactcontainer}>
-                        <div className={styles.contactcenterimage}>
+                        <div onClick={handlePhoneClick} className={styles.contactcenterimage}>
                             <img src={phone} className={styles.phonecontact} alt="phone logo" />
                         </div>
                         <div className={styles.phonetextcontainer}>

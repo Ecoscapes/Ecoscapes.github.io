@@ -13,6 +13,11 @@ function ContactMobile() {
         emailjs.sendForm('service_kgo4nbe', 'template_846a8lm', e.target, '2OHicHGfm886qFvFl')
     }
 
+    <a href="mailto:dan@ecoscapesmd.com &cc=joe@ecoscapesmd.com" className={styles.clickable}>
+    <img src={email} className={styles.email} alt="email logo" />
+</a>
+
+
     return ( 
         <div className={styles.about}>
             <div className={styles.founders}>
@@ -29,16 +34,16 @@ function ContactMobile() {
                         </div>
                     </div>
                     <div className={styles.phonecontactcontainer}>
-                        <div className={styles.contactcenterimage}>
-                            <img src={email} className={styles.email} alt="email logo" />
-                        </div>
-                        <div className={styles.phonetextcontainer}>
+                        <a href="mailto:dan@ecoscapesmd.com" className={styles.contactcenterimage}>
+                                <img src={email} className={styles.email} alt="email logo" />
+                        </a>
+                        <div href="mailto:dan@ecoscapesmd.com" className={styles.phonetextcontainer}>
                             <p className={styles.phonecontacttext}>dan@ecoscapesmd.com</p>
                         </div>
-                        <div className={styles.contactcenterimage}>
+                        <a href="mailto:joe@ecoscapesmd.com" className={styles.contactcenterimage}>
                             <img src={email} className={styles.email} alt="email logo" />
-                        </div>
-                        <div className={styles.phonetextcontainer}>
+                        </a>
+                        <div href="mailto:joe@ecoscapesmd.com" className={styles.phonetextcontainer}>
                             <p className={styles.phonecontacttext}>joe@ecoscapesmd.com</p>
                         </div>
                     </div>

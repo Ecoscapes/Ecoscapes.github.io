@@ -7,9 +7,18 @@ import phone from '../Images/phone-square.png';
 import email from '../Images/email-icon.png';
 import { Link } from 'react-router-dom';
 import Carousel, { CarouselItem } from "../Carousel/Carousel.js"
-
+import { ScrollLink } from 'react-scroll';
+import { HashLink } from 'react-router-hash-link';
 
 const Home = () => {
+
+
+    const scrollWithOffset = (el) => {
+        const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+        const yOffset = -100; 
+        window.scrollTo({ top: yCoordinate + yOffset }); 
+    }
+
 
     const handleGoogleClick = () => {
         window.open("https://www.google.com/maps/place/Havre+De+Grace,+MD+21078/@39.5478211,-76.1242585,13.5z/data=!4m6!3m5!1s0x89c7c0a939bed6b9:0x227c9fba4b7aa3fb!8m2!3d39.5492792!4d-76.091617!16zL20vMHR2dnA",
@@ -76,7 +85,7 @@ const Home = () => {
                             <div className={styles.clickable} onClick={handleFbClick}>
                                 <img src={facebook} className={styles.fb} alt="facebook logo" />
                             </div>
-                            <a href="mailto:dan@ecoscapesmd.com" className={styles.clickable}>
+                            <a href="mailto:dan@ecoscapesmd.com &cc=joe@ecoscapesmd.com" className={styles.clickable}>
                                 <img src={email} className={styles.email} alt="email logo" />
                             </a>
                         </div>
@@ -101,22 +110,22 @@ const Home = () => {
                     <div className={styles.body}>
                         <div className={styles.services}>
                             <div>
-                                <div className={styles.hardscapebackground}>
-                                    <p className={styles.centertext}>Hardscaping</p>
-                                    <div>
-                                        <p className={styles.bulletpoints}>Patios</p>
-                                        <p className={styles.bulletpoints}>Walkways</p>
-                                        <p className={styles.bulletpoints}>Firepits</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
                                 <div className={styles.nativelanddesignbackground}>
                                     <p className={styles.centertext}>Native Landscape Design</p>
                                     <div>
                                         <p className={styles.bulletpoints}>Design</p>
                                         <p className={styles.bulletpoints}>Install</p>
                                         <p className={styles.bulletpoints}>Maintain</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div className={styles.hardscapebackground}>
+                                    <p className={styles.centertext}>Hardscaping</p>
+                                    <div>
+                                        <p className={styles.bulletpoints}>Patios</p>
+                                        <p className={styles.bulletpoints}>Walkways</p>
+                                        <p className={styles.bulletpoints}>Firepits</p>
                                     </div>
                                 </div>
                             </div>
@@ -152,7 +161,7 @@ const Home = () => {
                             </div>
                             <div className={styles.sevicesbuttoncontainer}>
                                 <div className={styles.servicesbutton}>
-                                    <Link to="/services">More Services</Link>
+                                    <HashLink to="/services#targetDecks" scroll={scrollWithOffset}>More Services</HashLink>
                                 </div>
                             </div>
                         </div>
@@ -167,27 +176,30 @@ const Home = () => {
                     <div className={styles.whyanswer}>
                         <div className={styles.answersection}>
                             <h2 className={styles.whyanswerheader}>Professionalism and Integrity</h2>
-                            <div className={styles.choosetext}>
+                            <p className={styles.choosetext}>
                                 {professionalism}
-                            </div>
+                            </p>
                         </div>
                         <div className={styles.answersection}>
                             <div>
                                 <h2 className={styles.whyanswerheader}>Environmental Practices</h2>
                             </div>
-                            <div className={styles.choosetext}>
+                            <p className={styles.choosetext}>
                                 {environmental}
-                            </div>
+                            </p>
                         </div>
                         <div className={styles.answersection}>
                             <h2 className={styles.whyanswerheader}>Individualized Design</h2>
-                            <div className={styles.choosetext}>
+                            <p className={styles.choosetext}>
                                 {idividualized}
-                            </div>
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
+            <div className={styles.header}>
+                    <h2 className={styles.chooseheader}>Gallery</h2>
+                </div>
             <div className='galleryhighlight'>
                 <Carousel>
                     <CarouselItem><div className='imageOne'></div></CarouselItem>

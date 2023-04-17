@@ -10,8 +10,6 @@ import email from '../Images/email-icon.png';
 // import one from '../Images/Gallery/1.jpg';
 import { Link } from 'react-router-dom';
 import { ScrollLink } from 'react-scroll';
-import { FunctionsRounded } from '@mui/icons-material';
-import { useRef } from 'react';
 import { HashLink } from 'react-router-hash-link';
 
 const HomeDesktop = () => {
@@ -144,18 +142,6 @@ const HomeDesktop = () => {
                         <div className='services'>
                             <div className='servicesrowone'>
                                 <div>
-                                    <HashLink to="/services#targetHardscaping" scroll={scrollWithOffset}>
-                                        <div className='hardscapebackground'>
-                                            <p className='centertext'>Hardscaping</p>
-                                            <div>
-                                                <p className='bulletpoints'>Patios</p>
-                                                <p className='bulletpoints'>Walkways</p>
-                                                <p className='bulletpoints'>Firepits</p>
-                                            </div>
-                                        </div>
-                                    </HashLink>
-                                </div>
-                                <div>
                                     <HashLink to="/services#targetNative" scroll={scrollWithOffset}>   
                                         <div className='nativelanddesignbackground'>
                                             <p className='centertext'>Native Landscape Design</p>
@@ -163,6 +149,18 @@ const HomeDesktop = () => {
                                                 <p className='bulletpoints'>Design</p>
                                                 <p className='bulletpoints'>Install</p>
                                                 <p className='bulletpoints'>Maintain</p>
+                                            </div>
+                                        </div>
+                                    </HashLink>
+                                </div>
+                                <div>
+                                    <HashLink to="/services#targetHardscaping" scroll={scrollWithOffset}>
+                                        <div className='hardscapebackground'>
+                                            <p className='centertext'>Hardscaping</p>
+                                            <div>
+                                                <p className='bulletpoints'>Patios</p>
+                                                <p className='bulletpoints'>Walkways</p>
+                                                <p className='bulletpoints'>Firepits</p>
                                             </div>
                                         </div>
                                     </HashLink>
@@ -208,7 +206,7 @@ const HomeDesktop = () => {
                             </div>
                             <div className='sevicesbuttoncontainer'>
                                 <div className='servicesbutton'>
-                                    <Link to="/services">More Services</Link>
+                                    <HashLink to="/services#targetDecks" scroll={scrollWithOffset}>More Services</HashLink>
                                 </div>
                             </div>
                         </div>

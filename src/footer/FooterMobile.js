@@ -14,6 +14,11 @@ const FooterMobile = () => {
         
     }
 
+    const handleHnpClick = () => {
+        window.open("https://homegrownnationalpark.org/landscape-designers", "_blank");
+    }
+
+
     return ( 
         <div>
             <nav className={styles.footermobile}>
@@ -38,7 +43,7 @@ const FooterMobile = () => {
                         </div>
                     </div>
                     <div className={styles.hnpimagecontainer}>
-                        <div className={styles.hnpimage}>
+                        <div className={styles.hnpimage} onClick={handleHnpClick}>
                             <img src={hnp} className={styles.hnp} alt="hnp logo" />  
                         </div>
                     </div>

@@ -124,6 +124,7 @@
 
 .choosetext{
   color: whitesmoke;
+  text-align: center;
   font-size: 1.2em;
   max-width: 300px;
 }

@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import isa from '../Images/ISA.png';
 import hnp from '../Images/hnp.png';
+import { HashLink } from 'react-router-hash-link';
 
 const FooterDesktop = () => {
     const navigate = useNavigate();
@@ -11,6 +12,10 @@ const FooterDesktop = () => {
     const handleContactClick = () => {
         navigate("/contact");
         
+    }
+
+    const handleHnpClick = () => {
+        window.open("https://homegrownnationalpark.org/landscape-designers", "_blank");
     }
 
     return ( 
@@ -38,7 +43,7 @@ const FooterDesktop = () => {
                             </div>
                         </div>
                         <div className={styles.hnpimage}>
-                            <div className={styles.hnpimage}>
+                            <div className={styles.hnpimage} onClick={handleHnpClick}>
                                 <img src={hnp} className={styles.hnp} alt="hnp logo" />  
                             </div>
                         </div>

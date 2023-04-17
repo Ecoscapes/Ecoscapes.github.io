@@ -29,7 +29,7 @@ function ContactMobile() {
                         <div onClick={handlePhoneClick} className={styles.contactcenterimage}>
                             <img src={phone} className={styles.phonecontact} alt="phone logo" />
                         </div>
-                        <div className={styles.phonetextcontainer}>
+                        <div  onClick={handlePhoneClick} className={styles.phonetextcontainer}>
                             <p className={styles.phonecontacttext}>(443)525-4178</p>
                         </div>
                     </div>
@@ -38,13 +38,13 @@ function ContactMobile() {
                                 <img src={email} className={styles.email} alt="email logo" />
                         </a>
                         <div href="mailto:dan@ecoscapesmd.com" className={styles.phonetextcontainer}>
-                            <p className={styles.phonecontacttext}>dan@ecoscapesmd.com</p>
+                            <p href="mailto:dan@ecoscapesmd.com" className={styles.phonecontacttext}>dan@ecoscapesmd.com</p>
                         </div>
                         <a href="mailto:joe@ecoscapesmd.com" className={styles.contactcenterimage}>
                             <img src={email} className={styles.email} alt="email logo" />
                         </a>
                         <div href="mailto:joe@ecoscapesmd.com" className={styles.phonetextcontainer}>
-                            <p className={styles.phonecontacttext}>joe@ecoscapesmd.com</p>
+                            <p href="mailto:joe@ecoscapesmd.com" className={styles.phonecontacttext}>joe@ecoscapesmd.com</p>
                         </div>
                     </div>
                 </div>

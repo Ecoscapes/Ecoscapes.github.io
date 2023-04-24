@@ -15,7 +15,8 @@ const FooterDesktop = () => {
     }
 
     const handleHnpClick = () => {
-        window.open("https://homegrownnationalpark.org/landscape-designers", "_blank");
+        window.open("https://homegrownnationalpark.org/about", "_blank");
+        // window.open("https://homegrownnationalpark.org/landscape-designers", "_blank");
     }
 
     return ( 

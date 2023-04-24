@@ -1,6 +1,6 @@
 import styles from './slider.module.css';
 import React, { useState } from 'react';
-import one from '../Images/Gallery/1.jpg';
+import one from '../Images/Gallery/4.jpg';
 import two from '../Images/Gallery/2.jpg';
 import three from '../Images/Gallery/3.jpg';
 import DoubleArrowSharpIcon from '@mui/icons-material/DoubleArrowSharp';

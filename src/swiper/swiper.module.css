@@ -1,0 +1,17 @@
+.center{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiperimages {
+    display: flex;
+    justify-self: center;
+    width: 50%;
+
+}
+
+.swiper{
+    margin-top: 15vh;
+}
+

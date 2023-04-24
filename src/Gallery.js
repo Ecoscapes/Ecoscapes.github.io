@@ -1,4 +1,5 @@
 import Slider from './slider/Slider'
+import Swiper from './swiper/Swiper';
 
 // import './index.css';
 // import React from 'react';
@@ -10,7 +11,7 @@ import Slider from './slider/Slider'
 
 const Gallery = () => {
     return (
-         <Slider />  
+         <Swiper />  
     );
 }
 

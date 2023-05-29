@@ -1,5 +1,4 @@
-import Slider from './slider/Slider'
-import Swiper from './swiper/Swiper';
+import Swiper from './swiper/swiper';
 
 // import './index.css';
 // import React from 'react';

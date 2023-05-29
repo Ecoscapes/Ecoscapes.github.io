@@ -1,7 +1,8 @@
 import './homedesktopA.css';
 import { React } from 'react';
 import { useNavigate } from 'react-router-dom';
-import Carousel, { CarouselItem } from "../Carousel/Carousel.js"
+// import Carousel, { CarouselItem } from "../Carousel/Carousel.js"
+import SwiperHomePageComponent from '../swiperHomePage/swiperHomePage';
 import google from '../Images/Googlegreyscale.png';
 import facebook from '../Images/facebook.png';
 import instagram from '../Images/instagram.png';
@@ -246,7 +247,8 @@ const HomeDesktop = () => {
                     <h2 className='chooseheader'>Gallery</h2>
                 </div>
             <div className='galleryhighlight'>
-                <Carousel>
+                <SwiperHomePageComponent/>
+                {/* <Carousel>
                     <CarouselItem><div className='imageOne'></div></CarouselItem>
                     <CarouselItem><div className='imageTwo'></div></CarouselItem>
                     <CarouselItem><div className='imageThree'></div></CarouselItem>
@@ -259,7 +261,7 @@ const HomeDesktop = () => {
                     <CarouselItem><div className='imageHomePage'></div></CarouselItem>
                     <CarouselItem><div className='imageHomePageOne'></div></CarouselItem>
                     <CarouselItem><div className='imageHomePageTwo'></div></CarouselItem>
-                </Carousel>
+                </Carousel> */}
             </div>
         </div>
     );

@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
-import './swiper.css';
+import './swiperHomePage.css';
 // import styles from './swiper.module.css';
 
 // Import Swiper styles
@@ -18,39 +18,13 @@ const imageUrls = [
   require('../Images/Gallery/8.png'),
   require('../Images/Gallery/9.jpg'),
   require('../Images/Gallery/10.jpg'),
-  require('../Images/Gallery/11.jpg'),
-  require('../Images/Gallery/12.jpg'),
-  require('../Images/Gallery/13.jpg'),
-  require('../Images/Gallery/14.jpg'),
-  require('../Images/Gallery/15.jpg'),
-  require('../Images/Gallery/16.jpg'),
-  require('../Images/Gallery/17.jpg'),
-  require('../Images/Gallery/18.jpg'),
-  require('../Images/Gallery/19.jpg'),
-  require('../Images/Gallery/20.jpg'),
-  require('../Images/Gallery/21.jpg'),
-  require('../Images/Gallery/23.JPG'),
-  require('../Images/Gallery/24.JPG'),
-  require('../Images/Gallery/25.JPG'),
-  require('../Images/Gallery/26.JPG'),
-  require('../Images/Gallery/27.JPG'),
-  require('../Images/Gallery/28.JPG'),
-  require('../Images/Gallery/A.jpg'),
-  require('../Images/Gallery/B.jpg'),
-  require('../Images/Gallery/C.jpg'),
-  require('../Images/Gallery/D.jpg'),
-  require('../Images/Gallery/E.jpg'),
-  require('../Images/Gallery/F.jpg'),
-  require('../Images/Gallery/G.jpg'),
-  require('../Images/Gallery/H.jpg'),
-  require('../Images/Gallery/I.jpg'),
   require('../Images/Gallery/homepage.jpg'),
   require('../Images/Gallery/homepage1.jpg'),
   require('../Images/Gallery/homepage2.jpg')
 
 ];
 
-const SwiperComponent = () => {
+const SwiperHomePageComponent = () => {
   return (
     <div className="swiper-container">
       <div className="swiper-wrapper">
@@ -81,4 +55,4 @@ const SwiperComponent = () => {
 
 
 
-export default SwiperComponent
+export default SwiperHomePageComponent

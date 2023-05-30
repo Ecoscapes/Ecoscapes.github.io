@@ -2,7 +2,7 @@ import './homedesktopA.css';
 import { React } from 'react';
 import { useNavigate } from 'react-router-dom';
 // import Carousel, { CarouselItem } from "../Carousel/Carousel.js"
-import SwiperHomePageComponent from '../swiperHomePage/swiperHomePage';
+import SwiperHomePageComponent from '../swiperHome/swiperHomePage';
 import google from '../Images/Googlegreyscale.png';
 import facebook from '../Images/facebook.png';
 import instagram from '../Images/instagram.png';

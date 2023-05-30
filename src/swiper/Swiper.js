@@ -1,5 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import DoubleArrowSharpIcon from '@mui/icons-material/DoubleArrowSharp';
 import './swiper.css';
 // import styles from './swiper.module.css';
 
@@ -65,7 +66,7 @@ const SwiperComponent = () => {
           onSwiper={(swiper) => console.log(swiper)}
         >
           {imageUrls.map((imageUrl, index) => (
-            <SwiperSlide key={index}>
+            <SwiperSlide key={index} className="swiper-slide">
               <div className="center">
                 <img className="swiperimages" src={imageUrl} alt={`slide ${index}`} />
               </div>

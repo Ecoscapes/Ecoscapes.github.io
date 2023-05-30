@@ -262,6 +262,17 @@ p {
   margin-bottom: 8em;
 }
 
+.galleryheader{
+  font-size: 3em;
+  padding-top: 1em;
+  background-color: whitesmoke;
+  padding-bottom: 0;
+}
+
+.galleryheadercontainer{
+  padding: 50px 0px 0px 0px;
+  text-align: center;
+}
 
 .hardscapebackground{
   display: grid;

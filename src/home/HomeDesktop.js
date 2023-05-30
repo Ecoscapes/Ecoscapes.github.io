@@ -243,9 +243,9 @@ const HomeDesktop = () => {
                     </div>
                 </div>
             </div>
-            <div className="header">
-                    <h2 className='chooseheader'>Gallery</h2>
-                </div>
+            <div className="galleryheadercontainer">
+                <h2 className='galleryheader'>Gallery</h2>
+            </div>
             <div className='galleryhighlight'>
                 <SwiperHomePageComponent/>
                 {/* <Carousel>

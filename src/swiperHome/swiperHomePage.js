@@ -26,7 +26,7 @@ const imageUrls = [
 
 const SwiperHomePageComponent = () => {
   return (
-    <div className="swiper-container">
+    <div className="swiper-homepage-container">
       <div className="swiper-wrapper">
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -39,7 +39,7 @@ const SwiperHomePageComponent = () => {
           onSwiper={(swiper) => console.log(swiper)}
         >
           {imageUrls.map((imageUrl, index) => (
-            <SwiperSlide key={index}>
+            <SwiperSlide key={index}  className="swiper-slide" >
               <div className="center">
                 <img className="swiperimages" src={imageUrl} alt={`slide ${index}`} />
               </div>

@@ -26,6 +26,12 @@
     /* height: 80vh; */
 }
 
+.swiper-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .swiper-wrapper{
     z-index: 2;
 }
